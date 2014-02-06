@@ -29,7 +29,7 @@ class Eduskunta
     end
 
     def memberships
-      return council_of_state
+      return council_of_state.collect{ |i| i.reject { |k, v| v.nil? } }
     end
 
 
@@ -130,7 +130,7 @@ class Eduskunta
 
     def _find_date_in(str, silent=false)
       /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
-      return "" if silent
+      return nil if silent
       raise "No date in #{str}"
     end
 
