@@ -1,0 +1,19 @@
+#!/usr/bin/ruby
+
+# Produce a list of URLs to the official information page on the
+# Finnish Parliament site for each current member
+# This should be passed either
+#   * the URL where the list is given; currently
+#     http://web.eduskunta.fi/Resource.phx/parliament/members/links.htx
+#   * or the path to a locally saved copy of that page
+#
+# The resulting URLs can the either be fetched and stored, 
+# or passed directly to 'get_mp_data'
+
+require 'open-uri'
+require 'nokogiri'
+
+page = ARGV[0] or abort "Usage: #{$0} <url_or_file>"
+doc = Nokogiri::HTML(open(page))
+doc.css('div.c-list li a').each { |link| puts link['href'] }
+
