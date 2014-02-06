@@ -29,7 +29,8 @@ class Eduskunta
     end
 
     def memberships
-      return council_of_state.collect{ |i| i.reject { |k, v| v.nil? } }
+      combined = council_of_state + parties
+      combined.sort_by { |m| m[:start_date] }.collect { |i| i.reject { |k, v| v.nil? } }
     end
 
 
@@ -106,7 +107,15 @@ class Eduskunta
     end
 
     def council_of_state
-      council_of_state_raw.collect { |cs| _cs_membership(cs) }.sort_by { |m| m[:start_date] }
+      council_of_state_raw.collect { |cs| _cs_membership(cs) }
+    end
+
+    def parties_raw
+      return @noko.xpath('//table/tr/th[.="Parliamentary groups: "]/following-sibling::td/ul/li').collect { |li| li.text }
+    end
+
+    def parties
+      parties_raw.collect { |p| _party_membership(p) }
     end
 
     def infotable
@@ -127,6 +136,19 @@ class Eduskunta
           :end_date => _find_date_in($3, true),
        }
     end
+
+    def _party_membership (text)
+      /^\s*(.*?)\s+(\d{2}\.\d{2}\.\d{4})\s+-(.*)$/.match(text) or 
+        raise "Can't parse party membership from #{text}"
+       return {
+         # TODO lookup the ID for the party
+          :organization_id => "popit.eduskunta/party/???",
+          :name => $1,
+          :start_date => _find_date_in($2),
+          :end_date => _find_date_in($3, true),
+       }
+    end
+
 
     def _find_date_in(str, silent=false)
       /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");

@@ -8,6 +8,7 @@ class ScraperTest < Test::Unit::TestCase
     @sauli = Eduskunta::Scraper.new(File.open('test/data/1086.html')).as_hash
     @jyrki = Eduskunta::Scraper.new(File.open('test/data/571.html')).as_hash
     @kimmo = Eduskunta::Scraper.new(File.open('test/data/261.html')).as_hash
+    @musta = Eduskunta::Scraper.new(File.open('test/data/802.html')).as_hash
   end
 
   def test_id
@@ -58,6 +59,8 @@ class ScraperTest < Test::Unit::TestCase
     cos = @jyrki[:memberships].select { |m| m[:organization_id] == 'popit.eduskunta/council-of-state' }
     assert_equal 5, cos.count
     assert_equal 'Prime Minister', cos[4][:role]
+    assert_equal '2011-06-22', cos[4][:start_date]
+    assert_nil   cos[4][:end_date]
   end
 
   # Split across Minister section only
@@ -71,11 +74,30 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_memberships
-    assert_equal 0, @sauli[:memberships].count
-    assert_equal 5, @jyrki[:memberships].count
-    assert_equal 'Prime Minister', @jyrki[:memberships][4][:role]
+    assert_equal 1, @sauli[:memberships].count
+    assert_equal 6, @jyrki[:memberships].count
+    assert_equal 'Prime Minister', @jyrki[:memberships][-1][:role]
   end
 
+  # Only ever in one Party
+  def test_party
+    parties = @kimmo[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
+    assert_equal 1, parties.count
+    assert_equal "National Coalition Party", parties[0][:name]
+    assert_equal '1983-03-26', parties[0][:start_date]
+    assert_nil   parties[0][:end_date]
+      
+  end
+
+  # Has changed party
+  def test_parties
+    parties = @musta[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
+    assert_equal 3, parties.count
+    assert_equal 'Left Alliance', parties[0][:name]
+    assert_equal '2003-03-19', parties[0][:start_date]
+    assert_equal '2011-06-30', parties[0][:end_date]
+    assert_nil   parties[-1][:end_date]
+  end
 
 end
 
