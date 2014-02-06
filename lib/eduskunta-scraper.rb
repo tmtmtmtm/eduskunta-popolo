@@ -24,8 +24,14 @@ class Eduskunta
         :image => image,
         :contact_details => contact_details,
         :links => links,
+        :memberships => memberships,
       }
     end
+
+    def memberships
+      return council_of_state
+    end
+
 
     def name
       return @noko.at('div.subhead h4').text.strip
@@ -95,14 +101,37 @@ class Eduskunta
       return @@PARL_URL + portrait['src']
     end
 
+    def council_of_state_raw
+      cos_table = @noko.xpath('//h3[.="Member in the Council of State"]/following-sibling::table/tr//ul/li').collect { |li| li.text }
+    end
+
+    def council_of_state
+      council_of_state_raw.collect { |cs| _cs_membership(cs) }.sort_by { |m| m[:start_date] }
+    end
+
     def infotable
        @infotable ||= @noko.at('table.datatable') or raise "No infotable"
     end
 
     private
 
-    def _find_date_in(str)
-      /^(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-") or raise "No date in #{str}"
+    def _cs_membership (text)
+      # Prime Minister (Katainen)  22.06.2011
+      # "Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, ",
+      /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
+        raise "Can't parse Council of State membership from #{text}"
+       return {
+          :organization_id => "popit.eduskunta/council-of-state",
+          :role => $1,
+          :start_date => _find_date_in($2),
+          :end_date => _find_date_in($3, true),
+       }
+    end
+
+    def _find_date_in(str, silent=false)
+      /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
+      return "" if silent
+      raise "No date in #{str}"
     end
 
   end

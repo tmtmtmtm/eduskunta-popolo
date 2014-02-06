@@ -4,11 +4,10 @@ require 'test/unit'
 
 class ScraperTest < Test::Unit::TestCase
 
-  @@testfile = 'test/data/1086.html'
-
   def setup
-    @doc = Eduskunta::Scraper.new(File.open(@@testfile));
-    @sauli = @doc.as_hash
+    @sauli = Eduskunta::Scraper.new(File.open('test/data/1086.html')).as_hash
+    @jyrki = Eduskunta::Scraper.new(File.open('test/data/571.html')).as_hash
+    @kimmo = Eduskunta::Scraper.new(File.open('test/data/261.html')).as_hash
   end
 
   def test_id
@@ -53,6 +52,30 @@ class ScraperTest < Test::Unit::TestCase
     links = @sauli[:links].select { |i| i[:note] == 'Eduskunta.fi (en)' }
     assert_equal 'http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1086&kieli=en', links[0][:url]
   end
+
+  # Split across two sections for Minister and Prime Minster
+  def test_pm_council_of_state
+    cos = @jyrki[:memberships].select { |m| m[:organization_id] == 'popit.eduskunta/council-of-state' }
+    assert_equal 5, cos.count
+    assert_equal 'Prime Minister', cos[4][:role]
+  end
+
+  # Split across Minister section only
+  def test_valtioneuvosto_only_council_of_state
+    cos = @kimmo[:memberships].select { |m| m[:organization_id] == 'popit.eduskunta/council-of-state' }
+    assert_equal 5, cos.count
+    assert_equal 'popit.eduskunta/council-of-state', cos[0][:organization_id]
+    assert_equal 'Minister of Transport', cos[0][:role]
+    assert_equal '1999-01-15', cos[0][:start_date]
+    assert_equal '1999-04-14', cos[0][:end_date]
+  end
+
+  def test_memberships
+    assert_equal 0, @sauli[:memberships].count
+    assert_equal 5, @jyrki[:memberships].count
+    assert_equal 'Prime Minister', @jyrki[:memberships][4][:role]
+  end
+
 
 end
 
