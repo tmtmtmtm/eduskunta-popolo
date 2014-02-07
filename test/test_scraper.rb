@@ -1,5 +1,4 @@
 require 'eduskunta-scraper'
-
 require 'test/unit'
 
 class ScraperTest < Test::Unit::TestCase
@@ -82,8 +81,8 @@ class ScraperTest < Test::Unit::TestCase
   # Only ever in one Party
   def test_party
     parties = @kimmo[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
-    assert_equal 1, parties.count
-    assert_equal "National Coalition Party", parties[0][:name]
+    assert_equal 1, parties.count 
+    assert_equal "popit.eduskunta/party/kok", parties[0][:organization_id]
     assert_equal '1983-03-26', parties[0][:start_date]
     assert_nil   parties[0][:end_date]
       
@@ -93,7 +92,9 @@ class ScraperTest < Test::Unit::TestCase
   def test_parties
     parties = @musta[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
     assert_equal 3, parties.count
-    assert_equal 'Left Alliance', parties[0][:name]
+    assert_equal "popit.eduskunta/party/vas",  parties[0][:organization_id]
+    assert_equal "popit.eduskunta/party/emus", parties[1][:organization_id]
+    assert_equal "popit.eduskunta/party/vr",   parties[2][:organization_id]
     assert_equal '2003-03-19', parties[0][:start_date]
     assert_equal '2011-06-30', parties[0][:end_date]
     assert_nil   parties[-1][:end_date]

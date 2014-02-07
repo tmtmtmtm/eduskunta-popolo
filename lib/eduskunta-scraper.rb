@@ -129,26 +129,44 @@ class Eduskunta
       # "Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, ",
       /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
         raise "Can't parse Council of State membership from #{text}"
-       return {
-          :organization_id => "popit.eduskunta/council-of-state",
-          :role => $1,
-          :start_date => _find_date_in($2),
-          :end_date => _find_date_in($3, true),
-       }
+      return {
+        :organization_id => "popit.eduskunta/council-of-state",
+        :role => $1,
+        :start_date => _find_date_in($2),
+        :end_date => _find_date_in($3, true),
+      }
     end
 
     def _party_membership (text)
+      text.gsub!(/\(.*?\)/, '')  # strip out historic party names
       /^\s*(.*?)\s+(\d{2}\.\d{2}\.\d{4})\s+-(.*)$/.match(text) or 
         raise "Can't parse party membership from #{text}"
-       return {
-         # TODO lookup the ID for the party
-          :organization_id => "popit.eduskunta/party/???",
-          :name => $1,
-          :start_date => _find_date_in($2),
-          :end_date => _find_date_in($3, true),
-       }
+      party_id = _find_party_by_name($1) or raise "No such party <#{$1}>"
+      return {
+        :organization_id => party_id,
+        :start_date => _find_date_in($2),
+        :end_date => _find_date_in($3, true),
+      }
     end
-
+    
+    def _find_party_by_name (name)
+      parties = {
+        'Christian Democratic Parliamentary Group' => 'kd',
+        'Finnish Centre Party' => 'kesk',
+        'National Coalition Party' => 'kok',
+        'Parliamentary group Change 2011' => 'm11',
+        'Swedish Parliamentary Group' => 'r',
+        'The Finns Party Parliamentary Group' => 'ps',
+        'The Social Democratic Parliamentary Group' => 'sd',
+        'Left Alliance' => 'vas',
+        'Green Parliamentary Group' => 'vihr',
+        'Left Faction Parliamentary Group' => 'vr',
+        'Parliamentary group Mustajärvi' => 'emus',
+        'Parliamentary group Yrttiaho' => 'eyrt',
+        'Parliamentary group Virtanen' => 'evir',
+      }
+      return parties[name]
+    end
 
     def _find_date_in(str, silent=false)
       /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
