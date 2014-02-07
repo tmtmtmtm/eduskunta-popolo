@@ -16,7 +16,7 @@ warn "#{list.count} entries"
 
 list.each do |json|
 	warn "Validating #{json['id']}"
-	JSON::Validator.validate!('http://popoloproject.com/schemas/person.json', json, :cache_scahems => true)
+	JSON::Validator.validate!('http://popoloproject.com/schemas/person.json', json, :cache_schemas => true)
 end
 
 puts JSON.pretty_generate( list );
