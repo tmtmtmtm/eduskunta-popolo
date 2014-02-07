@@ -3,6 +3,8 @@
 # Join individual person json files into one
 
 require 'json'
+require 'json-schema'
+require 'open-uri'
 
 path = ARGV[0] or raise "Usage: #{$0} <dir>"
 list = Dir["#{path}/*.json"].sort_by { 
@@ -11,5 +13,11 @@ list = Dir["#{path}/*.json"].sort_by {
 	|name| JSON.parse(File.read(name)) 
 }
 warn "#{list.count} entries"
+
+list.each do |json|
+	warn "Validating #{json['id']}"
+	JSON::Validator.validate!('http://popoloproject.com/schemas/person.json', json, :cache_scahems => true)
+end
+
 puts JSON.pretty_generate( list );
 
