@@ -10,6 +10,10 @@ class ScraperTest < Test::Unit::TestCase
     @musta = Eduskunta::Scraper.new(File.open('test/data/802.html')).as_hash
   end
 
+  def test_find_party
+    assert_equal "popit.eduskunta/party/vas", Eduskunta::Party.name_to_id('Left Alliance')
+  end
+
   def test_id
     assert_equal 'popit.eduskunta/person/1086', @sauli[:id]
   end
