@@ -1,8 +1,29 @@
 class Eduskunta
 
-  class Party
+  class Membership
+    attr_accessor :name, :id, :start_date, :end_date
 
-    attr_accessor :name, :id
+    def initialize(params = {})
+      params.each { |k, v| instance_variable_set("@#{k}", v) }
+    end
+
+    def to_hash
+      return {
+        :organization_id => organization_id,
+        :start_date => start_date,
+        :end_date => end_date,
+      }.reject { |k,v| v.nil? }
+    end
+
+    def self._find_date_in(str, silent=false)
+      /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
+      return nil if silent
+      raise "No date in #{str}"
+    end
+
+  end
+
+  class Party < Membership
 
     @@parties = {
       'Christian Democratic Parliamentary Group' => 'kd',
@@ -20,9 +41,20 @@ class Eduskunta
       'Parliamentary group Virtanen' => 'evir',
     }
 
-    def initialize(name)
-      @name = name
-      @id = @@parties[name]
+    def organization_id 
+      "popit.eduskunta/party/#{id}"
+    end
+
+    def self.from_str(text)
+      text.gsub!(/\(.*?\)/, '')  # strip out historic party names
+      /^\s*(.*?)\s+(\d{2}\.\d{2}\.\d{4})\s+-(.*)$/.match(text) or 
+        raise "Can't parse party membership from #{text}"
+      self.new({
+        :name => $1,
+        :id => @@parties[$1], 
+        :start_date => self._find_date_in($2),
+        :end_date => self._find_date_in($3, true),
+      })
     end
 
   end
@@ -165,15 +197,7 @@ class Eduskunta
     end
 
     def _party_membership (text)
-      text.gsub!(/\(.*?\)/, '')  # strip out historic party names
-      /^\s*(.*?)\s+(\d{2}\.\d{2}\.\d{4})\s+-(.*)$/.match(text) or 
-        raise "Can't parse party membership from #{text}"
-      party_id = Eduskunta::Party.new($1).id or raise "No such party <#{$1}>"
-      return {
-        :organization_id => "popit.eduskunta/party/#{party_id}",
-        :start_date => _find_date_in($2),
-        :end_date => _find_date_in($3, true),
-      }
+      Eduskunta::Party.from_str(text).to_hash
     end
     
     def _find_date_in(str, silent=false)
