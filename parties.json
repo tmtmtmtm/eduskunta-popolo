@@ -6,7 +6,12 @@
     "other_names": [
       {
         "name": "Christian Democratic Parliamentary Group",
-        "label": "en.eduskunta.fi"
+        "label": "en.eduskunta.fi",
+        "start_date": "2001-06-01"
+      },
+      {
+        "name": "Finnish Christian Union Parliamentary Group",
+        "end_date": "2001-05-30"
       }
     ]
   },
@@ -61,7 +66,17 @@
     "other_names": [
       {
         "name": "The Finns Party Parliamentary Group",
-        "label": "en.eduskunta.fi"
+        "label": "en.eduskunta.fi",
+        "start_date": "2011-08-21"
+      },
+      {
+        "name": "True Finns Party",
+        "start_date": "1995-10-26",
+        "end_date": "2011-08-20"
+      },
+      {
+        "name": "Finnish Rural Party Parliamentary Group",
+        "end_date": "1995-10-25"
       }
     ]
   },

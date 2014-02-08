@@ -35,4 +35,20 @@ parties = info.each_with_object({}) { |(name, abbrev), h|
   }
 }
 
+parties['ps'][:other_names][0][:start_date] = '2011-08-21'
+parties['ps'][:other_names].push({
+  :name => 'True Finns Party',
+  :start_date => '1995-10-26',
+  :end_date => '2011-08-20',
+}, {
+  :name => 'Finnish Rural Party Parliamentary Group',
+  :end_date => '1995-10-25',
+});
+  
+parties['kd'][:other_names][0][:start_date] = '2001-06-01'
+parties['kd'][:other_names].push({
+  :name => 'Finnish Christian Union Parliamentary Group',
+  :end_date => '2001-05-30',
+})
+
 puts JSON.pretty_generate(parties.values)
