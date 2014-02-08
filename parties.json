@@ -1,0 +1,145 @@
+[
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/kd",
+    "name": "Christian Democratic Parliamentary Group",
+    "other_names": [
+      {
+        "name": "Christian Democratic Parliamentary Group",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/kesk",
+    "name": "Finnish Centre Party",
+    "other_names": [
+      {
+        "name": "Finnish Centre Party",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/kok",
+    "name": "National Coalition Party",
+    "other_names": [
+      {
+        "name": "National Coalition Party",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/m11",
+    "name": "Parliamentary group Change 2011",
+    "other_names": [
+      {
+        "name": "Parliamentary group Change 2011",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/r",
+    "name": "Swedish Parliamentary Group",
+    "other_names": [
+      {
+        "name": "Swedish Parliamentary Group",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/ps",
+    "name": "The Finns Party Parliamentary Group",
+    "other_names": [
+      {
+        "name": "The Finns Party Parliamentary Group",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/sd",
+    "name": "The Social Democratic Parliamentary Group",
+    "other_names": [
+      {
+        "name": "The Social Democratic Parliamentary Group",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/vas",
+    "name": "Left Alliance",
+    "other_names": [
+      {
+        "name": "Left Alliance",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/vihr",
+    "name": "Green Parliamentary Group",
+    "other_names": [
+      {
+        "name": "Green Parliamentary Group",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/vr",
+    "name": "Left Faction Parliamentary Group",
+    "other_names": [
+      {
+        "name": "Left Faction Parliamentary Group",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/emus",
+    "name": "Parliamentary group Mustajärvi",
+    "other_names": [
+      {
+        "name": "Parliamentary group Mustajärvi",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/eyrt",
+    "name": "Parliamentary group Yrttiaho",
+    "other_names": [
+      {
+        "name": "Parliamentary group Yrttiaho",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/evir",
+    "name": "Parliamentary group Virtanen",
+    "other_names": [
+      {
+        "name": "Parliamentary group Virtanen",
+        "label": "en.eduskunta.fi"
+      }
+    ]
+  }
+]

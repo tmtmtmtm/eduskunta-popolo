@@ -1,0 +1,38 @@
+#!/usr/bin/ruby
+
+# Produce initial JSON for a hard-coded list of parties
+
+require 'json'
+
+info = {
+  'Christian Democratic Parliamentary Group' => 'kd',
+  'Finnish Centre Party' => 'kesk',
+  'National Coalition Party' => 'kok',
+  'Parliamentary group Change 2011' => 'm11',
+  'Swedish Parliamentary Group' => 'r',
+  'The Finns Party Parliamentary Group' => 'ps',
+  'The Social Democratic Parliamentary Group' => 'sd',
+  'Left Alliance' => 'vas',
+  'Green Parliamentary Group' => 'vihr',
+  'Left Faction Parliamentary Group' => 'vr',
+
+  'Parliamentary group Mustajärvi' => 'emus',
+  'Parliamentary group Yrttiaho' => 'eyrt',
+  'Parliamentary group Virtanen' => 'evir',
+}
+
+parties = info.each_with_object({}) { |(name, abbrev), h| 
+  h[abbrev] = {
+    :classification => "party",
+    :id       => "popit.eduskunta/party/#{abbrev}",
+    :name       => name,
+    :other_names  => [
+      {
+        :name  => name,
+        :label => 'en.eduskunta.fi',
+      },
+    ],
+  }
+}
+
+puts JSON.pretty_generate(parties.values)
