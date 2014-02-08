@@ -15,12 +15,6 @@ class Eduskunta
       }.reject { |k,v| v.nil? }
     end
 
-    def self._find_date_in(str, silent=false)
-      /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
-      return nil if silent
-      raise "No date in #{str}"
-    end
-
   end
 
   class Cabinet < Membership
@@ -40,9 +34,9 @@ class Eduskunta
       /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
         raise "Can't parse Council of State membership from #{text}"
       self.new({
-        :role => $1,
-        :start_date => self._find_date_in($2),
-        :end_date => self._find_date_in($3, true),
+        :role       => $1,
+        :start_date => Date.find_in($2),
+        :end_date   => Date.find_in($3, true),
       })
     end
 
@@ -75,10 +69,10 @@ class Eduskunta
       /^\s*(.*?)\s+(\d{2}\.\d{2}\.\d{4})\s+-(.*)$/.match(text) or 
         raise "Can't parse party membership from #{text}"
       self.new({
-        :name => $1,
-        :id => @@parties[$1], 
-        :start_date => self._find_date_in($2),
-        :end_date => self._find_date_in($3, true),
+        :name       => $1,
+        :id         => @@parties[$1], 
+        :start_date => Date.find_in($2),
+        :end_date   => Date.find_in($3, true),
       })
     end
 
@@ -156,7 +150,7 @@ class Eduskunta
 
     def birth_date
       birth = infotable.xpath('tr/th[.="Date and place of birth: "]/following-sibling::td').text
-      return _find_date_in(birth)
+      return Date.find_in(birth)
     end
 
 
@@ -206,15 +200,14 @@ class Eduskunta
        @infotable ||= @noko.at('table.datatable') or raise "No infotable"
     end
 
-    private
-
-    def _find_date_in(str, silent=false)
-      /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
-      return nil if silent
-      raise "No date in #{str}"
-    end
-
   end
+
+  def Date.find_in(str, silent=false)
+    /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return Date.new($3.to_i, $2.to_i, $1.to_i).to_s
+    return nil if silent
+    raise "No date in #{str}"
+  end
+
 end
 
 
