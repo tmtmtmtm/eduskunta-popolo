@@ -23,6 +23,31 @@ class Eduskunta
 
   end
 
+  class Cabinet < Membership
+    attr_accessor :role
+
+    def to_hash
+      super.to_hash.merge(:role => role)
+    end
+
+    def organization_id 
+      "popit.eduskunta/council-of-state"
+    end
+
+    # Prime Minister (Katainen)  22.06.2011
+    # "Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, ",
+    def self.from_str (text)
+      /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
+        raise "Can't parse Council of State membership from #{text}"
+      self.new({
+        :role => $1,
+        :start_date => self._find_date_in($2),
+        :end_date => self._find_date_in($3, true),
+      })
+    end
+
+  end
+
   class Party < Membership
 
     @@parties = {
@@ -166,7 +191,7 @@ class Eduskunta
     end
 
     def council_of_state
-      council_of_state_raw.collect { |cs| _cs_membership(cs) }
+      council_of_state_raw.collect { |cs| Cabinet.from_str(cs).to_hash }
     end
 
     def parties_raw
@@ -174,7 +199,7 @@ class Eduskunta
     end
 
     def parties
-      parties_raw.collect { |p| _party_membership(p) }
+      parties_raw.collect { |p| Party.from_str(p).to_hash }
     end
 
     def infotable
@@ -183,23 +208,6 @@ class Eduskunta
 
     private
 
-    def _cs_membership (text)
-      # Prime Minister (Katainen)  22.06.2011
-      # "Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, ",
-      /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
-        raise "Can't parse Council of State membership from #{text}"
-      return {
-        :organization_id => "popit.eduskunta/council-of-state",
-        :role => $1,
-        :start_date => _find_date_in($2),
-        :end_date => _find_date_in($3, true),
-      }
-    end
-
-    def _party_membership (text)
-      Eduskunta::Party.from_str(text).to_hash
-    end
-    
     def _find_date_in(str, silent=false)
       /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return [$3,$2,$1].join("-");
       return nil if silent
