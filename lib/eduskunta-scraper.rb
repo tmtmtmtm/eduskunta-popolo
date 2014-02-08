@@ -143,7 +143,7 @@ class Eduskunta
         raise "Can't parse party membership from #{text}"
       party_id = _find_party_by_name($1) or raise "No such party <#{$1}>"
       return {
-        :organization_id => party_id,
+        :organization_id => "popit.eduskunta/party/#{party_id}",
         :start_date => _find_date_in($2),
         :end_date => _find_date_in($3, true),
       }
