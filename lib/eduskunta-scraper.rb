@@ -44,24 +44,17 @@ class Eduskunta
 
   class Party < Membership
 
-    @@parties = {
-      'Christian Democratic Parliamentary Group' => 'kd',
-      'Finnish Centre Party' => 'kesk',
-      'National Coalition Party' => 'kok',
-      'Parliamentary group Change 2011' => 'm11',
-      'Swedish Parliamentary Group' => 'r',
-      'The Finns Party Parliamentary Group' => 'ps',
-      'The Social Democratic Parliamentary Group' => 'sd',
-      'Left Alliance' => 'vas',
-      'Green Parliamentary Group' => 'vihr',
-      'Left Faction Parliamentary Group' => 'vr',
-      'Parliamentary group Mustajärvi' => 'emus',
-      'Parliamentary group Yrttiaho' => 'eyrt',
-      'Parliamentary group Virtanen' => 'evir',
-    }
+    require 'json'
+
+    @@parties = JSON.parse(File.read('parties.json'))
+
+    def self.name_to_id(name)
+      match = @@parties.find{ |p| p['name'] == name }
+      return match['id']
+    end
 
     def organization_id 
-      "popit.eduskunta/party/#{id}"
+      id
     end
 
     def self.from_str(text)
@@ -70,7 +63,7 @@ class Eduskunta
         raise "Can't parse party membership from #{text}"
       self.new({
         :name       => $1,
-        :id         => @@parties[$1], 
+        :id         => name_to_id($1), 
         :start_date => Date.find_in($2),
         :end_date   => Date.find_in($3, true),
       })
