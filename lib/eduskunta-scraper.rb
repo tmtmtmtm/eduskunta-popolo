@@ -49,8 +49,8 @@ class Eduskunta
     @@parties = JSON.parse(File.read('parties.json'))
 
     def self.name_to_id(name)
-      match = @@parties.find{ |p| p['name'] == name }
-      return match['id']
+      match = @@parties.find{ |p| p['other_names'].find { |n| n['name'] == name } }
+      return match['id'] if match
     end
 
     def organization_id 

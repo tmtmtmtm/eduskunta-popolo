@@ -14,6 +14,14 @@ class ScraperTest < Test::Unit::TestCase
     assert_equal "popit.eduskunta/party/vas", Eduskunta::Party.name_to_id('Left Alliance')
   end
 
+  def test_fail_to_find_party
+    assert_equal nil, Eduskunta::Party.name_to_id('No Such Party')
+  end
+
+  def test_find_old_party
+    assert_equal "popit.eduskunta/party/ps", Eduskunta::Party.name_to_id('True Finns Party')
+  end
+
   def test_id
     assert_equal 'popit.eduskunta/person/1086', @sauli[:id]
   end
