@@ -15,7 +15,7 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_fail_to_find_party
-    assert_equal nil, Eduskunta::Party.name_to_id('No Such Party')
+    assert_nil Eduskunta::Party.name_to_id('No Such Party')
   end
 
   def test_find_old_party
