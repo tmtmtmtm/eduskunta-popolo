@@ -1,0 +1,53 @@
+#!/usr/bin/ruby
+
+# Produce initial JSON for a hard-coded list of cabinet positions
+
+require 'json'
+
+roles = {
+  'pm' => 'Prime Minister',
+  'dpm' => 'Minister deputising for the Prime Minister',
+  'maf' => 'Minister of Agriculture and Forestry',
+  'mcs' => 'Minister of Culture and Sport',
+  'md' => 'Minister of Defence',
+  'med' => 'Minister of Education',
+  'menv' => 'Minister of the Environment',
+  'mea' => 'Minister of Economic Affairs',
+  'meaft' => 'Minister for European Affairs and Foreign Trade',
+  'mf' => 'Minister of Finance',
+  'mfa' => 'Minister for Foreign Affairs',
+  'mft' => 'Minister for Foreign Trade',
+  'mftd' => 'Minister for Foreign Trade and Development',
+  'mh' => 'Minister of Housing',
+  'mhc' => 'Minister of Housing and Communications',
+  'mhss' => 'Minister of Health and Social Services',
+  'mi' => 'Minister of the Interior',
+  'mid' => 'Minister for International Development',
+  'mj' => 'Minister of Justice',
+  'ml' => 'Minister of Labour',
+  'mpalg' => 'Minister of Public Administration and Local Government',
+  'mpo' => 'Minister at the Prime Minister Office',
+  'mrma' => 'Minister of Regional and Municipal Affairs',
+  'msah' => 'Minister of Social Affairs and Health',
+  'mt' => 'Minister of Transport',
+  'mtc' => 'Minister of Transport and Communications',
+  'mti' => 'Minister of Trade and Industry',
+  
+  # Are these the same things?
+  # 'me' => 'Minister at the Ministry of Environment',
+  # 'mf' => 'Minister at the Ministry of Finance',
+  # 'mi' => 'Minister at the Ministry of the Interior',
+  # 'mfa' => 'Minister at the Ministry for Foreign Affairs',
+  # 'msah' => 'Minister at the Ministry of Social Affairs and Health',
+  # 'mti' => 'Minister at the Ministry of Trade and Industry',
+}
+
+posts = roles.each_with_object({}) { |(abbrev, name), h| 
+  h[abbrev] = {
+    :id       => "popit.eduskunta/council/#{abbrev}",
+    :name       => name,
+  }
+}
+warn "We have #{posts.count} posts"
+
+puts JSON.pretty_generate(posts.values)

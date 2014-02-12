@@ -1,0 +1,110 @@
+[
+  {
+    "id": "popit.eduskunta/council/pm",
+    "name": "Prime Minister"
+  },
+  {
+    "id": "popit.eduskunta/council/dpm",
+    "name": "Minister deputising for the Prime Minister"
+  },
+  {
+    "id": "popit.eduskunta/council/maf",
+    "name": "Minister of Agriculture and Forestry"
+  },
+  {
+    "id": "popit.eduskunta/council/mcs",
+    "name": "Minister of Culture and Sport"
+  },
+  {
+    "id": "popit.eduskunta/council/md",
+    "name": "Minister of Defence"
+  },
+  {
+    "id": "popit.eduskunta/council/med",
+    "name": "Minister of Education"
+  },
+  {
+    "id": "popit.eduskunta/council/menv",
+    "name": "Minister of the Environment"
+  },
+  {
+    "id": "popit.eduskunta/council/mea",
+    "name": "Minister of Economic Affairs"
+  },
+  {
+    "id": "popit.eduskunta/council/meaft",
+    "name": "Minister for European Affairs and Foreign Trade"
+  },
+  {
+    "id": "popit.eduskunta/council/mf",
+    "name": "Minister of Finance"
+  },
+  {
+    "id": "popit.eduskunta/council/mfa",
+    "name": "Minister for Foreign Affairs"
+  },
+  {
+    "id": "popit.eduskunta/council/mft",
+    "name": "Minister for Foreign Trade"
+  },
+  {
+    "id": "popit.eduskunta/council/mftd",
+    "name": "Minister for Foreign Trade and Development"
+  },
+  {
+    "id": "popit.eduskunta/council/mh",
+    "name": "Minister of Housing"
+  },
+  {
+    "id": "popit.eduskunta/council/mhc",
+    "name": "Minister of Housing and Communications"
+  },
+  {
+    "id": "popit.eduskunta/council/mhss",
+    "name": "Minister of Health and Social Services"
+  },
+  {
+    "id": "popit.eduskunta/council/mi",
+    "name": "Minister of the Interior"
+  },
+  {
+    "id": "popit.eduskunta/council/mid",
+    "name": "Minister for International Development"
+  },
+  {
+    "id": "popit.eduskunta/council/mj",
+    "name": "Minister of Justice"
+  },
+  {
+    "id": "popit.eduskunta/council/ml",
+    "name": "Minister of Labour"
+  },
+  {
+    "id": "popit.eduskunta/council/mpalg",
+    "name": "Minister of Public Administration and Local Government"
+  },
+  {
+    "id": "popit.eduskunta/council/mpo",
+    "name": "Minister at the Prime Minister Office"
+  },
+  {
+    "id": "popit.eduskunta/council/mrma",
+    "name": "Minister of Regional and Municipal Affairs"
+  },
+  {
+    "id": "popit.eduskunta/council/msah",
+    "name": "Minister of Social Affairs and Health"
+  },
+  {
+    "id": "popit.eduskunta/council/mt",
+    "name": "Minister of Transport"
+  },
+  {
+    "id": "popit.eduskunta/council/mtc",
+    "name": "Minister of Transport and Communications"
+  },
+  {
+    "id": "popit.eduskunta/council/mti",
+    "name": "Minister of Trade and Industry"
+  }
+]
