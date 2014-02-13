@@ -44,8 +44,9 @@ roles = {
 
 posts = roles.each_with_object({}) { |(abbrev, name), h| 
   h[abbrev] = {
-    :id       => "popit.eduskunta/council/#{abbrev}",
-    :name       => name,
+    :id              => "popit.eduskunta/council/#{abbrev}",
+    :organization_id => "popit.eduskunta/council-of-state",
+    :role            => name,
   }
 }
 warn "We have #{posts.count} posts"
