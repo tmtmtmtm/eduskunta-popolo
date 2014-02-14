@@ -32,7 +32,10 @@
   {
     "id": "popit.eduskunta/council/menv",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of the Environment"
+    "role": "Minister of the Environment",
+    "other_labels": [
+      "Minister at the Ministry of Environment"
+    ]
   },
   {
     "id": "popit.eduskunta/council/mea",
@@ -47,12 +50,18 @@
   {
     "id": "popit.eduskunta/council/mf",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Finance"
+    "role": "Minister of Finance",
+    "other_labels": [
+      "Minister at the Ministry of Finance"
+    ]
   },
   {
     "id": "popit.eduskunta/council/mfa",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister for Foreign Affairs"
+    "role": "Minister for Foreign Affairs",
+    "other_labels": [
+      "Minister at the Ministry for Foreign Affairs"
+    ]
   },
   {
     "id": "popit.eduskunta/council/mft",
@@ -82,7 +91,10 @@
   {
     "id": "popit.eduskunta/council/mi",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of the Interior"
+    "role": "Minister of the Interior",
+    "other_labels": [
+      "Minister at the Ministry of the Interior"
+    ]
   },
   {
     "id": "popit.eduskunta/council/mid",
@@ -117,7 +129,10 @@
   {
     "id": "popit.eduskunta/council/msah",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Social Affairs and Health"
+    "role": "Minister of Social Affairs and Health",
+    "other_labels": [
+      "Minister at the Ministry of Social Affairs and Health"
+    ]
   },
   {
     "id": "popit.eduskunta/council/mt",
@@ -132,6 +147,9 @@
   {
     "id": "popit.eduskunta/council/mti",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Trade and Industry"
+    "role": "Minister of Trade and Industry",
+    "other_labels": [
+      "Minister at the Ministry of Trade and Industry"
+    ]
   }
 ]
