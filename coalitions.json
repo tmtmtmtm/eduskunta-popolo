@@ -1,0 +1,139 @@
+[
+  {
+    "id": "popit.eduskunta/government/72",
+    "name": "Government 72",
+    "other_names": [
+      "Katainen I"
+    ],
+    "classification": "coalition",
+    "memberships": [
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kok"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/sd"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/vas"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/vihr"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/r"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kd"
+        }
+      }
+    ],
+    "founding_date": "2011-06-22"
+  },
+  {
+    "id": "popit.eduskunta/government/71",
+    "name": "Government 71",
+    "other_names": [
+      "Kiviniemi I"
+    ],
+    "classification": "coalition",
+    "memberships": [
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kesk"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kok"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/vihr"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/r"
+        }
+      }
+    ],
+    "founding_date": "2010-06-22",
+    "dissolution_date": "2011-06-22"
+  },
+  {
+    "id": "popit.eduskunta/government/70",
+    "name": "Government 70",
+    "other_names": [
+      "Vanhanen II"
+    ],
+    "classification": "coalition",
+    "memberships": [
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kesk"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kok"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/vihr"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/r"
+        }
+      }
+    ],
+    "founding_date": "2007-04-19",
+    "dissolution_date": "2010-06-22"
+  },
+  {
+    "id": "popit.eduskunta/government/69",
+    "name": "Government 69",
+    "other_names": [
+      "Vanhanen I"
+    ],
+    "classification": "coalition",
+    "memberships": [
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kesk"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/kok"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/vihr"
+        }
+      },
+      {
+        "member": {
+          "id": "popit.eduskunta/party/r"
+        }
+      }
+    ],
+    "founding_date": "2003-07-26",
+    "dissolution_date": "2007-04-19"
+  }
+]

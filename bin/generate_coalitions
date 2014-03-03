@@ -1,0 +1,30 @@
+#!/usr/bin/ruby
+
+# Produce initial JSON for a hard-coded list of coalition members
+
+require 'json'
+
+info = [
+  [72, 'Katainen I',  ['2011-06-22'],               %w(kok sd vas vihr r kd)],
+  [71, 'Kiviniemi I', ['2010-06-22', '2011-06-22'], %w(kesk kok vihr r)], 
+  [70, 'Vanhanen II', ['2007-04-19', '2010-06-22'], %w(kesk kok vihr r)],
+  [69, 'Vanhanen I',  ['2003-07-26', '2007-04-19'], %w(kesk kok vihr r)],
+]
+
+orgs = info.each_with_object({}) { |(no, name, dates, members), h| 
+  h[no] = {
+    :id              => "popit.eduskunta/government/#{no}",
+    :name            => "Government #{no}",
+    :other_names     => [ name ],
+    :classification  => "coalition",
+    :memberships     => members.collect { |p| 
+      {
+        :member => { :id => "popit.eduskunta/party/#{p}" },
+      }
+    },
+    :founding_date      => dates[0],
+  }
+  h[no][:dissolution_date] = dates[1] if dates[1]
+}
+
+puts JSON.pretty_generate(orgs.values)
