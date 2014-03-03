@@ -3,7 +3,9 @@
     "id": "popit.eduskunta/government/72",
     "name": "Government 72",
     "other_names": [
-      "Katainen I"
+      {
+        "name": "Katainen I"
+      }
     ],
     "classification": "coalition",
     "memberships": [
@@ -50,7 +52,9 @@
     "id": "popit.eduskunta/government/71",
     "name": "Government 71",
     "other_names": [
-      "Kiviniemi I"
+      {
+        "name": "Kiviniemi I"
+      }
     ],
     "classification": "coalition",
     "memberships": [
@@ -86,7 +90,9 @@
     "id": "popit.eduskunta/government/70",
     "name": "Government 70",
     "other_names": [
-      "Vanhanen II"
+      {
+        "name": "Vanhanen II"
+      }
     ],
     "classification": "coalition",
     "memberships": [
@@ -122,7 +128,9 @@
     "id": "popit.eduskunta/government/69",
     "name": "Government 69",
     "other_names": [
-      "Vanhanen I"
+      {
+        "name": "Vanhanen I"
+      }
     ],
     "classification": "coalition",
     "memberships": [

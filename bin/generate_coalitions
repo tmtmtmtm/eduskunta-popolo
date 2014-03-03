@@ -15,7 +15,7 @@ orgs = info.each_with_object({}) { |(no, name, dates, members), h|
   h[no] = {
     :id              => "popit.eduskunta/government/#{no}",
     :name            => "Government #{no}",
-    :other_names     => [ name ],
+    :other_names     => [{ :name => name }],
     :classification  => "coalition",
     :memberships     => members.collect { |p| 
       {
