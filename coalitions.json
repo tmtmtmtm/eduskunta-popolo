@@ -9,31 +9,37 @@
     "memberships": [
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/sd"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/vas"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kd"
         }
       }
@@ -50,21 +56,25 @@
     "memberships": [
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       }
@@ -82,21 +92,25 @@
     "memberships": [
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       }
@@ -114,21 +128,25 @@
     "memberships": [
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
         "member": {
+          "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       }

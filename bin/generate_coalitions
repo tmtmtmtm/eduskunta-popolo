@@ -19,7 +19,10 @@ orgs = info.each_with_object({}) { |(no, name, dates, members), h|
     :classification  => "coalition",
     :memberships     => members.collect { |p| 
       {
-        :member => { :id => "popit.eduskunta/party/#{p}" },
+        :member => { 
+          :@type => "Organization",
+          :id    => "popit.eduskunta/party/#{p}",
+        },
       }
     },
     :founding_date      => dates[0],
