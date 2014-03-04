@@ -53,7 +53,7 @@ posts = roles.each_with_object({}) { |(abbrev, name), h|
 }
 
 odd.each { |abbrev, name| 
-  posts[abbrev][:other_labels] = [ name ]
+  posts[abbrev][:other_labels] = [ { :name => name } ]
 }
 
 warn "We have #{posts.count} posts"

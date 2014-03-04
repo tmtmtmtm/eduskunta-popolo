@@ -34,7 +34,9 @@
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister of the Environment",
     "other_labels": [
-      "Minister at the Ministry of Environment"
+      {
+        "name": "Minister at the Ministry of Environment"
+      }
     ]
   },
   {
@@ -52,7 +54,9 @@
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister of Finance",
     "other_labels": [
-      "Minister at the Ministry of Finance"
+      {
+        "name": "Minister at the Ministry of Finance"
+      }
     ]
   },
   {
@@ -60,7 +64,9 @@
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister for Foreign Affairs",
     "other_labels": [
-      "Minister at the Ministry for Foreign Affairs"
+      {
+        "name": "Minister at the Ministry for Foreign Affairs"
+      }
     ]
   },
   {
@@ -93,7 +99,9 @@
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister of the Interior",
     "other_labels": [
-      "Minister at the Ministry of the Interior"
+      {
+        "name": "Minister at the Ministry of the Interior"
+      }
     ]
   },
   {
@@ -131,7 +139,9 @@
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister of Social Affairs and Health",
     "other_labels": [
-      "Minister at the Ministry of Social Affairs and Health"
+      {
+        "name": "Minister at the Ministry of Social Affairs and Health"
+      }
     ]
   },
   {
@@ -149,7 +159,9 @@
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister of Trade and Industry",
     "other_labels": [
-      "Minister at the Ministry of Trade and Industry"
+      {
+        "name": "Minister at the Ministry of Trade and Industry"
+      }
     ]
   }
 ]
