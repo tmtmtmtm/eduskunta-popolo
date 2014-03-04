@@ -8,6 +8,7 @@
 
 require 'eduskunta-scraper'
 require 'json'
+require 'open-uri'
 
 mp_page = ARGV[0] or abort "Usage: #{$0} <url_or_file>"
 puts JSON.pretty_generate( Eduskunta::Scraper.new(open(mp_page)).as_hash )
