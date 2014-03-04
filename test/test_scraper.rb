@@ -84,6 +84,11 @@ class ScraperTest < Test::Unit::TestCase
     assert_equal '1999-04-14', cos[0][:end_date]
   end
 
+  def test_alternate_minister_name
+    cos = @kimmo[:memberships].select { |m| m[:organization_id] == 'popit.eduskunta/council-of-state' }
+    assert_equal 'Minister of Trade and Industry', cos[1][:role]
+  end
+
   def test_memberships
     assert_equal 1, @sauli[:memberships].count
     assert_equal 6, @jyrki[:memberships].count

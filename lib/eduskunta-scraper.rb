@@ -20,6 +20,10 @@ class Eduskunta
   class Cabinet < Membership
     attr_accessor :role
 
+    require 'json'
+
+    @@posts = JSON.parse(File.read('posts.json'))
+
     def to_hash
       super.to_hash.merge(:role => role)
     end
@@ -34,11 +38,18 @@ class Eduskunta
       /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
         raise "Can't parse Council of State membership from #{text}"
       self.new({
-        :role       => $1,
+        :role       => role_from($1),
         :start_date => Date.find_in($2),
         :end_date   => Date.find_in($3, true),
       })
     end
+
+    def self.role_from (name)
+      match = @@posts.find{ |p| p['role'] == name } || @@posts.find{ |p| (p['other_labels'] || []).find { |n| n['name'] == name } }
+      abort "No such post #{name}" unless match 
+      return match['role']
+    end
+
 
   end
 
