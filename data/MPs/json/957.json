@@ -31,20 +31,20 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Education",
       "start_date": "2008-12-19",
-      "end_date": "2010-06-21",
-      "role": "Minister of Education"
+      "end_date": "2010-06-21"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Education",
       "start_date": "2010-06-22",
-      "end_date": "2011-06-21",
-      "role": "Minister of Education"
+      "end_date": "2011-06-21"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
-      "start_date": "2011-06-22",
-      "role": "Minister of Public Administration and Local Government"
+      "role": "Minister of Public Administration and Local Government",
+      "start_date": "2011-06-22"
     }
   ]
 }

@@ -31,33 +31,33 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Transport",
       "start_date": "1999-01-15",
-      "end_date": "1999-04-14",
-      "role": "Minister of Transport"
+      "end_date": "1999-04-14"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "1999-04-15",
-      "end_date": "2002-01-03",
-      "role": "Minister of Trade and Industry"
+      "end_date": "2002-01-03"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Trade",
       "start_date": "1999-04-15",
-      "end_date": "2002-01-03",
-      "role": "Minister for Foreign Trade"
+      "end_date": "2002-01-03"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister at the Prime Minister Office",
       "start_date": "2000-07-01",
-      "end_date": "2002-01-03",
-      "role": "Minister at the Prime Minister Office"
+      "end_date": "2002-01-03"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Transport and Communications",
       "start_date": "2002-01-04",
-      "end_date": "2003-04-16",
-      "role": "Minister of Transport and Communications"
+      "end_date": "2003-04-16"
     }
   ]
 }

@@ -32,20 +32,20 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Affairs",
       "start_date": "1995-04-13",
-      "end_date": "1999-04-14",
-      "role": "Minister for Foreign Affairs"
+      "end_date": "1999-04-14"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Environment",
       "start_date": "1995-04-13",
-      "end_date": "1999-04-14",
-      "role": "Minister of the Environment"
+      "end_date": "1999-04-14"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
-      "start_date": "2013-10-17",
-      "role": "Minister for International Development"
+      "role": "Minister for International Development",
+      "start_date": "2013-10-17"
     }
   ]
 }

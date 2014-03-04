@@ -31,14 +31,14 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Transport and Communications",
       "start_date": "2005-09-24",
-      "end_date": "2007-04-18",
-      "role": "Minister of Transport and Communications"
+      "end_date": "2007-04-18"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
-      "start_date": "2013-05-24",
-      "role": "Minister of Health and Social Services"
+      "role": "Minister of Health and Social Services",
+      "start_date": "2013-05-24"
     }
   ]
 }

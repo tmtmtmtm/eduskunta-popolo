@@ -31,33 +31,33 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Trade and Development",
       "start_date": "2005-09-03",
-      "end_date": "2006-03-02",
-      "role": "Minister for Foreign Trade and Development"
+      "end_date": "2006-03-02"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister at the Prime Minister Office",
       "start_date": "2005-09-03",
-      "end_date": "2006-03-02",
-      "role": "Minister at the Prime Minister Office"
+      "end_date": "2006-03-02"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Interior",
       "start_date": "2007-04-19",
-      "end_date": "2008-01-01",
-      "role": "Minister of the Interior"
+      "end_date": "2008-01-01"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Public Administration and Local Government",
       "start_date": "2007-04-19",
-      "end_date": "2010-06-21",
-      "role": "Minister of Public Administration and Local Government"
+      "end_date": "2010-06-21"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Prime Minister",
       "start_date": "2010-06-22",
-      "end_date": "2011-06-21",
-      "role": "Prime Minister"
+      "end_date": "2011-06-21"
     }
   ]
 }

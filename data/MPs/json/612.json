@@ -31,9 +31,9 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Education",
       "start_date": "2007-04-19",
-      "end_date": "2008-12-18",
-      "role": "Minister of Education"
+      "end_date": "2008-12-18"
     }
   ]
 }

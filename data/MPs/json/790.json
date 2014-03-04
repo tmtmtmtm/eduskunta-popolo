@@ -31,9 +31,9 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Environment",
       "start_date": "2007-09-28",
-      "end_date": "2008-04-10",
-      "role": "Minister of the Environment"
+      "end_date": "2008-04-10"
     }
   ]
 }

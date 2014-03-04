@@ -25,7 +25,12 @@ class Eduskunta
     @@posts = JSON.parse(File.read('posts.json'))
 
     def to_hash
-      super.to_hash.merge(:role => role)
+      return {
+        :organization_id => organization_id,
+        :role => role,
+        :start_date => start_date,
+        :end_date => end_date,
+      }.reject { |k,v| v.nil? }
     end
 
     def organization_id 

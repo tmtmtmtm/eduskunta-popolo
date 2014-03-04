@@ -32,33 +32,33 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Affairs",
       "start_date": "1987-04-30",
-      "end_date": "1991-04-25",
-      "role": "Minister for Foreign Affairs"
+      "end_date": "1991-04-25"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "1987-04-30",
-      "end_date": "1991-04-25",
-      "role": "Minister of Trade and Industry"
+      "end_date": "1991-04-25"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Affairs",
       "start_date": "1991-04-26",
-      "end_date": "1995-04-13",
-      "role": "Minister for Foreign Affairs"
+      "end_date": "1995-04-13"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "1991-04-26",
-      "end_date": "1995-04-13",
-      "role": "Minister of Trade and Industry"
+      "end_date": "1995-04-13"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister deputising for the Prime Minister",
       "start_date": "1991-04-26",
-      "end_date": "1995-04-13",
-      "role": "Minister deputising for the Prime Minister"
+      "end_date": "1995-04-13"
     }
   ]
 }

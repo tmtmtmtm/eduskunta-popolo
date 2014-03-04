@@ -27,15 +27,15 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Affairs",
       "start_date": "2008-04-04",
-      "end_date": "2010-06-21",
-      "role": "Minister for Foreign Affairs"
+      "end_date": "2010-06-21"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Affairs",
       "start_date": "2010-06-22",
-      "end_date": "2011-06-21",
-      "role": "Minister for Foreign Affairs"
+      "end_date": "2011-06-21"
     },
     {
       "organization_id": "popit.eduskunta/party/kok",
@@ -43,8 +43,8 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
-      "start_date": "2011-06-22",
-      "role": "Minister for European Affairs and Foreign Trade"
+      "role": "Minister for European Affairs and Foreign Trade",
+      "start_date": "2011-06-22"
     }
   ]
 }

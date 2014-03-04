@@ -31,15 +31,15 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Finance",
       "start_date": "2003-04-17",
-      "end_date": "2003-06-23",
-      "role": "Minister of Finance"
+      "end_date": "2003-06-23"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Finance",
       "start_date": "2003-06-24",
-      "end_date": "2007-04-18",
-      "role": "Minister of Finance"
+      "end_date": "2007-04-18"
     }
   ]
 }

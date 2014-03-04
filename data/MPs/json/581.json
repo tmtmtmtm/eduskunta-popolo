@@ -31,63 +31,63 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister at the Prime Minister Office",
       "start_date": "2003-04-17",
-      "end_date": "2003-06-23",
-      "role": "Minister at the Prime Minister Office"
+      "end_date": "2003-06-23"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "2003-04-17",
-      "end_date": "2003-06-23",
-      "role": "Minister of Trade and Industry"
+      "end_date": "2003-06-23"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Trade and Development",
       "start_date": "2003-04-17",
-      "end_date": "2003-06-23",
-      "role": "Minister for Foreign Trade and Development"
+      "end_date": "2003-06-23"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister at the Prime Minister Office",
       "start_date": "2003-06-24",
-      "end_date": "2005-09-02",
-      "role": "Minister at the Prime Minister Office"
+      "end_date": "2005-09-02"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Trade and Development",
       "start_date": "2003-06-24",
-      "end_date": "2005-09-02",
-      "role": "Minister for Foreign Trade and Development"
+      "end_date": "2005-09-02"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister at the Prime Minister Office",
       "start_date": "2006-03-03",
-      "end_date": "2007-04-18",
-      "role": "Minister at the Prime Minister Office"
+      "end_date": "2007-04-18"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister for Foreign Trade and Development",
       "start_date": "2006-03-03",
-      "end_date": "2007-04-18",
-      "role": "Minister for Foreign Trade and Development"
+      "end_date": "2007-04-18"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Environment",
       "start_date": "2007-04-19",
-      "end_date": "2007-09-27",
-      "role": "Minister of the Environment"
+      "end_date": "2007-09-27"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Environment",
       "start_date": "2008-04-11",
-      "end_date": "2010-06-21",
-      "role": "Minister of the Environment"
+      "end_date": "2010-06-21"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Environment",
       "start_date": "2010-06-22",
-      "end_date": "2011-06-21",
-      "role": "Minister of the Environment"
+      "end_date": "2011-06-21"
     }
   ]
 }

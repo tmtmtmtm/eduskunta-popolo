@@ -31,9 +31,9 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Regional and Municipal Affairs",
       "start_date": "1999-04-15",
-      "end_date": "2003-04-16",
-      "role": "Minister of Regional and Municipal Affairs"
+      "end_date": "2003-04-16"
     }
   ]
 }

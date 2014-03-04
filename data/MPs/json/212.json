@@ -31,45 +31,45 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Interior",
       "start_date": "1991-04-26",
-      "end_date": "1995-04-12",
-      "role": "Minister of the Interior"
+      "end_date": "1995-04-12"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "2003-04-17",
-      "end_date": "2003-06-23",
-      "role": "Minister of Trade and Industry"
+      "end_date": "2003-06-23"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "2003-06-24",
-      "end_date": "2007-04-18",
-      "role": "Minister of Trade and Industry"
+      "end_date": "2007-04-18"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Trade and Industry",
       "start_date": "2007-04-19",
-      "end_date": "2007-12-31",
-      "role": "Minister of Trade and Industry"
+      "end_date": "2007-12-31"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of the Interior",
       "start_date": "2007-04-19",
-      "end_date": "2008-01-01",
-      "role": "Minister of the Interior"
+      "end_date": "2008-01-01"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Economic Affairs",
       "start_date": "2008-01-01",
-      "end_date": "2010-06-21",
-      "role": "Minister of Economic Affairs"
+      "end_date": "2010-06-21"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Economic Affairs",
       "start_date": "2010-06-22",
-      "end_date": "2011-06-21",
-      "role": "Minister of Economic Affairs"
+      "end_date": "2011-06-21"
     }
   ]
 }

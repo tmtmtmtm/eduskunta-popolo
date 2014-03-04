@@ -31,21 +31,21 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Justice",
       "start_date": "1999-04-15",
-      "end_date": "2003-04-16",
-      "role": "Minister of Justice"
+      "end_date": "2003-04-16"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Justice",
       "start_date": "2003-04-17",
-      "end_date": "2003-06-23",
-      "role": "Minister of Justice"
+      "end_date": "2003-06-23"
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Justice",
       "start_date": "2003-06-24",
-      "end_date": "2005-09-23",
-      "role": "Minister of Justice"
+      "end_date": "2005-09-23"
     }
   ]
 }

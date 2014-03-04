@@ -32,9 +32,9 @@
     },
     {
       "organization_id": "popit.eduskunta/council-of-state",
+      "role": "Minister of Health and Social Services",
       "start_date": "2000-04-14",
-      "end_date": "2002-04-18",
-      "role": "Minister of Health and Social Services"
+      "end_date": "2002-04-18"
     }
   ]
 }
