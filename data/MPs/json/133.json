@@ -1,0 +1,52 @@
+{
+  "id": "popit.eduskunta/person/133",
+  "name": "Jouni Backman",
+  "family_name": "Backman",
+  "given_names": "Jouni Ensio",
+  "identifiers": [
+    {
+      "identifier": "133",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jouni.backman@parliament.fi",
+  "birth_date": "1959-03-30",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/133.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3010"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=133&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "1987-03-21",
+      "end_date": "2007-03-20"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1995-04-13",
+      "end_date": "1999-04-14",
+      "role": "Minister at the Ministry of Finance"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1995-04-13",
+      "end_date": "1999-04-14",
+      "role": "Minister at the Ministry of the Interior"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2002-05-31",
+      "end_date": "2003-04-16",
+      "role": "Minister of the Environment"
+    }
+  ]
+}

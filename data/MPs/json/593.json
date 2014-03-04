@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/593",
+  "name": "Leena Rauhala",
+  "family_name": "Rauhala",
+  "given_names": "Leena Maria",
+  "identifiers": [
+    {
+      "identifier": "593",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "leena.rauhala@parliament.fi",
+  "birth_date": "1942-02-28",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/593.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3176"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=593&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kd",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1104",
+  "name": "Satu Haapanen",
+  "family_name": "Haapanen",
+  "given_names": "Satu Maria Kristiina",
+  "identifiers": [
+    {
+      "identifier": "1104",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "satu.haapanen@parliament.fi",
+  "birth_date": "1969-03-03",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1104.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3034"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1104&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vihr",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

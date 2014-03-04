@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/214",
+  "name": "Lea Mäkipää",
+  "family_name": "Mäkipää",
+  "given_names": "Lea Kaarina",
+  "identifiers": [
+    {
+      "identifier": "214",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "lea.makipaa@parliament.fi",
+  "birth_date": "1947-05-06",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/214.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3120"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=214&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "1983-03-26",
+      "end_date": "1995-03-23"
+    }
+  ]
+}

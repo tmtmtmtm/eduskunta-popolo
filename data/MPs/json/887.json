@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/887",
+  "name": "Sirpa Paatero",
+  "family_name": "Paatero",
+  "given_names": "Sirpa Hannele",
+  "identifiers": [
+    {
+      "identifier": "887",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "sirpa.paatero@parliament.fi",
+  "birth_date": "1964-09-09",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/887.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3081"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=887&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2006-02-01"
+    }
+  ]
+}

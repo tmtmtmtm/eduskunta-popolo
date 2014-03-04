@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/605",
+  "name": "Raija Vahasalo",
+  "family_name": "Vahasalo",
+  "given_names": "Raija Elina",
+  "identifiers": [
+    {
+      "identifier": "605",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "raija.vahasalo@parliament.fi",
+  "birth_date": "1961-03-10",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/605.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3090"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=605&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

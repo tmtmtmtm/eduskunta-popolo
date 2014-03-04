@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1122",
+  "name": "Olli Immonen",
+  "family_name": "Immonen",
+  "given_names": "Olli Juhani",
+  "identifiers": [
+    {
+      "identifier": "1122",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "olli.immonen@parliament.fi",
+  "birth_date": "1986-02-18",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1122.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3049"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1122&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

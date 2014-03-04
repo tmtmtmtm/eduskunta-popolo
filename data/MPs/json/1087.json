@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1087",
+  "name": "Merja Mäkisalo-Ropponen",
+  "family_name": "Mäkisalo-Ropponen",
+  "given_names": "Merja Elina",
+  "identifiers": [
+    {
+      "identifier": "1087",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "merja.makisalo-ropponen@parliament.fi",
+  "birth_date": "1958-04-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1087.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3124"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1087&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "popit.eduskunta/person/630",
+  "name": "Anne Holmlund",
+  "family_name": "Holmlund",
+  "given_names": "Anne Elisabeth",
+  "identifiers": [
+    {
+      "identifier": "630",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "anne.holmlund@parliament.fi",
+  "birth_date": "1964-04-18",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/630.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3020"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=630&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2002-02-04"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2007-04-19",
+      "end_date": "2010-06-21",
+      "role": "Minister of the Interior"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister of the Interior"
+    }
+  ]
+}

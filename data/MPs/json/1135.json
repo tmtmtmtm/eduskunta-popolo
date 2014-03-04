@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1135",
+  "name": "Pia Kauma",
+  "family_name": "Kauma",
+  "given_names": "Pia Liisa",
+  "identifiers": [
+    {
+      "identifier": "1135",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pia.kauma@parliament.fi",
+  "birth_date": "1966-10-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1135.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3069"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1135&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

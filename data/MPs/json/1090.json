@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1090",
+  "name": "Markku Mäntymaa",
+  "family_name": "Mäntymaa",
+  "given_names": "Markku Antero",
+  "identifiers": [
+    {
+      "identifier": "1090",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "markku.mantymaa@parliament.fi",
+  "birth_date": "1954-04-17",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1090.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 40 510 2749"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1090&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

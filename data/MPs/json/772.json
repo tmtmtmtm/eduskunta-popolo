@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/772",
+  "name": "Antti Kaikkonen",
+  "family_name": "Kaikkonen",
+  "given_names": "Antti Samuli",
+  "identifiers": [
+    {
+      "identifier": "772",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "antti.kaikkonen@parliament.fi",
+  "birth_date": "1974-02-14",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/772.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3160"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=772&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "2003-03-19"
+    }
+  ]
+}

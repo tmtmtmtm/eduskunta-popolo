@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/932",
+  "name": "Lenita Toivakka",
+  "family_name": "Toivakka",
+  "given_names": "Lenita Anneli",
+  "identifiers": [
+    {
+      "identifier": "932",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "lenita.toivakka@parliament.fi",
+  "birth_date": "1961-09-28",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/932.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3191"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=932&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

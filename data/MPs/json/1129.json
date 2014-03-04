@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1129",
+  "name": "Arja Juvonen",
+  "family_name": "Juvonen",
+  "given_names": "Arja Sinikka",
+  "identifiers": [
+    {
+      "identifier": "1129",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "arja.juvonen@parliament.fi",
+  "birth_date": "1967-12-08",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1129.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3060"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1129&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

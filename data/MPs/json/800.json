@@ -1,0 +1,39 @@
+{
+  "id": "popit.eduskunta/person/800",
+  "name": "Tapani Tölli",
+  "family_name": "Tölli",
+  "given_names": "Tapani Olavi",
+  "identifiers": [
+    {
+      "identifier": "800",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "tapani.tolli@parliament.fi",
+  "birth_date": "1951-06-13",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/800.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3180"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=800&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "2003-03-19"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister of Public Administration and Local Government"
+    }
+  ]
+}

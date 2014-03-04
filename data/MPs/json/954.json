@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/954",
+  "name": "Ilkka Kantola",
+  "family_name": "Kantola",
+  "given_names": "Ilkka Tapani",
+  "identifiers": [
+    {
+      "identifier": "954",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "ilkka.kantola@parliament.fi",
+  "birth_date": "1957-03-17",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/954.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3077"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=954&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

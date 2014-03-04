@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1149",
+  "name": "Markus Lohi",
+  "family_name": "Lohi",
+  "given_names": "Markus Samuli",
+  "identifiers": [
+    {
+      "identifier": "1149",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "markus.lohi@parliament.fi",
+  "birth_date": "1972-06-16",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1149.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3093"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1149&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

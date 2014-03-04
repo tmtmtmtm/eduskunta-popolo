@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/943",
+  "name": "Mats Nylund",
+  "family_name": "Nylund",
+  "given_names": "Mats Johan",
+  "identifiers": [
+    {
+      "identifier": "943",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "mats.nylund@parliament.fi",
+  "birth_date": "1964-08-01",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/943.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3091"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=943&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/r",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

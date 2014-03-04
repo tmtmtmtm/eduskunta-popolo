@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/562",
+  "name": "Leena Harkimo",
+  "family_name": "Harkimo",
+  "given_names": "Leena-Kaisa (Leena)",
+  "identifiers": [
+    {
+      "identifier": "562",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "leena.harkimo@parliament.fi",
+  "birth_date": "1963-03-28",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/562.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3171"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=562&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

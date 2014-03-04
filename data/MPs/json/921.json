@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/921",
+  "name": "Johanna Karimäki",
+  "family_name": "Karimäki",
+  "given_names": "Johanna Maria",
+  "identifiers": [
+    {
+      "identifier": "921",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "johanna.karimaki@parliament.fi",
+  "birth_date": "1973-03-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/921.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3021"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=921&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vihr",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

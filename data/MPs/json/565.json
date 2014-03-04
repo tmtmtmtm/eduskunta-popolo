@@ -1,0 +1,44 @@
+{
+  "id": "popit.eduskunta/person/565",
+  "name": "Susanna Huovinen",
+  "family_name": "Huovinen",
+  "given_names": "Krista Anri Susanna",
+  "identifiers": [
+    {
+      "identifier": "565",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "susanna.huovinen@parliament.fi",
+  "birth_date": "1972-06-10",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/565.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3125"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=565&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "1999-03-24"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2005-09-24",
+      "end_date": "2007-04-18",
+      "role": "Minister of Transport and Communications"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2013-05-24",
+      "role": "Minister of Health and Social Services"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "popit.eduskunta/person/499",
+  "name": "Päivi Räsänen",
+  "family_name": "Räsänen",
+  "given_names": "Päivi Maria",
+  "identifiers": [
+    {
+      "identifier": "499",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "paivi.rasanen@parliament.fi",
+  "birth_date": "1959-12-19",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/499.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3065"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=499&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kd",
+      "start_date": "1995-03-24"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "end_date": "2013-12-31",
+      "role": "Minister of the Interior"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2014-01-01",
+      "role": "Minister of the Interior"
+    }
+  ]
+}

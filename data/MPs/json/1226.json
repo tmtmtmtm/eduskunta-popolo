@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1226",
+  "name": "Anu Urpalainen",
+  "family_name": "Urpalainen",
+  "given_names": "Anu Johanna",
+  "identifiers": [
+    {
+      "identifier": "1226",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "anu.urpalainen@parliament.fi",
+  "birth_date": "1966-09-27",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1226.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3030"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1226&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2012-11-21"
+    }
+  ]
+}

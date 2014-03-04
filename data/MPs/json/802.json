@@ -1,0 +1,43 @@
+{
+  "id": "popit.eduskunta/person/802",
+  "name": "Markus Mustajärvi",
+  "family_name": "Mustajärvi",
+  "given_names": "Markus",
+  "identifiers": [
+    {
+      "identifier": "802",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "markus.mustajarvi@parliament.fi",
+  "birth_date": "1963-02-24",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/802.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3133"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=802&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vas",
+      "start_date": "2003-03-19",
+      "end_date": "2011-06-30"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/emus",
+      "start_date": "2011-07-01",
+      "end_date": "2011-09-07"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/vr",
+      "start_date": "2011-09-08"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1107",
+  "name": "Teuvo Hakkarainen",
+  "family_name": "Hakkarainen",
+  "given_names": "Teuvo Mauno Kalervo",
+  "identifiers": [
+    {
+      "identifier": "1107",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "teuvo.hakkarainen@parliament.fi",
+  "birth_date": "1960-04-12",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1107.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3040"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1107&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

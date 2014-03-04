@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/563",
+  "name": "Pertti Hemmilä",
+  "family_name": "Hemmilä",
+  "given_names": "Pertti Aatos",
+  "identifiers": [
+    {
+      "identifier": "563",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pertti.hemmila@parliament.fi",
+  "birth_date": "1955-08-24",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/563.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3068"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=563&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "popit.eduskunta/person/357",
+  "name": "Erkki Tuomioja",
+  "family_name": "Tuomioja",
+  "given_names": "Erkki Sakari",
+  "identifiers": [
+    {
+      "identifier": "357",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "erkki.tuomioja@parliament.fi",
+  "birth_date": "1946-07-01",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/357.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3183"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=357&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "1970-03-23",
+      "end_date": "1979-03-23"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1999-04-15",
+      "end_date": "2000-02-24",
+      "role": "Minister of Trade and Industry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2000-02-25",
+      "end_date": "2003-04-16",
+      "role": "Minister for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-04-17",
+      "end_date": "2003-06-23",
+      "role": "Minister for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-06-24",
+      "end_date": "2007-04-18",
+      "role": "Minister for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "role": "Minister for Foreign Affairs"
+    }
+  ]
+}

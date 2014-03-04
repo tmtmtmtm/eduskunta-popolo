@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/589",
+  "name": "Heli Paasio",
+  "family_name": "Paasio",
+  "given_names": "Heli Tuulikki",
+  "identifiers": [
+    {
+      "identifier": "589",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "heli.paasio@parliament.fi",
+  "birth_date": "1972-11-24",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/589.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3122"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=589&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

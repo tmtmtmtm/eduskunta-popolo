@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1153",
+  "name": "Silvia Modig",
+  "family_name": "Modig",
+  "given_names": "Anna Silvia",
+  "identifiers": [
+    {
+      "identifier": "1153",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "silvia.modig@parliament.fi",
+  "birth_date": "1976-07-08",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1153.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3117"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1153&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vas",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

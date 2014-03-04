@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/803",
+  "name": "Simo Rundgren",
+  "family_name": "Rundgren",
+  "given_names": "Simo Arttur",
+  "identifiers": [
+    {
+      "identifier": "803",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "simo.rundgren@parliament.fi",
+  "birth_date": "1953-06-28",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/803.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3144"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=803&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "2003-03-19",
+      "end_date": "2007-03-20"
+    }
+  ]
+}

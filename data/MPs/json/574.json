@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/574",
+  "name": "Katri Komi",
+  "family_name": "Komi",
+  "given_names": "Katri Helena",
+  "identifiers": [
+    {
+      "identifier": "574",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "katri.komi@parliament.fi",
+  "birth_date": "1968-05-11",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/574.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3035"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=574&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

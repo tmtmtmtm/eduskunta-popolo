@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/914",
+  "name": "Outi Alanko-Kahiluoto",
+  "family_name": "Alanko-Kahiluoto",
+  "given_names": "Satu Outi Kristiina",
+  "identifiers": [
+    {
+      "identifier": "914",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "outi.alanko-kahiluoto@parliament.fi",
+  "birth_date": "1966-06-14",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/914.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3005"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=914&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vihr",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

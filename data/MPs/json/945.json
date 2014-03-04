@@ -1,0 +1,43 @@
+{
+  "id": "popit.eduskunta/person/945",
+  "name": "Jyrki Yrttiaho",
+  "family_name": "Yrttiaho",
+  "given_names": "Jyrki Valto",
+  "identifiers": [
+    {
+      "identifier": "945",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jyrki.yrttiaho@parliament.fi",
+  "birth_date": "1952-05-04",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/945.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3198"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=945&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vas",
+      "start_date": "2007-03-21",
+      "end_date": "2011-06-30"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/eyrt",
+      "start_date": "2011-07-01",
+      "end_date": "2011-09-07"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/vr",
+      "start_date": "2011-09-08"
+    }
+  ]
+}

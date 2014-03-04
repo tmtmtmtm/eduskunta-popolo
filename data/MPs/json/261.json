@@ -1,0 +1,63 @@
+{
+  "id": "popit.eduskunta/person/261",
+  "name": "Kimmo Sasi",
+  "family_name": "Sasi",
+  "given_names": "Kimmo Kalevi Immeri",
+  "identifiers": [
+    {
+      "identifier": "261",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "kimmo.sasi@parliament.fi",
+  "birth_date": "1952-02-21",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/261.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3148"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=261&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1983-03-26"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1999-01-15",
+      "end_date": "1999-04-14",
+      "role": "Minister of Transport"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1999-04-15",
+      "end_date": "2002-01-03",
+      "role": "Minister at the Ministry of Trade and Industry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1999-04-15",
+      "end_date": "2002-01-03",
+      "role": "Minister for Foreign Trade"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2000-07-01",
+      "end_date": "2002-01-03",
+      "role": "Minister at the Prime Minister Office"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2002-01-04",
+      "end_date": "2003-04-16",
+      "role": "Minister of Transport and Communications"
+    }
+  ]
+}

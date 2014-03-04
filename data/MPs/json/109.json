@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/109",
+  "name": "Jörn Donner",
+  "family_name": "Donner",
+  "given_names": "Jörn Johan",
+  "identifiers": [
+    {
+      "identifier": "109",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jorn.donner@parliament.fi",
+  "birth_date": "1933-02-05",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/109.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3100"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=109&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/r",
+      "start_date": "1987-03-21",
+      "end_date": "1995-03-23"
+    }
+  ]
+}

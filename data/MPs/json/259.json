@@ -1,0 +1,64 @@
+{
+  "id": "popit.eduskunta/person/259",
+  "name": "Pertti Salolainen",
+  "family_name": "Salolainen",
+  "given_names": "Pertti Edvard",
+  "identifiers": [
+    {
+      "identifier": "259",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pertti.salolainen@parliament.fi",
+  "birth_date": "1940-10-19",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/259.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3105"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=259&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1970-03-23",
+      "end_date": "1996-10-01"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1987-04-30",
+      "end_date": "1991-04-25",
+      "role": "Minister at the Ministry for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1987-04-30",
+      "end_date": "1991-04-25",
+      "role": "Minister at the Ministry of Trade and Industry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1991-04-26",
+      "end_date": "1995-04-13",
+      "role": "Minister at the Ministry for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1991-04-26",
+      "end_date": "1995-04-13",
+      "role": "Minister at the Ministry of Trade and Industry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1991-04-26",
+      "end_date": "1995-04-13",
+      "role": "Minister deputising for the Prime Minister"
+    }
+  ]
+}

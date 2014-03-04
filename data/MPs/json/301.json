@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/301",
+  "name": "Ben Zyskowicz",
+  "family_name": "Zyskowicz",
+  "given_names": "Ben Berl",
+  "identifiers": [
+    {
+      "identifier": "301",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "ben.zyskowicz@parliament.fi",
+  "birth_date": "1954-05-24",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/301.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3200"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=301&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1979-03-24"
+    }
+  ]
+}

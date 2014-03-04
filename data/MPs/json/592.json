@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/592",
+  "name": "Antti Rantakangas",
+  "family_name": "Rantakangas",
+  "given_names": "Antti Toivo Armas",
+  "identifiers": [
+    {
+      "identifier": "592",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "antti.rantakangas@parliament.fi",
+  "birth_date": "1964-02-28",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/592.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3147"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=592&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

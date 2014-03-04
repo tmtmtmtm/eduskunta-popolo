@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/794",
+  "name": "Tuula Väätäinen",
+  "family_name": "Väätäinen",
+  "given_names": "Tuula Anneli",
+  "identifiers": [
+    {
+      "identifier": "794",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "tuula.vaatainen@parliament.fi",
+  "birth_date": "1955-10-02",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/794.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3018"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=794&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2003-03-19"
+    }
+  ]
+}

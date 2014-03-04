@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/915",
+  "name": "Päivi Lipponen",
+  "family_name": "Lipponen",
+  "given_names": "Päivi Pauliina",
+  "identifiers": [
+    {
+      "identifier": "915",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "paivi.lipponen@parliament.fi",
+  "birth_date": "1967-06-25",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/915.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3101"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=915&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

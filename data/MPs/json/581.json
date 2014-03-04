@@ -1,0 +1,93 @@
+{
+  "id": "popit.eduskunta/person/581",
+  "name": "Paula Lehtomäki",
+  "family_name": "Lehtomäki",
+  "given_names": "Paula Ilona",
+  "identifiers": [
+    {
+      "identifier": "581",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "paula.lehtomaki@parliament.fi",
+  "birth_date": "1972-11-29",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/581.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3159"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=581&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1999-03-24"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-04-17",
+      "end_date": "2003-06-23",
+      "role": "Minister at the Prime Minister Office"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-04-17",
+      "end_date": "2003-06-23",
+      "role": "Minister at the Ministry of Trade and Industry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-04-17",
+      "end_date": "2003-06-23",
+      "role": "Minister for Foreign Trade and Development"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-06-24",
+      "end_date": "2005-09-02",
+      "role": "Minister at the Prime Minister Office"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-06-24",
+      "end_date": "2005-09-02",
+      "role": "Minister for Foreign Trade and Development"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2006-03-03",
+      "end_date": "2007-04-18",
+      "role": "Minister at the Prime Minister Office"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2006-03-03",
+      "end_date": "2007-04-18",
+      "role": "Minister for Foreign Trade and Development"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2007-04-19",
+      "end_date": "2007-09-27",
+      "role": "Minister of the Environment"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2008-04-11",
+      "end_date": "2010-06-21",
+      "role": "Minister of the Environment"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister of the Environment"
+    }
+  ]
+}

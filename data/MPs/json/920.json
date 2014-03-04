@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/920",
+  "name": "Pirkko Ruohonen-Lerner",
+  "family_name": "Ruohonen-Lerner",
+  "given_names": "Pirkko Anneli",
+  "identifiers": [
+    {
+      "identifier": "920",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pirkko.ruohonen-lerner@parliament.fi",
+  "birth_date": "1957-02-06",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/920.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3165"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=920&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

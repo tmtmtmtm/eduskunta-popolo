@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1142",
+  "name": "Jukka Kopra",
+  "family_name": "Kopra",
+  "given_names": "Jukka Matti",
+  "identifiers": [
+    {
+      "identifier": "1142",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jukka.kopra@parliament.fi",
+  "birth_date": "1967-02-11",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1142.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3082"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1142&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/583",
+  "name": "Mika Lintilä",
+  "family_name": "Lintilä",
+  "given_names": "Mika Tapani",
+  "identifiers": [
+    {
+      "identifier": "583",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "mika.lintila@parliament.fi",
+  "birth_date": "1966-04-15",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/583.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3080"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=583&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

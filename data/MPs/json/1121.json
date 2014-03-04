@@ -1,0 +1,38 @@
+{
+  "id": "popit.eduskunta/person/1121",
+  "name": "Lauri Ihalainen",
+  "family_name": "Ihalainen",
+  "given_names": "Lauri Armas",
+  "identifiers": [
+    {
+      "identifier": "1121",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "lauri.ihalainen@parliament.fi",
+  "birth_date": "1947-05-14",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1121.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3048"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1121&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2011-04-20"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "role": "Minister of Labour"
+    }
+  ]
+}

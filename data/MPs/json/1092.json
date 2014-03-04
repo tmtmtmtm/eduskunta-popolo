@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1092",
+  "name": "Mika Niikko",
+  "family_name": "Niikko",
+  "given_names": "Mika Ilari",
+  "identifiers": [
+    {
+      "identifier": "1092",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "mika.niikko@parliament.fi",
+  "birth_date": "1967-01-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1092.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3129"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1092&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

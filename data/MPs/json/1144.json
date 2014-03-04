@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1144",
+  "name": "Suna Kymäläinen",
+  "family_name": "Kymäläinen",
+  "given_names": "Suna Ellen",
+  "identifiers": [
+    {
+      "identifier": "1144",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "suna.kymalainen@parliament.fi",
+  "birth_date": "1976-09-15",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1144.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3085"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1144&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

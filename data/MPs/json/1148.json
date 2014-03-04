@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1148",
+  "name": "Maria Lohela",
+  "family_name": "Lohela",
+  "given_names": "Maria Tuulia",
+  "identifiers": [
+    {
+      "identifier": "1148",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "maria.lohela@parliament.fi",
+  "birth_date": "1978-06-11",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1148.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3092"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1148&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

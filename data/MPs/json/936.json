@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/936",
+  "name": "Pentti Oinonen",
+  "family_name": "Oinonen",
+  "given_names": "Pentti Juhani",
+  "identifiers": [
+    {
+      "identifier": "936",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pentti.oinonen@parliament.fi",
+  "birth_date": "1952-06-11",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/936.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3131"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=936&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

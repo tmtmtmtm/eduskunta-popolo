@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1110",
+  "name": "Ismo Soukola",
+  "family_name": "Soukola",
+  "given_names": "Ismo Olavi",
+  "identifiers": [
+    {
+      "identifier": "1110",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "ismo.soukola@parliament.fi",
+  "birth_date": "1960-09-08",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1110.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3168"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1110&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

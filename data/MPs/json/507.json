@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/507",
+  "name": "Kari Uotila",
+  "family_name": "Uotila",
+  "given_names": "Kari Antero",
+  "identifiers": [
+    {
+      "identifier": "507",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "kari.uotila@parliament.fi",
+  "birth_date": "1955-01-04",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/507.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3172"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=507&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vas",
+      "start_date": "1995-03-24",
+      "end_date": "2007-03-20"
+    }
+  ]
+}

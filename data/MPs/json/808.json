@@ -1,0 +1,38 @@
+{
+  "id": "popit.eduskunta/person/808",
+  "name": "Jutta Urpilainen",
+  "family_name": "Urpilainen",
+  "given_names": "Jutta Pauliina",
+  "identifiers": [
+    {
+      "identifier": "808",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jutta.urpilainen@parliament.fi",
+  "birth_date": "1975-08-04",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/808.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3059"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=808&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2003-03-19"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "role": "Minister of Finance"
+    }
+  ]
+}

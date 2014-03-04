@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1131",
+  "name": "Sinuhe Wallinheimo",
+  "family_name": "Wallinheimo",
+  "given_names": "Mika Sinuhe",
+  "identifiers": [
+    {
+      "identifier": "1131",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "sinuhe.wallinheimo@parliament.fi",
+  "birth_date": "1972-03-09",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1131.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3193"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1131&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

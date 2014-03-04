@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1145",
+  "name": "Jukka Kärnä",
+  "family_name": "Kärnä",
+  "given_names": "Jukka Ensio",
+  "identifiers": [
+    {
+      "identifier": "1145",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jukka.karna@parliament.fi",
+  "birth_date": "1955-11-14",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1145.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3087"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1145&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

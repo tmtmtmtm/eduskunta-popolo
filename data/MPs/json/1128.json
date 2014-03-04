@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1128",
+  "name": "Kaj Turunen",
+  "family_name": "Turunen",
+  "given_names": "Kaj Valentin",
+  "identifiers": [
+    {
+      "identifier": "1128",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "kaj.turunen@parliament.fi",
+  "birth_date": "1960-12-27",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1128.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3187"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1128&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/775",
+  "name": "Marjo Matikainen-Kallström",
+  "family_name": "Matikainen-Kallström",
+  "given_names": "Marjo Tuulevi",
+  "identifiers": [
+    {
+      "identifier": "775",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "marjo.matikainen-kallstrom@parliament.fi",
+  "birth_date": "1965-02-03",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/775.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3139"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=775&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2003-03-19",
+      "end_date": "2003-03-27"
+    }
+  ]
+}

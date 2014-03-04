@@ -1,0 +1,51 @@
+{
+  "id": "popit.eduskunta/person/202",
+  "name": "Seppo Kääriäinen",
+  "family_name": "Kääriäinen",
+  "given_names": "Seppo Arimo",
+  "identifiers": [
+    {
+      "identifier": "202",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "seppo.kaariainen@parliament.fi",
+  "birth_date": "1948-03-29",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/202.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3086"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=202&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1987-03-21"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1993-08-01",
+      "end_date": "1995-04-12",
+      "role": "Minister at the Ministry for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1993-08-01",
+      "end_date": "1995-04-12",
+      "role": "Minister of Trade and Industry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-06-24",
+      "end_date": "2007-04-18",
+      "role": "Minister of Defence"
+    }
+  ]
+}

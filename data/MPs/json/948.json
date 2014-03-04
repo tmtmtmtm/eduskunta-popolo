@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/948",
+  "name": "Anne-Mari Virolainen",
+  "family_name": "Virolainen",
+  "given_names": "Anne-Mari",
+  "identifiers": [
+    {
+      "identifier": "948",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "anne-mari.virolainen@parliament.fi",
+  "birth_date": "1965-12-05",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/948.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3014"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=948&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "popit.eduskunta/person/127",
+  "name": "Sirkka-Liisa Anttila",
+  "family_name": "Anttila",
+  "given_names": "Sirkka-Liisa",
+  "identifiers": [
+    {
+      "identifier": "127",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "sirkka-liisa.anttila@parliament.fi",
+  "birth_date": "1943-12-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/127.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3044"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=127&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1983-03-26",
+      "end_date": "1996-11-18"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2007-04-19",
+      "end_date": "2010-06-21",
+      "role": "Minister of Agriculture and Forestry"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister of Agriculture and Forestry"
+    }
+  ]
+}

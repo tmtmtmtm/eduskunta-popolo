@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/405",
+  "name": "Jouko Jääskeläinen",
+  "family_name": "Jääskeläinen",
+  "given_names": "Jouko Tapani",
+  "identifiers": [
+    {
+      "identifier": "405",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jouko.jaaskelainen@parliament.fi",
+  "birth_date": "1952-03-18",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/405.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3062"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=405&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kd",
+      "start_date": "1991-03-22",
+      "end_date": "2003-03-18"
+    }
+  ]
+}

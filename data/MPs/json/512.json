@@ -1,0 +1,38 @@
+{
+  "id": "popit.eduskunta/person/512",
+  "name": "Pertti Virtanen",
+  "family_name": "Virtanen",
+  "given_names": "Pertti Olavi",
+  "identifiers": [
+    {
+      "identifier": "512",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pertti.virtanen@parliament.fi",
+  "birth_date": "1951-05-18",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/512.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3111"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=512&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/evir",
+      "start_date": "1995-03-24",
+      "end_date": "1999-03-23"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

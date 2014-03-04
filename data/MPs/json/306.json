@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/306",
+  "name": "Pentti Kettunen",
+  "family_name": "Kettunen",
+  "given_names": "Pentti Herman",
+  "identifiers": [
+    {
+      "identifier": "306",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pentti.kettunen@parliament.fi",
+  "birth_date": "1942-02-25",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/306.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3070"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=306&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "1983-03-26",
+      "end_date": "1987-03-20"
+    }
+  ]
+}

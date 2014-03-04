@@ -1,0 +1,45 @@
+{
+  "id": "popit.eduskunta/person/475",
+  "name": "Ulla-Maj Wideroos",
+  "family_name": "Wideroos",
+  "given_names": "Cecilia Ulla-Maj",
+  "identifiers": [
+    {
+      "identifier": "475",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "ulla-maj.wideroos@parliament.fi",
+  "birth_date": "1951-10-22",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/475.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3141"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=475&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/r",
+      "start_date": "1995-03-24"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-04-17",
+      "end_date": "2003-06-23",
+      "role": "Minister at the Ministry of Finance"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2003-06-24",
+      "end_date": "2007-04-18",
+      "role": "Minister at the Ministry of Finance"
+    }
+  ]
+}

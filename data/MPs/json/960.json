@@ -1,0 +1,44 @@
+{
+  "id": "popit.eduskunta/person/960",
+  "name": "Krista Kiuru",
+  "family_name": "Kiuru",
+  "given_names": "Krista Katriina",
+  "identifiers": [
+    {
+      "identifier": "960",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "krista.kiuru@parliament.fi",
+  "birth_date": "1974-08-05",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/960.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3192"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=960&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2007-03-21"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "end_date": "2013-05-23",
+      "role": "Minister of Housing and Communications"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2013-05-24",
+      "role": "Minister of Education"
+    }
+  ]
+}

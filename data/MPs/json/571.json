@@ -1,0 +1,62 @@
+{
+  "id": "popit.eduskunta/person/571",
+  "name": "Jyrki Katainen",
+  "family_name": "Katainen",
+  "given_names": "Jyrki Tapani",
+  "identifiers": [
+    {
+      "identifier": "571",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "jyrki.katainen@parliament.fi",
+  "birth_date": "1971-10-14",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/571.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3094"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=571&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1999-03-24"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2007-04-19",
+      "end_date": "2010-06-21",
+      "role": "Minister deputising for the Prime Minister"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2007-04-19",
+      "end_date": "2010-06-21",
+      "role": "Minister of Finance"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister deputising for the Prime Minister"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister of Finance"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "role": "Prime Minister"
+    }
+  ]
+}

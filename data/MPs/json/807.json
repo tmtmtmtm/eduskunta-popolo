@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/807",
+  "name": "Miapetra Kumpula-Natri",
+  "family_name": "Kumpula-Natri",
+  "given_names": "Miapetra Susanna",
+  "identifiers": [
+    {
+      "identifier": "807",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "miapetra.kumpula-natri@parliament.fi",
+  "birth_date": "1972-05-19",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/807.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3004"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=807&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2003-03-19"
+    }
+  ]
+}

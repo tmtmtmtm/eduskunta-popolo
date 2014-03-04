@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/817",
+  "name": "Tapani Mäkinen",
+  "family_name": "Mäkinen",
+  "given_names": "Heikki Tapani",
+  "identifiers": [
+    {
+      "identifier": "817",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "tapani.makinen@parliament.fi",
+  "birth_date": "1965-03-19",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/817.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3153"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=817&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2003-03-28",
+      "end_date": "2004-07-20"
+    }
+  ]
+}

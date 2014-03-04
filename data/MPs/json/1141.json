@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1141",
+  "name": "Peter Östman",
+  "family_name": "Östman",
+  "given_names": "Peter Johan",
+  "identifiers": [
+    {
+      "identifier": "1141",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "peter.ostman@parliament.fi",
+  "birth_date": "1961-12-16",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1141.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3197"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1141&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kd",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

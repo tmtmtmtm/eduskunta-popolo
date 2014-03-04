@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/935",
+  "name": "Eero Lehti",
+  "family_name": "Lehti",
+  "given_names": "Eero",
+  "identifiers": [
+    {
+      "identifier": "935",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "eero.lehti@parliament.fi",
+  "birth_date": "1944-08-23",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/935.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3104"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=935&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2007-03-21"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "popit.eduskunta/person/170",
+  "name": "Ilkka Kanerva",
+  "family_name": "Kanerva",
+  "given_names": "Ilkka Armas Mikael",
+  "identifiers": [
+    {
+      "identifier": "170",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "ilkka.kanerva@parliament.fi",
+  "birth_date": "1948-01-28",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/170.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3055"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=170&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "1975-09-27"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1987-04-30",
+      "end_date": "1990-08-27",
+      "role": "Minister at the Prime Minister Office"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1989-02-01",
+      "end_date": "1991-04-25",
+      "role": "Minister at the Ministry of Finance"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1990-08-28",
+      "end_date": "1991-04-25",
+      "role": "Minister of Transport"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1991-04-26",
+      "end_date": "1995-04-12",
+      "role": "Minister of Labour"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1991-04-26",
+      "end_date": "1995-04-12",
+      "role": "Minister at the Ministry of Finance"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "1991-04-26",
+      "end_date": "1991-08-23",
+      "role": "Minister deputising for the Prime Minister"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2007-04-19",
+      "end_date": "2008-04-03",
+      "role": "Minister for Foreign Affairs"
+    }
+  ]
+}

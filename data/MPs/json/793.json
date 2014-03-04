@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/793",
+  "name": "Erkki Virtanen",
+  "family_name": "Virtanen",
+  "given_names": "Erkki Alvar",
+  "identifiers": [
+    {
+      "identifier": "793",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "erkki.virtanen@parliament.fi",
+  "birth_date": "1952-08-15",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/793.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3032"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=793&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/vas",
+      "start_date": "2003-03-19"
+    }
+  ]
+}

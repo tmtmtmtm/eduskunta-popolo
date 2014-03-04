@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1112",
+  "name": "Hanna Tainio",
+  "family_name": "Tainio",
+  "given_names": "Hanna Maria",
+  "identifiers": [
+    {
+      "identifier": "1112",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "hanna.tainio@parliament.fi",
+  "birth_date": "1960-09-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1112.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3175"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1112&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

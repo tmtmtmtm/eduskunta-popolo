@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/613",
+  "name": "Inkeri Kerola",
+  "family_name": "Kerola",
+  "given_names": "Eeva Inkeri",
+  "identifiers": [
+    {
+      "identifier": "613",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "inkeri.kerola@parliament.fi",
+  "birth_date": "1957-03-18",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/613.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3145"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=613&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1999-03-24"
+    }
+  ]
+}

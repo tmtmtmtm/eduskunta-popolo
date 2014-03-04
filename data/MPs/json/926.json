@@ -1,0 +1,39 @@
+{
+  "id": "popit.eduskunta/person/926",
+  "name": "Maria Guzenina-Richardson",
+  "family_name": "Guzenina-Richardson",
+  "given_names": "Maria",
+  "identifiers": [
+    {
+      "identifier": "926",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "maria.guzenina-richardson@parliament.fi",
+  "birth_date": "1969-01-12",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/926.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3106"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=926&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/sd",
+      "start_date": "2007-03-21"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "end_date": "2013-05-23",
+      "role": "Minister of Health and Social Services"
+    }
+  ]
+}

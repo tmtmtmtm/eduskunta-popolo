@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/769",
+  "name": "Mikaela Nylander",
+  "family_name": "Nylander",
+  "given_names": "Mikaela Birgitta",
+  "identifiers": [
+    {
+      "identifier": "769",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "mikaela.nylander@parliament.fi",
+  "birth_date": "1970-03-27",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/769.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3029"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=769&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/r",
+      "start_date": "2003-03-19"
+    }
+  ]
+}

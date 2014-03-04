@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1106",
+  "name": "Mikko Savola",
+  "family_name": "Savola",
+  "given_names": "Mikko Tapio",
+  "identifiers": [
+    {
+      "identifier": "1106",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "mikko.savola@parliament.fi",
+  "birth_date": "1981-11-29",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1106.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3161"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1106&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

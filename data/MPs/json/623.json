@@ -1,0 +1,34 @@
+{
+  "id": "popit.eduskunta/person/623",
+  "name": "Christina Gestrin",
+  "family_name": "Gestrin",
+  "given_names": "Anna Christina",
+  "identifiers": [
+    {
+      "identifier": "623",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "christina.gestrin@parliament.fi",
+  "birth_date": "1967-01-12",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/623.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3121"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=623&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/r",
+      "start_date": "2000-04-26",
+      "end_date": "2003-03-18"
+    }
+  ]
+}

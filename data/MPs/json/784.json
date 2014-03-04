@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/784",
+  "name": "Arto Satonen",
+  "family_name": "Satonen",
+  "given_names": "Arto Olavi",
+  "identifiers": [
+    {
+      "identifier": "784",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "arto.satonen@parliament.fi",
+  "birth_date": "1966-10-20",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/784.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3110"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=784&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2003-03-19"
+    }
+  ]
+}

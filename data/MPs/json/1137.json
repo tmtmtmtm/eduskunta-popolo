@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1137",
+  "name": "Pauli Kiuru",
+  "family_name": "Kiuru",
+  "given_names": "Pauli Antero",
+  "identifiers": [
+    {
+      "identifier": "1137",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "pauli.kiuru@parliament.fi",
+  "birth_date": "1962-12-08",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1137.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3071"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1137&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2011-04-20"
+    }
+  ]
+}

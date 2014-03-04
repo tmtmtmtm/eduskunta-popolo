@@ -1,0 +1,50 @@
+{
+  "id": "popit.eduskunta/person/1031",
+  "name": "Alexander Stubb",
+  "family_name": "Stubb",
+  "given_names": "Cai-Göran Alexander",
+  "identifiers": [
+    {
+      "identifier": "1031",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "alexander.stubb@parliament.fi",
+  "birth_date": "1968-04-01",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1031.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3169"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1031&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2008-04-04",
+      "end_date": "2010-06-21",
+      "role": "Minister for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2010-06-22",
+      "end_date": "2011-06-21",
+      "role": "Minister for Foreign Affairs"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/kok",
+      "start_date": "2011-04-20"
+    },
+    {
+      "organization_id": "popit.eduskunta/council-of-state",
+      "start_date": "2011-06-22",
+      "role": "Minister for European Affairs and Foreign Trade"
+    }
+  ]
+}

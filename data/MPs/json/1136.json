@@ -1,0 +1,33 @@
+{
+  "id": "popit.eduskunta/person/1136",
+  "name": "Ville Vähämäki",
+  "family_name": "Vähämäki",
+  "given_names": "Ville Petteri",
+  "identifiers": [
+    {
+      "identifier": "1136",
+      "scheme": "eduskunta.fi"
+    }
+  ],
+  "email": "ville.vahamaki@parliament.fi",
+  "birth_date": "1979-03-30",
+  "image": "http://www.eduskunta.fi/fakta/edustaja/kuvat/1136.jpg",
+  "contact_details": [
+    {
+      "type": "phone",
+      "value": "+358 9 432 3195"
+    }
+  ],
+  "links": [
+    {
+      "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1136&kieli=en",
+      "note": "Eduskunta.fi (en)"
+    }
+  ],
+  "memberships": [
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
+    }
+  ]
+}
