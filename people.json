@@ -106,7 +106,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "1995-04-13",
         "end_date": "1999-04-14"
       },
@@ -203,13 +203,13 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Finance",
+        "role": "Minister of Finance",
         "start_date": "1995-04-13",
         "end_date": "1999-04-14"
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of the Interior",
+        "role": "Minister of the Interior",
         "start_date": "1995-04-13",
         "end_date": "1999-04-14"
       },
@@ -260,7 +260,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Finance",
+        "role": "Minister of Finance",
         "start_date": "1989-02-01",
         "end_date": "1991-04-25"
       },
@@ -278,7 +278,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Finance",
+        "role": "Minister of Finance",
         "start_date": "1991-04-26",
         "end_date": "1995-04-12"
       },
@@ -329,7 +329,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "1993-08-01",
         "end_date": "1995-04-12"
       },
@@ -438,7 +438,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of the Interior",
+        "role": "Minister of the Interior",
         "start_date": "2007-04-19",
         "end_date": "2008-01-01"
       },
@@ -603,25 +603,25 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "1987-04-30",
         "end_date": "1991-04-25"
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Trade and Industry",
+        "role": "Minister of Trade and Industry",
         "start_date": "1987-04-30",
         "end_date": "1991-04-25"
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "1991-04-26",
         "end_date": "1995-04-13"
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Trade and Industry",
+        "role": "Minister of Trade and Industry",
         "start_date": "1991-04-26",
         "end_date": "1995-04-13"
       },
@@ -672,7 +672,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Trade and Industry",
+        "role": "Minister of Trade and Industry",
         "start_date": "1999-04-15",
         "end_date": "2002-01-03"
       },
@@ -769,13 +769,13 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Social Affairs and Health",
+        "role": "Minister of Social Affairs and Health",
         "start_date": "1997-10-09",
         "end_date": "1999-04-14"
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Finance",
+        "role": "Minister of Finance",
         "start_date": "1997-10-09",
         "end_date": "1999-04-14"
       },
@@ -1249,7 +1249,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of the Interior",
+        "role": "Minister of the Interior",
         "start_date": "2007-04-19",
         "end_date": "2008-01-01"
       },
@@ -1300,13 +1300,13 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Finance",
+        "role": "Minister of Finance",
         "start_date": "2003-04-17",
         "end_date": "2003-06-23"
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Finance",
+        "role": "Minister of Finance",
         "start_date": "2003-06-24",
         "end_date": "2007-04-18"
       }
@@ -1934,7 +1934,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Trade and Industry",
+        "role": "Minister of Trade and Industry",
         "start_date": "2003-04-17",
         "end_date": "2003-06-23"
       },
@@ -2455,7 +2455,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "2007-06-01",
         "end_date": "2010-06-21"
       },
@@ -2467,7 +2467,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "2010-06-22",
         "end_date": "2011-06-21"
       },
@@ -3193,7 +3193,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Environment",
+        "role": "Minister of the Environment",
         "start_date": "2007-04-19",
         "end_date": "2008-01-01"
       },
@@ -3417,7 +3417,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry for Foreign Affairs",
+        "role": "Minister for Foreign Affairs",
         "start_date": "2007-01-01",
         "end_date": "2007-04-18"
       },
@@ -3427,7 +3427,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Social Affairs and Health",
+        "role": "Minister of Social Affairs and Health",
         "start_date": "2007-04-19",
         "end_date": "2010-06-21"
       },
@@ -3439,7 +3439,7 @@
       },
       {
         "organization_id": "popit.eduskunta/council-of-state",
-        "role": "Minister at the Ministry of Social Affairs and Health",
+        "role": "Minister of Social Affairs and Health",
         "start_date": "2010-06-22",
         "end_date": "2011-06-21"
       },
