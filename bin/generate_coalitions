@@ -5,10 +5,14 @@
 require 'json'
 
 info = [
-  [72, 'Katainen I',  ['2011-06-22'],               %w(kok sd vas vihr r kd)],
-  [71, 'Kiviniemi I', ['2010-06-22', '2011-06-22'], %w(kesk kok vihr r)], 
-  [70, 'Vanhanen II', ['2007-04-19', '2010-06-22'], %w(kesk kok vihr r)],
-  [69, 'Vanhanen I',  ['2003-07-26', '2007-04-19'], %w(kesk kok vihr r)],
+  [72, 'Katainen I',     ['2011-06-22'],               %w(kok sd vas vihr r kd)],
+  [71, 'Kiviniemi I',    ['2010-06-22', '2011-06-22'], %w(kesk kok vihr r)], 
+  [70, 'Vanhanen II',    ['2007-04-19', '2010-06-22'], %w(kesk kok vihr r)],
+  [69, 'Vanhanen I',     ['2003-07-26', '2007-04-19'], %w(kesk kok vihr r)],
+  [68, 'Jäätteenmäki I', ['2003-04-17', '2003-06-19'], %w(kesk kok vihr r)],
+  [67, 'Lipponen II',    ['1999-04-15', '2003-04-17'], %w(sd kok r vas vihr)], # TODO vihr left on 2002-05-31
+  [66, 'Lipponen I',     ['1995-04-13', '1999-04-15'], %w(sd kok r vas vihr)], 
+  [65, 'Aho I',          ['1991-04-26', '1995-04-13'], %w(kesk kok r kd)],     # NB kd was skl then
 ]
 
 orgs = info.each_with_object({}) { |(no, name, dates, members), h| 
