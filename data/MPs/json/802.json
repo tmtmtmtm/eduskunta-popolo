@@ -27,16 +27,19 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/vas",
+      "role": "MP",
       "start_date": "2003-03-19",
       "end_date": "2011-06-30"
     },
     {
       "organization_id": "popit.eduskunta/party/emus",
+      "role": "MP",
       "start_date": "2011-07-01",
       "end_date": "2011-09-07"
     },
     {
       "organization_id": "popit.eduskunta/party/vr",
+      "role": "MP",
       "start_date": "2011-09-08"
     }
   ]

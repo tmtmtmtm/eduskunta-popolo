@@ -27,6 +27,7 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/kesk",
+      "role": "MP",
       "start_date": "1979-03-24"
     },
     {

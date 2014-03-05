@@ -27,6 +27,7 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/vihr",
+      "role": "MP",
       "start_date": "2004-07-21"
     }
   ]

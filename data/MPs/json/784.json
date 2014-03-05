@@ -27,6 +27,7 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/kok",
+      "role": "MP",
       "start_date": "2003-03-19"
     }
   ]

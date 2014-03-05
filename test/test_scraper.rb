@@ -97,6 +97,11 @@ class ScraperTest < Test::Unit::TestCase
     assert_equal 'Prime Minister', @jyrki[:memberships][-1][:role]
   end
 
+  def test_mp_role
+    assert_equal 1, @sauli[:memberships].count
+    assert_equal 'MP', @sauli[:memberships][0][:role]
+  end
+
   # Only ever in one Party
   def test_party
     parties = @kimmo[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }

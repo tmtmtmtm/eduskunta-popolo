@@ -27,11 +27,13 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/r",
+      "role": "MP",
       "start_date": "2000-04-26",
       "end_date": "2003-03-18"
     },
     {
       "organization_id": "popit.eduskunta/party/r",
+      "role": "MP",
       "start_date": "2003-03-28"
     }
   ]

@@ -27,6 +27,7 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/ps",
+      "role": "MP",
       "start_date": "2009-07-20"
     }
   ]

@@ -27,11 +27,13 @@
   "memberships": [
     {
       "organization_id": "popit.eduskunta/party/kesk",
+      "role": "MP",
       "start_date": "1983-03-26",
       "end_date": "1996-11-18"
     },
     {
       "organization_id": "popit.eduskunta/party/kesk",
+      "role": "MP",
       "start_date": "1999-03-24"
     },
     {

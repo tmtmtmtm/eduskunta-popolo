@@ -1,7 +1,7 @@
 class Eduskunta
 
   class Membership
-    attr_accessor :organization_id, :start_date, :end_date
+    attr_accessor :organization_id, :role, :start_date, :end_date
 
     def initialize(params = {})
       params.each { |k, v| instance_variable_set("@#{k}", v) }
@@ -10,8 +10,9 @@ class Eduskunta
     def to_hash
       return {
         :organization_id => organization_id,
-        :start_date => start_date,
-        :end_date => end_date,
+        :role            => role,
+        :start_date      => start_date,
+        :end_date        => end_date,
       }.reject { |k,v| v.nil? }
     end
     
@@ -39,20 +40,8 @@ class Eduskunta
   end
 
   class Cabinet < Membership
-    attr_accessor :role
-
     require 'json'
-
     @@posts = JSON.parse(File.read('posts.json'))
-
-    def to_hash
-      return {
-        :organization_id => organization_id,
-        :role => role,
-        :start_date => start_date,
-        :end_date => end_date,
-      }.reject { |k,v| v.nil? }
-    end
 
     def organization_id 
       "popit.eduskunta/council-of-state"
@@ -76,13 +65,10 @@ class Eduskunta
       return match['role']
     end
 
-
   end
 
   class Party < Membership
-
     require 'json'
-
     @@parties = JSON.parse(File.read('parties.json'))
 
     def self.name_to_id(name)
@@ -100,6 +86,7 @@ class Eduskunta
       return dates.collect { |d|
         self.new({
           :organization_id => name_to_id(party), 
+          :role       => 'MP',
           :start_date => d[0],
           :end_date   => d[1],
         })
