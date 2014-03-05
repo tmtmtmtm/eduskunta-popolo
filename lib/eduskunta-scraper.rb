@@ -4,16 +4,13 @@ class Eduskunta
     attr_accessor :organization_id, :role, :start_date, :end_date
 
     def initialize(params = {})
-      params.each { |k, v| instance_variable_set("@#{k}", v) }
+      params.each { |k, v| public_send("#{k}=", v) }
     end
 
     def to_hash
-      return {
-        :organization_id => organization_id,
-        :role            => role,
-        :start_date      => start_date,
-        :end_date        => end_date,
-      }.reject { |k,v| v.nil? }
+      return Hash[%w(organization_id role start_date end_date).map { |name| 
+        [ name.to_sym, public_send(name) ]
+      }]
     end
 
     # May return multiple objects
@@ -36,7 +33,6 @@ class Eduskunta
     # Swedish Parliamentary Group 21.03.1987 - 23.03.1995, 05.01.2007 - 20.03.2007, 05.09.2013 -
     # The Finns Party Parliamentary Group (True Finns Party - 20.08.2011) 20.04.2011 -
     # The Finns Party Parliamentary Group (Finnish Rural Party Parliamentary Group - 25.10.1995, True Finns Party 26.10.1995 - 20.08.2011) 26.03.1983 - 23.03.1995, 20.04.2011 -
-    # 
     # Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, 
     def self.parse_membership(str)
       date_re = /\d{2}\.\d{2}\.\d{4}/
