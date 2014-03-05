@@ -31,6 +31,10 @@
       "end_date": "1996-11-18"
     },
     {
+      "organization_id": "popit.eduskunta/party/kesk",
+      "start_date": "1999-03-24"
+    },
+    {
       "organization_id": "popit.eduskunta/council-of-state",
       "role": "Minister of Agriculture and Forestry",
       "start_date": "2007-04-19",

@@ -14,6 +14,24 @@ class Eduskunta
         :end_date => end_date,
       }.reject { |k,v| v.nil? }
     end
+    
+    # National Coalition Party 26.03.1983 -
+    # Swedish Parliamentary Group 21.03.1987 - 23.03.1995, 05.01.2007 - 20.03.2007, 05.09.2013 -
+    # Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, 
+    def self.parse_membership(str)
+      date_re = /\d{2}\.\d{2}\.\d{4}/
+      range_re = /#{date_re}\s+-\s+#{date_re}\s*,?\s*/
+      dates = []
+      str.gsub!(range_re) { |range|
+        dates << range.scan(date_re).collect { |d| Date.find_in(d) }
+        ''
+      }
+      str.gsub!(/#{date_re}\s*\-\s*/) { |range|
+        dates << range.scan(date_re).collect { |d| Date.find_in(d) }
+        ''
+      }
+      return str.strip, dates
+    end
 
   end
 
@@ -67,22 +85,26 @@ class Eduskunta
     def self.name_to_id(name)
       match = @@parties.find{ |p| p['other_names'].find { |n| n['name'] == name } }
       return match['id'] if match
+      raise "No such party: <#{name}>"
     end
 
     def organization_id 
       id
     end
 
+
+    # May return multiple objects
     def self.from_str(text)
-      text.gsub!(/\(.*?\)/, '')  # strip out historic party names
-      /^\s*(.*?)\s+(\d{2}\.\d{2}\.\d{4})\s+-(.*)$/.match(text) or 
-        raise "Can't parse party membership from #{text}"
-      self.new({
-        :name       => $1,
-        :id         => name_to_id($1), 
-        :start_date => Date.find_in($2),
-        :end_date   => Date.find_in($3, true),
-      })
+      text.gsub!(/\(.*?\)/, '')  # strip out historic party names # TODO no test for this
+      party, dates = parse_membership(text)
+      return dates.collect { |d|
+        self.new({
+          :name       => party,
+          :id         => name_to_id(party), 
+          :start_date => d[0],
+          :end_date   => d[1],
+        })
+      }
     end
 
   end
@@ -202,7 +224,7 @@ class Eduskunta
     end
 
     def parties
-      parties_raw.collect { |p| Party.from_str(p).to_hash }
+      parties_raw.collect { |p| Party.from_str(p) }.flatten.collect{ |p| p.to_hash }
     end
 
     def infotable

@@ -29,6 +29,15 @@
       "organization_id": "popit.eduskunta/party/ps",
       "start_date": "1983-03-26",
       "end_date": "1987-03-20"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "1989-05-16",
+      "end_date": "1991-03-21"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/ps",
+      "start_date": "2011-04-20"
     }
   ]
 }

@@ -8,6 +8,7 @@ class ScraperTest < Test::Unit::TestCase
     @jyrki = Eduskunta::Scraper.new(File.open('data/MPs/html/571.html')).as_hash
     @kimmo = Eduskunta::Scraper.new(File.open('data/MPs/html/261.html')).as_hash
     @musta = Eduskunta::Scraper.new(File.open('data/MPs/html/802.html')).as_hash
+    @donner = Eduskunta::Scraper.new(File.open('data/MPs/html/109.html')).as_hash
   end
 
   def test_find_party
@@ -115,6 +116,16 @@ class ScraperTest < Test::Unit::TestCase
     assert_equal '2003-03-19', parties[0][:start_date]
     assert_equal '2011-06-30', parties[0][:end_date]
     assert_nil   parties[-1][:end_date]
+  end
+
+  def test_in_party_multiple_times
+    parties = @donner[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
+    assert_equal 3, parties.count
+    assert_equal ["popit.eduskunta/party/r"], parties.collect { |p| p[:organization_id] }.uniq 
+    assert_equal "1987-03-21", parties[0][:start_date]
+    assert_equal "1995-03-23", parties[0][:end_date]
+    assert_equal "2013-09-05", parties[-1][:start_date]
+    assert_nil parties[-1][:end_date]
   end
 
 end

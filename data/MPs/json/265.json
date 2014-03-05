@@ -31,10 +31,19 @@
       "end_date": "1991-03-21"
     },
     {
+      "organization_id": "popit.eduskunta/party/vihr",
+      "start_date": "1995-03-24",
+      "end_date": "2007-03-20"
+    },
+    {
       "organization_id": "popit.eduskunta/council-of-state",
       "role": "Minister of Health and Social Services",
       "start_date": "2000-04-14",
       "end_date": "2002-04-18"
+    },
+    {
+      "organization_id": "popit.eduskunta/party/vihr",
+      "start_date": "2011-04-20"
     }
   ]
 }
