@@ -36,13 +36,9 @@ class Eduskunta
     # Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, 
     def self.parse_membership(str)
       date_re = /\d{2}\.\d{2}\.\d{4}/
-      range_re = /#{date_re}\s+-\s+#{date_re}\s*,?\s*/
+      range_re = /#{date_re} \s+-\s+ #{date_re}? \s*,?\s*/x
       dates = []
       str.gsub!(range_re) { |range|
-        dates << range.scan(date_re).collect { |d| Date.find_in(d) }
-        ''
-      }
-      str.gsub!(/#{date_re}\s*\-\s*/) { |range|
         dates << range.scan(date_re).collect { |d| Date.find_in(d) }
         ''
       }
