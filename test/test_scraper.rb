@@ -4,10 +4,10 @@ require 'test/unit'
 class ScraperTest < Test::Unit::TestCase
 
   def setup
-    @sauli = Eduskunta::Scraper.new(File.open('test/data/1086.html')).as_hash
-    @jyrki = Eduskunta::Scraper.new(File.open('test/data/571.html')).as_hash
-    @kimmo = Eduskunta::Scraper.new(File.open('test/data/261.html')).as_hash
-    @musta = Eduskunta::Scraper.new(File.open('test/data/802.html')).as_hash
+    @sauli = Eduskunta::Scraper.new(File.open('data/MPs/html/1086.html')).as_hash
+    @jyrki = Eduskunta::Scraper.new(File.open('data/MPs/html/571.html')).as_hash
+    @kimmo = Eduskunta::Scraper.new(File.open('data/MPs/html/261.html')).as_hash
+    @musta = Eduskunta::Scraper.new(File.open('data/MPs/html/802.html')).as_hash
   end
 
   def test_find_party
