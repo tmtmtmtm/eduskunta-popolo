@@ -10,19 +10,20 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_find_party
-    assert_equal "popit.eduskunta/party/vas", Eduskunta::Party.name_to_id('Left Alliance')
+    assert_equal "popit.eduskunta/party/vas", Eduskunta::Party.organization_id_from('Left Alliance')
+  end
+
+  def test_find_old_party
+    assert_equal "popit.eduskunta/party/ps", Eduskunta::Party.organization_id_from('True Finns Party')
   end
 
   def test_fail_to_find_party
     # TODO assert_raise_with_error in Ruby 2.1
     assert_raise RuntimeError do
-      Eduskunta::Party.name_to_id('No Such Party')
+      Eduskunta::Party.organization_id_from('No Such Party')
     end 
   end
 
-  def test_find_old_party
-    assert_equal "popit.eduskunta/party/ps", Eduskunta::Party.name_to_id('True Finns Party')
-  end
 
   def test_id
     assert_equal 'popit.eduskunta/person/1086', @sauli[:id]

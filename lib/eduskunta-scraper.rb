@@ -15,7 +15,23 @@ class Eduskunta
         :end_date        => end_date,
       }.reject { |k,v| v.nil? }
     end
-    
+
+    # May return multiple objects
+    def self.from_str(text)
+      # strip out historic names. 
+      # Must happen before parsing, as they include dates
+      text.gsub!(/\( [^\)]+ \)/x, '')  
+      posn, dates = parse_membership(text)
+      return dates.collect { |d|
+        self.new({
+          :organization_id => organization_id_from(posn), 
+          :role       => role_from(posn),
+          :start_date => d[0],
+          :end_date   => d[1],
+        })
+      }
+    end
+
     # National Coalition Party 26.03.1983 -
     # Swedish Parliamentary Group 21.03.1987 - 23.03.1995, 05.01.2007 - 20.03.2007, 05.09.2013 -
     # The Finns Party Parliamentary Group (True Finns Party - 20.08.2011) 20.04.2011 -
@@ -43,20 +59,8 @@ class Eduskunta
     require 'json'
     @@posts = JSON.parse(File.read('posts.json'))
 
-    def organization_id 
+    def self.organization_id_from(posn) 
       "popit.eduskunta/council-of-state"
-    end
-
-    def self.from_str (text)
-      text.gsub!(/\( [^\)]+ \)/x, '')  
-      posn, dates = parse_membership(text)
-      return dates.collect { |d|
-        self.new({
-          :role       => role_from(posn),
-          :start_date => d[0],
-          :end_date   => d[1],
-        })
-      }
     end
 
     def self.role_from (name)
@@ -71,26 +75,14 @@ class Eduskunta
     require 'json'
     @@parties = JSON.parse(File.read('parties.json'))
 
-    def self.name_to_id(name)
+    def self.organization_id_from (name)
       match = @@parties.find{ |p| p['other_names'].find { |n| n['name'] == name } }
       return match['id'] if match
       raise "No such party: <#{name}>"
     end
 
-    # May return multiple objects
-    def self.from_str(text)
-      # strip out historic party names. 
-      # Must happen before parsing, as they include dates
-      text.gsub!(/\( [^\)]+ \)/x, '')  
-      party, dates = parse_membership(text)
-      return dates.collect { |d|
-        self.new({
-          :organization_id => name_to_id(party), 
-          :role       => 'MP',
-          :start_date => d[0],
-          :end_date   => d[1],
-        })
-      }
+    def self.role_from (name)
+      'MP'
     end
 
   end
