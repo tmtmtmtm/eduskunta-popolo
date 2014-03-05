@@ -186,7 +186,7 @@ class Eduskunta
     end
 
     def council_of_state
-      council_of_state_raw.collect { |cs| Cabinet.from_str(cs) }.flatten.collect { |p| p.to_hash }
+      council_of_state_raw.flat_map { |cs| Cabinet.from_str(cs) }.collect { |p| p.to_hash }
     end
 
     def parties_raw
@@ -194,7 +194,7 @@ class Eduskunta
     end
 
     def parties
-      parties_raw.collect { |p| Party.from_str(p) }.flatten.collect{ |p| p.to_hash }
+      parties_raw.flat_map { |p| Party.from_str(p) }.collect{ |p| p.to_hash }
     end
 
     def infotable
