@@ -1,7 +1,7 @@
 class Eduskunta
 
   class Membership
-    attr_accessor :name, :organization_id, :start_date, :end_date
+    attr_accessor :organization_id, :start_date, :end_date
 
     def initialize(params = {})
       params.each { |k, v| instance_variable_set("@#{k}", v) }
@@ -99,7 +99,6 @@ class Eduskunta
       party, dates = parse_membership(text)
       return dates.collect { |d|
         self.new({
-          :name       => party,
           :organization_id => name_to_id(party), 
           :start_date => d[0],
           :end_date   => d[1],
