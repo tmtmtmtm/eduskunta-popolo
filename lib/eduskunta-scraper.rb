@@ -1,7 +1,7 @@
 class Eduskunta
 
   class Membership
-    attr_accessor :name, :id, :start_date, :end_date
+    attr_accessor :name, :organization_id, :start_date, :end_date
 
     def initialize(params = {})
       params.each { |k, v| instance_variable_set("@#{k}", v) }
@@ -91,11 +91,6 @@ class Eduskunta
       raise "No such party: <#{name}>"
     end
 
-    def organization_id 
-      id
-    end
-
-
     # May return multiple objects
     def self.from_str(text)
       # strip out historic party names. 
@@ -105,7 +100,7 @@ class Eduskunta
       return dates.collect { |d|
         self.new({
           :name       => party,
-          :id         => name_to_id(party), 
+          :organization_id => name_to_id(party), 
           :start_date => d[0],
           :end_date   => d[1],
         })
