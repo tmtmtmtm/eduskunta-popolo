@@ -14,7 +14,10 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_fail_to_find_party
-    assert_nil Eduskunta::Party.name_to_id('No Such Party')
+    # TODO assert_raise_with_error in Ruby 2.1
+    assert_raise RuntimeError do
+      Eduskunta::Party.name_to_id('No Such Party')
+    end 
   end
 
   def test_find_old_party
@@ -125,6 +128,13 @@ class ScraperTest < Test::Unit::TestCase
     assert_equal "1995-03-23", parties[0][:end_date]
     assert_equal "2013-09-05", parties[-1][:start_date]
     assert_nil parties[-1][:end_date]
+  end
+
+  def test_party_changed_name
+    mp = Eduskunta::Scraper.new(File.open('data/MPs/html/1091.html')).as_hash
+    parties = mp[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
+    assert_equal 1, parties.count
+    assert_equal "popit.eduskunta/party/ps", parties[0][:organization_id]
   end
 
 end
