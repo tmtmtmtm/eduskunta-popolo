@@ -58,16 +58,16 @@ class Eduskunta
       "popit.eduskunta/council-of-state"
     end
 
-    # Prime Minister (Katainen)  22.06.2011
-    # "Minister for Foreign Trade (Lipponen II)  15.04.1999 - 03.01.2002, ",
     def self.from_str (text)
-      /(.*?)\s\([^\)]+\)\s+(\d{2}\.\d{2}\.\d{4})\s+(.*)$/.match(text) or 
-        raise "Can't parse Council of State membership from #{text}"
-      self.new({
-        :role       => role_from($1),
-        :start_date => Date.find_in($2),
-        :end_date   => Date.find_in($3, true),
-      })
+      text.gsub!(/\( [^\)]+ \)/x, '')  
+      posn, dates = parse_membership(text)
+      return dates.collect { |d|
+        self.new({
+          :role       => role_from(posn),
+          :start_date => d[0],
+          :end_date   => d[1],
+        })
+      }
     end
 
     def self.role_from (name)
@@ -221,7 +221,7 @@ class Eduskunta
     end
 
     def council_of_state
-      council_of_state_raw.collect { |cs| Cabinet.from_str(cs).to_hash }
+      council_of_state_raw.collect { |cs| Cabinet.from_str(cs) }.flatten.collect { |p| p.to_hash }
     end
 
     def parties_raw
