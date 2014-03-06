@@ -27,7 +27,12 @@
   {
     "id": "popit.eduskunta/council/md",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Defence"
+    "role": "Minister of Defence",
+    "other_labels": [
+      {
+        "name": "Puolustusministeri"
+      }
+    ]
   },
   {
     "id": "popit.eduskunta/council/med",

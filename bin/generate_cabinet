@@ -51,6 +51,7 @@ fi = {
   'Oikeusministeri' => 'mj',
   'Opetusministeri' => 'med',
   'Pääministeri' => 'pm',
+  'Puolustusministeri' => 'md',
   'Sisäasiainministeri' => 'mi',
   'Sosiaaliministeri' => 'msa',
   'Ulkoasiainministeri' => 'mfa',
