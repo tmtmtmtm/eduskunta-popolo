@@ -158,15 +158,15 @@ class Eduskunta
     end
 
     def fullname
-      return infotable.xpath('tr/th[.="Full name: "]/following-sibling::td').text.gsub(/\s+/, ' ')
+      return infotable.xpath('tr[contains(th,"Full name:")]/td').text.gsub(/\s+/, ' ')
     end
 
     def phone 
-      return infotable.xpath('tr/th[.="Telephone: "]/following-sibling::td').text
+      return infotable.xpath('tr[contains(th,"Telephone:")]/td').text
     end
 
     def birth_date
-      birth = infotable.xpath('tr/th[.="Date and place of birth: "]/following-sibling::td').text
+      birth = infotable.xpath('tr[contains(th,"Date and place of birth:")]/td').text
       return Date.find_in(birth)
     end
 
@@ -197,7 +197,7 @@ class Eduskunta
     end
 
     def parties_raw
-      return @noko.xpath('//table/tr/th[.="Parliamentary groups: "]/following-sibling::td/ul/li').collect { |li| li.text }
+      return @noko.xpath('//table/tr[contains(th,"Parliamentary groups:")]/td/ul/li').collect { |li| li.text }
     end
 
     def infotable
