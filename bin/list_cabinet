@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
 
 # Show what the Cabinet membership was on a given date
+# Compare with e.g. http://en.wikipedia.org/wiki/Jyrki_Katainen%27s_cabinet
 
 require 'json'
 require 'date'
@@ -16,12 +17,9 @@ def memberships_on(p, date)
   }
 end
 
-people = JSON.parse(File.read('people.json'))
-
-people.map { |p|
-  memberships_on(p, date).map { |m|
-    "#{m['role']}: #{p['name']} (#{p['id']})" 
-  }
-}.sort.each { |m| puts m }
-
+JSON.parse(File.read('people.json')).flat_map { |p| 
+  memberships_on(p, date).map { |m| [m, p] } 
+}.sort_by {|m,p| p['family_name'] }.each { |m,p| 
+  puts "#{m['role']}: #{p['name']} (#{p['id']})" 
+}
 
