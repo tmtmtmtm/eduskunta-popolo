@@ -1,0 +1,27 @@
+#!/usr/bin/ruby
+
+# Show what the Cabinet membership was on a given date
+
+require 'json'
+require 'date'
+
+date_arg = ARGV[0] or abort "Usage: #{$0} <YYYY-MM-DD>"
+date = Date.parse(date_arg)
+
+def memberships_on(p, date)
+  p['memberships'].select { |m| 
+    m['organization_id'] == 'popit.eduskunta/council-of-state' && 
+      date >= Date.parse(m['start_date']) &&
+      date <= Date.parse(m['end_date'] ||= '2100-01-01')
+  }
+end
+
+people = JSON.parse(File.read('people.json'))
+
+people.map { |p|
+  memberships_on(p, date).map { |m|
+    "#{m['role']}: #{p['name']} (#{p['id']})" 
+  }
+}.sort.each { |m| puts m }
+
+
