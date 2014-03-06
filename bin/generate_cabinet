@@ -29,6 +29,7 @@ roles = {
   'mpalg' => 'Minister of Public Administration and Local Government',
   'mpo' => 'Minister at the Prime Minister Office',
   'mrma' => 'Minister of Regional and Municipal Affairs',
+  'msa' => 'Minister of Social Affairs',
   'msah' => 'Minister of Social Affairs and Health',
   'mt' => 'Minister of Transport',
   'mtc' => 'Minister of Transport and Communications',
@@ -50,6 +51,7 @@ fi = {
   'Oikeusministeri' => 'mj',
   'Apulaissisäasiainministeri' => 'dmi',
   'Sisäasiainministeri' => 'mi',
+  'Sosiaaliministeri' => 'msa',
   'Ulkoasiainministeri' => 'mfa',
 }
 

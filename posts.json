@@ -161,6 +161,16 @@
     "role": "Minister of Regional and Municipal Affairs"
   },
   {
+    "id": "popit.eduskunta/council/msa",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Social Affairs",
+    "other_labels": [
+      {
+        "name": "Sosiaaliministeri"
+      }
+    ]
+  },
+  {
     "id": "popit.eduskunta/council/msah",
     "organization_id": "popit.eduskunta/council-of-state",
     "role": "Minister of Social Affairs and Health",
