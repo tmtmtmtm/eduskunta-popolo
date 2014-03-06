@@ -1,0 +1,27 @@
+#!/usr/bin/ruby
+
+# Spider all the old MP pages (in Finnish) based on the list at
+# http://www.eduskunta.fi/triphome/bin/hx5000.sh?${APPL}=hetekaue&${BASE}=hetekaue&${THWIDS}=2.24/1394092824_338278&${oohtml}=hex/hx3510&${html}=hex/hx3510&${snhtml}=hex/hxnosynk"
+
+require 'nokogiri'
+require 'watir-webdriver'
+
+ED_BASE = 'http://www.eduskunta.fi'
+list = 'data/oldMPs/full_list.html'
+
+doc = Nokogiri::HTML(open(list))
+
+begin
+  browser = Watir::Browser.new
+  doc.xpath('//a[@target="edus_main"]').each do |link|
+    mp_url = ED_BASE + link['href']
+    local_id = mp_url.scan(/THWIDS}=(\d+)/).first.first or abort "No ID in #{mp_url}"
+    warn "Getting #{local_id} from #{mp_url}"
+    browser.goto mp_url
+    html = browser.frame(:name => 'oikea2').html
+    html.scan(/Täydellinen/) or die "Doesn't look like valid HTML: #{html}"
+    File.open("data/oldMPs/html/#{local_id}", 'w') { |file| file.write(html) }
+  end
+ensure
+  browser.quit
+end
