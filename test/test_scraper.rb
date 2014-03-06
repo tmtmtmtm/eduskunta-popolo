@@ -4,9 +4,9 @@ require 'test/unit'
 class ScraperTest < Test::Unit::TestCase
 
   def setup
-    @sauli = Eduskunta::Scraper.new(File.open('data/MPs/html/1086.html')).as_hash
-    @jyrki = Eduskunta::Scraper.new(File.open('data/MPs/html/571.html')).as_hash
-    @kimmo = Eduskunta::Scraper.new(File.open('data/MPs/html/261.html')).as_hash
+    @sauli = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/1086.html')).as_hash
+    @jyrki = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/571.html')).as_hash
+    @kimmo = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/261.html')).as_hash
   end
 
   def test_find_party
@@ -114,7 +114,7 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_changed_party
-    mp = Eduskunta::Scraper.new(File.open('data/MPs/html/802.html')).as_hash
+    mp = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/802.html')).as_hash
     parties = mp[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
     assert_equal 3, parties.count
     assert_equal "popit.eduskunta/party/vas",  parties[0][:organization_id]
@@ -126,7 +126,7 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_in_party_multiple_times
-    mp = Eduskunta::Scraper.new(File.open('data/MPs/html/109.html')).as_hash
+    mp = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/109.html')).as_hash
     parties = mp[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
     assert_equal 3, parties.count
     assert_equal ["popit.eduskunta/party/r"], parties.collect { |p| p[:organization_id] }.uniq 
@@ -137,7 +137,7 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   def test_party_changed_name
-    mp = Eduskunta::Scraper.new(File.open('data/MPs/html/1091.html')).as_hash
+    mp = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/1091.html')).as_hash
     parties = mp[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
     assert_equal 1, parties.count
     assert_equal "popit.eduskunta/party/ps", parties[0][:organization_id]

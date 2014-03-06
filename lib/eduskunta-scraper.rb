@@ -86,6 +86,7 @@ class Eduskunta
 
     @@PARL_URL = 'http://www.eduskunta.fi'
     
+    # TODO try to detect whether the file is EN or FI and delegate
     def initialize(file)
       @file = file
       @noko = Nokogiri::HTML(file.read)
@@ -112,15 +113,6 @@ class Eduskunta
       combined.sort_by { |m| m[:start_date] }.collect { |i| i.reject { |k, v| v.nil? } }
     end
 
-
-    def name
-      return @noko.at('div.subhead h4').text.strip
-    end
-
-    def fullname
-      return infotable.xpath('tr/th[.="Full name: "]/following-sibling::td').text.gsub(/\s+/, ' ')
-    end
-
     def family_name
       fullname.gsub(/,.*/, '').strip
     end
@@ -136,10 +128,6 @@ class Eduskunta
       }]
     end
 
-    def phone 
-      return infotable.xpath('tr/th[.="Telephone: "]/following-sibling::td').text
-    end
-
     def contact_details 
       return [
         { 
@@ -149,19 +137,42 @@ class Eduskunta
       ]
     end
 
+    def our_id
+      "popit.eduskunta/person/" + official_id
+    end
+
+    def council_of_state
+      council_of_state_raw.flat_map { |cs| Cabinet.from_str(cs) }.collect { |p| p.to_hash }
+    end
+
+    def parties
+      parties_raw.flat_map { |p| Party.from_str(p) }.collect{ |p| p.to_hash }
+    end
+
+  end
+
+  class Scraper::EN < Scraper
+
+    def name
+      return @noko.at('div.subhead h4').text.strip
+    end
+
+    def fullname
+      return infotable.xpath('tr/th[.="Full name: "]/following-sibling::td').text.gsub(/\s+/, ' ')
+    end
+
+    def phone 
+      return infotable.xpath('tr/th[.="Telephone: "]/following-sibling::td').text
+    end
+
     def birth_date
       birth = infotable.xpath('tr/th[.="Date and place of birth: "]/following-sibling::td').text
       return Date.find_in(birth)
     end
 
-
     def official_id
       french = @noko.at('#edustaja-alku a:nth-child(4)')
       /hnro\=(\d+)/.match(french['href']) and return $1 or raise "No ID in #{french['href']}"
-    end
-
-    def our_id
-      "popit.eduskunta/person/" + official_id
     end
 
     #TODO add the other language links too
@@ -185,16 +196,8 @@ class Eduskunta
       cos_table = @noko.xpath('//h3[.="Member in the Council of State"]/following-sibling::table/tr//ul/li').collect { |li| li.text }
     end
 
-    def council_of_state
-      council_of_state_raw.flat_map { |cs| Cabinet.from_str(cs) }.collect { |p| p.to_hash }
-    end
-
     def parties_raw
       return @noko.xpath('//table/tr/th[.="Parliamentary groups: "]/following-sibling::td/ul/li').collect { |li| li.text }
-    end
-
-    def parties
-      parties_raw.flat_map { |p| Party.from_str(p) }.collect{ |p| p.to_hash }
     end
 
     def infotable
