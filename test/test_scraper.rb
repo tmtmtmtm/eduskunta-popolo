@@ -105,7 +105,6 @@ class ScraperTest < Test::Unit::TestCase
   end
 
 
-
   # Split across two sections for Minister and Prime Minster
   def test_pm_council_of_state
     cos = @jyrki[:memberships].select { |m| m[:organization_id] == 'popit.eduskunta/council-of-state' }
@@ -113,6 +112,14 @@ class ScraperTest < Test::Unit::TestCase
     assert_equal 'Prime Minister', cos[4][:role]
     assert_equal '2011-06-22', cos[4][:start_date]
     assert_nil   cos[4][:end_date]
+  end
+
+  # Split across two sections for Minister and Prime Minster
+  def test_pm_council_of_state_fi
+    cos = @kekkonen[:memberships].select { |m| m[:organization_id] == 'popit.eduskunta/council-of-state' }
+    assert_equal 14, cos.count
+    assert_equal 5, cos.select { |m| m[:role] == 'Prime Minister' }.count
+    assert_equal 1, cos.select { |m| m[:role] == 'Deputy Minister of the Interior' }.count
   end
 
   # Split across Minister section only

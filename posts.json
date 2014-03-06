@@ -2,7 +2,12 @@
   {
     "id": "popit.eduskunta/council/pm",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Prime Minister"
+    "role": "Prime Minister",
+    "other_labels": [
+      {
+        "name": "Pääministeri"
+      }
+    ]
   },
   {
     "id": "popit.eduskunta/council/dpm",
@@ -66,6 +71,9 @@
     "other_labels": [
       {
         "name": "Minister at the Ministry for Foreign Affairs"
+      },
+      {
+        "name": "Ulkoasiainministeri"
       }
     ]
   },
@@ -101,6 +109,19 @@
     "other_labels": [
       {
         "name": "Minister at the Ministry of the Interior"
+      },
+      {
+        "name": "Sisäasiainministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/dmi",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Deputy Minister of the Interior",
+    "other_labels": [
+      {
+        "name": "Apulaissisäasiainministeri"
       }
     ]
   },
@@ -112,7 +133,12 @@
   {
     "id": "popit.eduskunta/council/mj",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Justice"
+    "role": "Minister of Justice",
+    "other_labels": [
+      {
+        "name": "Oikeusministeri"
+      }
+    ]
   },
   {
     "id": "popit.eduskunta/council/ml",

@@ -22,6 +22,7 @@ roles = {
   'mhc' => 'Minister of Housing and Communications',
   'mhss' => 'Minister of Health and Social Services',
   'mi' => 'Minister of the Interior',
+  'dmi' => 'Deputy Minister of the Interior',
   'mid' => 'Minister for International Development',
   'mj' => 'Minister of Justice',
   'ml' => 'Minister of Labour',
@@ -36,12 +37,20 @@ roles = {
 
 # Assume these are the same things...
 odd = {
-  'menv' => 'Minister at the Ministry of Environment',
-  'mf' => 'Minister at the Ministry of Finance',
-  'mi' => 'Minister at the Ministry of the Interior',
-  'mfa' => 'Minister at the Ministry for Foreign Affairs',
-  'msah' => 'Minister at the Ministry of Social Affairs and Health',
-  'mti' => 'Minister at the Ministry of Trade and Industry',
+  'Minister at the Ministry of Environment' => 'menv',
+  'Minister at the Ministry of Finance' => 'mf',
+  'Minister at the Ministry of the Interior' => 'mi',
+  'Minister at the Ministry for Foreign Affairs' => 'mfa',
+  'Minister at the Ministry of Social Affairs and Health' => 'msah',
+  'Minister at the Ministry of Trade and Industry' => 'mti',
+}
+
+fi = { 
+  'Pääministeri' => 'pm',
+  'Oikeusministeri' => 'mj',
+  'Apulaissisäasiainministeri' => 'dmi',
+  'Sisäasiainministeri' => 'mi',
+  'Ulkoasiainministeri' => 'mfa',
 }
 
 posts = roles.each_with_object({}) { |(abbrev, name), h| 
@@ -52,8 +61,12 @@ posts = roles.each_with_object({}) { |(abbrev, name), h|
   }
 }
 
-odd.each { |abbrev, name| 
-  posts[abbrev][:other_labels] = [ { :name => name } ]
+odd.each { |name, abbrev| 
+  (posts[abbrev][:other_labels] ||= []).push({ :name => name })
+}
+
+fi.each { |name, abbrev| 
+  (posts[abbrev][:other_labels] ||= []).push({ :name => name })
 }
 
 warn "We have #{posts.count} posts"

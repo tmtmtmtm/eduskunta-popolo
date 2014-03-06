@@ -56,7 +56,7 @@ class Eduskunta
     end
 
     def self.role_from (name)
-      match = @@posts.find{ |p| p['role'] == name } || @@posts.find{ |p| (p['other_labels'] || []).find { |n| n['name'] == name } }
+      match = @@posts.find{ |p| p['role'].casecmp(name).zero? } || @@posts.find{ |p| (p['other_labels'] || []).find { |n| n['name'].casecmp(name).zero? } }
       abort "No such post #{name}" unless match 
       return match['role']
     end
@@ -106,7 +106,7 @@ class Eduskunta
         :contact_details => contact_details,
         :links => links,
         :memberships => memberships,
-      }
+      }.reject { |k,v| v.nil? }
     end
 
     def memberships
@@ -199,15 +199,15 @@ class Eduskunta
     end
 
     def council_of_state_raw
-      cos_table = @noko.xpath('//h3[.="Member in the Council of State"]/following-sibling::table/tr//ul/li').collect { |li| li.text }
+      @noko.xpath('//h3[.="Member in the Council of State"]/following-sibling::table/tr//ul/li').collect { |li| li.text }
     end
 
     def parties_raw
-      return @noko.xpath('//table/tr[contains(th,"Parliamentary groups:")]/td/ul/li').collect { |li| li.text }
+      @noko.xpath('//table/tr[contains(th,"Parliamentary groups:")]/td/ul/li').collect { |li| li.text }
     end
 
     def infotable
-       @infotable ||= @noko.at('table.datatable') or raise "No infotable"
+      @infotable ||= @noko.at('table.datatable') or raise "No infotable"
     end
 
   end
@@ -220,10 +220,6 @@ class Eduskunta
 
     def fullname
       @noko.xpath('//table/tbody/tr[contains(td[1],"nimi")]/td[2]').text.gsub(/\s+/, ' ')
-    end
-
-    def phone 
-      nil
     end
 
     def birth_date
@@ -241,9 +237,21 @@ class Eduskunta
       File.basename(@file.path)
     end
 
+    def council_of_state_raw
+      @noko.xpath('//table/tbody/tr[contains(td[1],"inisteri: ")]/td[2]//li').collect { |li| li.text }
+    end
+
+    def parties_raw
+      []
+    end
+
     #TODO add the other language links too
     def links
       [{}]
+    end
+
+    def phone 
+      nil
     end
 
     def email
@@ -252,14 +260,6 @@ class Eduskunta
 
     def image
       ''
-    end
-
-    def council_of_state_raw
-      []
-    end
-
-    def parties_raw
-      []
     end
 
   end
