@@ -135,7 +135,7 @@ class Eduskunta
           :type => "phone",
           :value => phone,
         },
-      ]
+      ] unless phone.nil?
     end
 
     def our_id
@@ -229,7 +229,7 @@ class Eduskunta
 
     def death_date
       death = @noko.xpath('//table/tbody/tr[contains(td[1],"Kuolinaika")]/td[2]').text.gsub(/\s+/, ' ')
-      return Date.find_in(death)
+      return Date.find_in(death, 1)
     end
 
     def official_id
@@ -242,30 +242,18 @@ class Eduskunta
     end
 
     def parties_raw
-      []
+      @noko.xpath('//table/tbody/tr[contains(td[1],"Eduskuntaryhmät: ")]/td[2]//li').collect { |li| li.text }
     end
 
-    #TODO add the other language links too
-    def links
-      [{}]
-    end
-
-    def phone 
-      nil
-    end
-
-    def email
-      nil
-    end
-
-    def image
-      ''
-    end
+    def links; nil; end 
+    def phone; nil; end 
+    def email; nil; end 
+    def image; nil; end
 
   end
 
   def Date.find_in(str, silent=false)
-    /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return Date.new($3.to_i, $2.to_i, $1.to_i).to_s
+    /(\d{2})\.(\d{1,2})\.(\d{4})*/.match(str) and return Date.new($3.to_i, $2.to_i, $1.to_i).to_s
     return nil if silent
     raise "No date in #{str}"
   end

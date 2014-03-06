@@ -23,6 +23,10 @@
       {
         "name": "Finnish Centre Party",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Maalaisliiton eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },

@@ -158,6 +158,14 @@ class ScraperTest < Test::Unit::TestCase
       
   end
 
+  def test_party_fi
+    parties = @kekkonen[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
+    assert_equal 1, parties.count 
+    assert_equal "popit.eduskunta/party/kesk", parties[0][:organization_id]
+    assert_equal '1936-09-01', parties[0][:start_date]
+    assert_equal '1956-02-15', parties[0][:end_date]
+  end
+
   def test_changed_party
     mp = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/802.html')).as_hash
     parties = mp[:memberships].select { |m| m[:organization_id].start_with? 'popit.eduskunta/party/' }
