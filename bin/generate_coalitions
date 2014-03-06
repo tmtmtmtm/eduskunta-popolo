@@ -1,6 +1,8 @@
 #!/usr/bin/ruby
 
 # Produce initial JSON for a hard-coded list of coalition members
+# Data from http://fi.wikipedia.org/wiki/Suomen_valtioneuvosto
+# and http://en.wikipedia.org/wiki/Cabinet_of_Finland
 
 require 'json'
 
@@ -13,6 +15,7 @@ info = [
   [67, 'Lipponen II',    ['1999-04-15', '2003-04-17'], %w(sd kok r vas vihr)], # TODO vihr left on 2002-05-31
   [66, 'Lipponen I',     ['1995-04-13', '1999-04-15'], %w(sd kok r vas vihr)], 
   [65, 'Aho I',          ['1991-04-26', '1995-04-13'], %w(kesk kok r kd)],     # NB kd was skl then
+  [64, 'Holkeri I',      ['1987-04-30', '1991-04-26'], %w(kok sd r ps )],      # NB ps as SMP
 ]
 
 orgs = info.each_with_object({}) { |(no, name, dates, members), h| 
