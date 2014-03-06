@@ -7,6 +7,8 @@ class ScraperTest < Test::Unit::TestCase
     @sauli = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/1086.html')).as_hash
     @jyrki = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/571.html')).as_hash
     @kimmo = Eduskunta::Scraper::EN.new(File.open('data/MPs/html/261.html')).as_hash
+
+    @kekkonen = Eduskunta::Scraper::FI.new(File.open('data/oldMPs/html/760')).as_hash
   end
 
   def test_find_party
@@ -24,7 +26,7 @@ class ScraperTest < Test::Unit::TestCase
     end 
   end
 
-
+  # Basic English Tests
   def test_id
     assert_equal 'popit.eduskunta/person/1086', @sauli[:id]
   end
@@ -67,6 +69,42 @@ class ScraperTest < Test::Unit::TestCase
     links = @sauli[:links].select { |i| i[:note] == 'Eduskunta.fi (en)' }
     assert_equal 'http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1086&kieli=en', links[0][:url]
   end
+
+  # Basic Finnish Tests
+  def test_id
+    assert_equal 'popit.eduskunta/person/760', @kekkonen[:id]
+  end
+
+  def test_name
+    assert_equal 'Urho Kekkonen', @kekkonen[:name]
+  end
+
+  def test_family_name
+    assert_equal 'Kekkonen', @kekkonen[:family_name]
+  end
+
+  def test_given_names
+    assert_equal 'Uhro Kaleva', @kekkonen[:given_names]
+  end
+
+  def test_identifiers
+    identifiers = @kekkonen[:identifiers].select { |i| i[:scheme] == 'eduskunta.fi' }
+    assert_equal '760', identifiers[0][:identifier]
+  end
+
+  def test_email
+    assert_nil @kekkonen[:email]
+  end
+
+  def test_birth_date
+    assert_equal '1900-09-03', @kekkonen[:birth_date]
+  end
+
+  def test_death_date
+    assert_equal '1986-08-31', @kekkonen[:death_date]
+  end
+
+
 
   # Split across two sections for Minister and Prime Minster
   def test_pm_council_of_state
