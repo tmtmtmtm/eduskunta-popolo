@@ -27,6 +27,7 @@ info = {
   "Democratic Alternative" => 'deva',
   "Finnish Socialist Workers' Party" => 'sstp',
   "Socialist Workers and Small Farmers Group" => 'stpv',
+  "Social Democratic Union of Workers and Smallholders" => 'tpsl',
 }
 
 parties = info.each_with_object({}) { |(name, abbrev), h| 
@@ -88,6 +89,10 @@ fi = {
 
   'Työväen ja pienviljelijäin vaaliliitto' => 'stpv',
   'Työväen ja pienviljelijäin puolue' => 'stpv',
+
+  'Sosialidemokraattisen opposition eduskuntaryhmä' => 'tpsl', # sd opp
+  'Työväen ja pienviljelijäin sosialidemokraattinen liitto' => 'tpsl',
+
   'Demokraattinen vaihtoehto' => 'deva',
   'Suomen sosialistinen työväenpuolue' => 'sstp',
   'Isänmaallinen kansanliike' => 'ikl',

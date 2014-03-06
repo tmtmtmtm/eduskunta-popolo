@@ -310,5 +310,24 @@
         "label": "fi.eduskunta.fi"
       }
     ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/tpsl",
+    "name": "Social Democratic Union of Workers and Smallholders",
+    "other_names": [
+      {
+        "name": "Social Democratic Union of Workers and Smallholders",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Sosialidemokraattisen opposition eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Työväen ja pienviljelijäin sosialidemokraattinen liitto",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
   }
 ]
