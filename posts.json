@@ -32,7 +32,12 @@
   {
     "id": "popit.eduskunta/council/med",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Education"
+    "role": "Minister of Education",
+    "other_labels": [
+      {
+        "name": "Opetusministeri"
+      }
+    ]
   },
   {
     "id": "popit.eduskunta/council/menv",

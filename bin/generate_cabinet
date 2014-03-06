@@ -47,9 +47,10 @@ odd = {
 }
 
 fi = { 
-  'Pääministeri' => 'pm',
-  'Oikeusministeri' => 'mj',
   'Apulaissisäasiainministeri' => 'dmi',
+  'Oikeusministeri' => 'mj',
+  'Opetusministeri' => 'med',
+  'Pääministeri' => 'pm',
   'Sisäasiainministeri' => 'mi',
   'Sosiaaliministeri' => 'msa',
   'Ulkoasiainministeri' => 'mfa',
