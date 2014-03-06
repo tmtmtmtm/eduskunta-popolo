@@ -19,6 +19,12 @@ info = {
   'Parliamentary group Mustajärvi' => 'emus',
   'Parliamentary group Yrttiaho' => 'eyrt',
   'Parliamentary group Virtanen' => 'evir',
+
+  "Young Finnish Party" => 'nuorsom',
+  "Liberals" => 'lkp',
+  "Democratic Alternative" => 'deva',
+  "Finnish Socialist Workers' Party" => 'sstp',
+  "Socialist Workers and Small Farmers Group" => 'stpv',
 }
 
 parties = info.each_with_object({}) { |(name, abbrev), h| 
@@ -51,11 +57,38 @@ parties['kd'][:other_names].push({
   :end_date => '2001-05-30',
 })
 
+# http://fi.wikipedia.org/wiki/Eduskuntaryhm%C3%A4
 fi = { 
-  'Maalaisliiton eduskuntaryhmä' => 'kesk',
+  'Ruotsalainen eduskuntaryhmä' => 'r',
+  'Sosialidemokraattinen eduskuntaryhmä' => 'sd',
+  'Vihreä eduskuntaryhmä' => 'vihr',
+  'Nuorsuomalainen puolue' => 'nuorsom',
+
+  # Keskustan eduskuntaryhmä (Maalaisliiton eduskuntaryhmä - 31.01.1965)
+  'Keskustan eduskuntaryhmä' => 'kesk',
+  'Maalaisliiton eduskuntaryhmä' => 'kesk', 
+  # Vasemmistoliiton eduskuntaryhmä (Suomen kansan demokraattisen liiton eduskuntaryhmä - 31.12.1990)
+  'Vasemmistoliiton eduskuntaryhmä' => 'vas',
+  'Suomen kansan demokraattisen liiton eduskuntaryhmä' => 'vas', 
+  # Kansallisen kokoomuksen eduskuntaryhmä (Suomalainen puolue - 08.12.1918)
+  'Kansallisen kokoomuksen eduskuntaryhmä' => 'kok',
+  'Suomalainen puolue' => 'kok', 
+  # Liberaalisen kansanpuolueen eduskuntaryhmä = Kansallinen edistyspuolue - 20.07.1951, Suomen kansanpuolue 21.07.1951 - 31.05.1965
+  'Kansallinen edistyspuolue' => 'lkp',
+  'Suomen kansanpuolue' => 'lkp',
+  'Liberaalisen kansanpuolueen eduskuntaryhmä' => 'lkp',
+  # Perussuomalaisten eduskuntaryhmä (Suomen maaseudun puolueen eduskuntaryhmä - 25.10.1995)
+  'Perussuomalaisten eduskuntaryhmä' => 'ps',
+  'Suomen maaseudun puolueen eduskuntaryhmä' => 'ps',
+
+  'Työväen ja pienviljelijäin vaaliliitto' => 'stpv',
+  'Työväen ja pienviljelijäin puolue' => 'stpv',
+  'Demokraattinen vaihtoehto' => 'deva',
+  'Suomen sosialistinen työväenpuolue' => 'sstp',
 }
 
 fi.each { |name, abbrev|
+  # warn "Adding #{abbrev} / #{name}"
   parties[abbrev][:other_names].push({
     :name => name,
     :label => 'fi.eduskunta.fi',

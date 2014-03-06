@@ -25,6 +25,10 @@
         "label": "en.eduskunta.fi"
       },
       {
+        "name": "Keskustan eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      },
+      {
         "name": "Maalaisliiton eduskuntaryhmä",
         "label": "fi.eduskunta.fi"
       }
@@ -38,6 +42,14 @@
       {
         "name": "National Coalition Party",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Kansallisen kokoomuksen eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Suomalainen puolue",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -60,6 +72,10 @@
       {
         "name": "Swedish Parliamentary Group",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Ruotsalainen eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -81,6 +97,14 @@
       {
         "name": "Finnish Rural Party Parliamentary Group",
         "end_date": "1995-10-25"
+      },
+      {
+        "name": "Perussuomalaisten eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Suomen maaseudun puolueen eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -92,6 +116,10 @@
       {
         "name": "The Social Democratic Parliamentary Group",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Sosialidemokraattinen eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -103,6 +131,14 @@
       {
         "name": "Left Alliance",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Vasemmistoliiton eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Suomen kansan demokraattisen liiton eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -114,6 +150,10 @@
       {
         "name": "Green Parliamentary Group",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Vihreä eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -158,6 +198,93 @@
       {
         "name": "Parliamentary group Virtanen",
         "label": "en.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/nuorsom",
+    "name": "Young Finnish Party",
+    "other_names": [
+      {
+        "name": "Young Finnish Party",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Nuorsuomalainen puolue",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/lkp",
+    "name": "Liberals",
+    "other_names": [
+      {
+        "name": "Liberals",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Kansallinen edistyspuolue",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Suomen kansanpuolue",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Liberaalisen kansanpuolueen eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/deva",
+    "name": "Democratic Alternative",
+    "other_names": [
+      {
+        "name": "Democratic Alternative",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Demokraattinen vaihtoehto",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/sstp",
+    "name": "Finnish Socialist Workers' Party",
+    "other_names": [
+      {
+        "name": "Finnish Socialist Workers' Party",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Suomen sosialistinen työväenpuolue",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/stpv",
+    "name": "Socialist Workers and Small Farmers Group",
+    "other_names": [
+      {
+        "name": "Socialist Workers and Small Farmers Group",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Työväen ja pienviljelijäin vaaliliitto",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Työväen ja pienviljelijäin puolue",
+        "label": "fi.eduskunta.fi"
       }
     ]
   }

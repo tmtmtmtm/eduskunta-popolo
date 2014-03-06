@@ -69,8 +69,8 @@ class Eduskunta
 
     def self.organization_id_from (name)
       match = @@parties.find{ |p| p['other_names'].find { |n| n['name'] == name } }
-      return match['id'] if match
-      raise "No such party: <#{name}>"
+      abort "No such party: <#{name}>" unless match
+      return match['id'] 
     end
 
     def self.role_from (name)
@@ -253,7 +253,7 @@ class Eduskunta
   end
 
   def Date.find_in(str, silent=false)
-    /(\d{2})\.(\d{1,2})\.(\d{4})*/.match(str) and return Date.new($3.to_i, $2.to_i, $1.to_i).to_s
+    /(\d{1,2})\.(\d{1,2})\.(\d{4})*/.match(str) and return Date.new($3.to_i, $2.to_i, $1.to_i).to_s
     return nil if silent
     raise "No date in #{str}"
   end
