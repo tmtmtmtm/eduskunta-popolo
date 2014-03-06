@@ -17,7 +17,12 @@
   {
     "id": "popit.eduskunta/council/maf",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Agriculture and Forestry"
+    "role": "Minister of Agriculture and Forestry",
+    "other_labels": [
+      {
+        "name": "Maa- ja metsätalousministeri"
+      }
+    ]
   },
   {
     "id": "popit.eduskunta/council/mcs",
