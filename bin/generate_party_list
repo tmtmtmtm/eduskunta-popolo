@@ -20,6 +20,8 @@ info = {
   'Parliamentary group Yrttiaho' => 'eyrt',
   'Parliamentary group Virtanen' => 'evir',
 
+  # Manually added based on Finnish versions
+  "Patriotic People's Movement" => 'ikl',
   "Young Finnish Party" => 'nuorsom',
   "Liberals" => 'lkp',
   "Democratic Alternative" => 'deva',
@@ -85,6 +87,7 @@ fi = {
   'Työväen ja pienviljelijäin puolue' => 'stpv',
   'Demokraattinen vaihtoehto' => 'deva',
   'Suomen sosialistinen työväenpuolue' => 'sstp',
+  'Isänmaallinen kansanliike' => 'ikl',
 }
 
 fi.each { |name, abbrev|

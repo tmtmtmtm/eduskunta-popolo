@@ -203,6 +203,21 @@
   },
   {
     "classification": "party",
+    "id": "popit.eduskunta/party/ikl",
+    "name": "Patriotic People's Movement",
+    "other_names": [
+      {
+        "name": "Patriotic People's Movement",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Isänmaallinen kansanliike",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
     "id": "popit.eduskunta/party/nuorsom",
     "name": "Young Finnish Party",
     "other_names": [
