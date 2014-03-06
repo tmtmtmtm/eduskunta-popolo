@@ -71,36 +71,36 @@ class ScraperTest < Test::Unit::TestCase
   end
 
   # Basic Finnish Tests
-  def test_id
+  def test_fi_id
     assert_equal 'popit.eduskunta/person/760', @kekkonen[:id]
   end
 
-  def test_name
+  def test_fi_name
     assert_equal 'Urho Kekkonen', @kekkonen[:name]
   end
 
-  def test_family_name
+  def test_fi_family_name
     assert_equal 'Kekkonen', @kekkonen[:family_name]
   end
 
-  def test_given_names
-    assert_equal 'Uhro Kaleva', @kekkonen[:given_names]
+  def test_fi_given_names
+    assert_equal 'Urho Kaleva', @kekkonen[:given_names]
   end
 
-  def test_identifiers
+  def test_fi_identifiers
     identifiers = @kekkonen[:identifiers].select { |i| i[:scheme] == 'eduskunta.fi' }
     assert_equal '760', identifiers[0][:identifier]
   end
 
-  def test_email
+  def test_fi_email
     assert_nil @kekkonen[:email]
   end
 
-  def test_birth_date
+  def test_fi_birth_date
     assert_equal '1900-09-03', @kekkonen[:birth_date]
   end
 
-  def test_death_date
+  def test_fi_death_date
     assert_equal '1986-08-31', @kekkonen[:death_date]
   end
 

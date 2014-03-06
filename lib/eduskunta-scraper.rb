@@ -101,6 +101,7 @@ class Eduskunta
         :identifiers => identifiers,
         :email => email,
         :birth_date => birth_date,
+        :death_date => death_date,
         :image => image,
         :contact_details => contact_details,
         :links => links,
@@ -170,6 +171,11 @@ class Eduskunta
       return Date.find_in(birth)
     end
 
+    def death_date
+      # Currently EN pages are of sitting MPs, so this shouldn't exist
+      nil
+    end
+
     def official_id
       french = @noko.at('#edustaja-alku a:nth-child(4)')
       /hnro\=(\d+)/.match(french['href']) and return $1 or raise "No ID in #{french['href']}"
@@ -209,7 +215,7 @@ class Eduskunta
   class Scraper::FI < Scraper::EN
 
     def name
-      return ''
+      @noko.at_xpath('//table/tbody/tr[contains(td[1],"Kansanedustajana")]/td[1]//b[1]').text
     end
 
     def fullname
@@ -217,15 +223,22 @@ class Eduskunta
     end
 
     def phone 
-      ''
+      nil
     end
 
     def birth_date
-      ''
+      birth = @noko.xpath('//table/tbody/tr[contains(td[1],"Syntym")]/td[2]').text.gsub(/\s+/, ' ')
+      return Date.find_in(birth)
+    end
+
+    def death_date
+      death = @noko.xpath('//table/tbody/tr[contains(td[1],"Kuolinaika")]/td[2]').text.gsub(/\s+/, ' ')
+      return Date.find_in(death)
     end
 
     def official_id
-      ''
+      # TODO there must be a better way than this...
+      File.basename(@file.path)
     end
 
     #TODO add the other language links too
@@ -234,7 +247,7 @@ class Eduskunta
     end
 
     def email
-      ''
+      nil
     end
 
     def image
@@ -247,10 +260,6 @@ class Eduskunta
 
     def parties_raw
       []
-    end
-
-    def infotable
-       @infotable ||= @noko.at('table') or raise "No infotable"
     end
 
   end
