@@ -82,6 +82,9 @@ fi = {
   # Perussuomalaisten eduskuntaryhmä (Suomen maaseudun puolueen eduskuntaryhmä - 25.10.1995)
   'Perussuomalaisten eduskuntaryhmä' => 'ps',
   'Suomen maaseudun puolueen eduskuntaryhmä' => 'ps',
+  # Kristillisdemokraattinen eduskuntaryhmä (Kristillisen liiton eduskuntaryhmä - 30.05.2001) 
+  'Kristillisdemokraattinen eduskuntaryhmä' => 'kd',
+  'Kristillisen liiton eduskuntaryhmä' => 'kd',
 
   'Työväen ja pienviljelijäin vaaliliitto' => 'stpv',
   'Työväen ja pienviljelijäin puolue' => 'stpv',
