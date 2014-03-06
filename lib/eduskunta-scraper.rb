@@ -206,6 +206,55 @@ class Eduskunta
 
   end
 
+  class Scraper::FI < Scraper::EN
+
+    def name
+      return ''
+    end
+
+    def fullname
+      @noko.xpath('//table/tbody/tr[contains(td[1],"nimi")]/td[2]').text.gsub(/\s+/, ' ')
+    end
+
+    def phone 
+      ''
+    end
+
+    def birth_date
+      ''
+    end
+
+    def official_id
+      ''
+    end
+
+    #TODO add the other language links too
+    def links
+      [{}]
+    end
+
+    def email
+      ''
+    end
+
+    def image
+      ''
+    end
+
+    def council_of_state_raw
+      []
+    end
+
+    def parties_raw
+      []
+    end
+
+    def infotable
+       @infotable ||= @noko.at('table') or raise "No infotable"
+    end
+
+  end
+
   def Date.find_in(str, silent=false)
     /(\d{2})\.(\d{2})\.(\d{4})*/.match(str) and return Date.new($3.to_i, $2.to_i, $1.to_i).to_s
     return nil if silent

@@ -11,5 +11,7 @@ require 'json'
 require 'open-uri'
 
 mp_page = ARGV[0] or abort "Usage: #{$0} <url_or_file>"
-puts JSON.pretty_generate( Eduskunta::Scraper::EN.new(open(mp_page)).as_hash )
+language = ARGV[1] || "EN"
+
+puts JSON.pretty_generate( Eduskunta::Scraper.const_get(language).new(open(mp_page)).as_hash )
 
