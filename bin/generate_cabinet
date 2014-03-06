@@ -55,6 +55,7 @@ fi = {
   'Sisäasiainministeri' => 'mi',
   'Sosiaaliministeri' => 'msa',
   'Ulkoasiainministeri' => 'mfa',
+  'Valtiovarainministeri' => 'mf',
 }
 
 posts = roles.each_with_object({}) { |(abbrev, name), h| 
