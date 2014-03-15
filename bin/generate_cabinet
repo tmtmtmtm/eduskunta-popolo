@@ -60,6 +60,7 @@ fi = {
   'Sosiaali- ja terveysministeri' => 'msah',
   'Ministeri sosiaali- ja terveysministeriössä' => 'msah',
   'Maa- ja metsätalousministeri' => 'maf',
+  'Työministeri' => 'ml',
 }
 
 posts = roles.each_with_object({}) { |(abbrev, name), h| 

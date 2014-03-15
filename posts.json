@@ -161,7 +161,12 @@
   {
     "id": "popit.eduskunta/council/ml",
     "organization_id": "popit.eduskunta/council-of-state",
-    "role": "Minister of Labour"
+    "role": "Minister of Labour",
+    "other_labels": [
+      {
+        "name": "Työministeri"
+      }
+    ]
   },
   {
     "id": "popit.eduskunta/council/mpalg",
