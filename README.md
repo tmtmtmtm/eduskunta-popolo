@@ -16,5 +16,5 @@ Then combine those into `people.json`:
     ruby -I lib bin/combined_json data/MPs/json > people.json
 
 `data/oldMPs` contains records of all historic MPs as well, but as these
-aren't availabe in English, I'm still rewriting the scraper to handle
+aren't availabe in English, I'm still rewriting the parser to handle
 the Finnish (as well as all the old party names, cabinet positions, etc)
