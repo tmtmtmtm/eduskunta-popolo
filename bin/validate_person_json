@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+
+require 'json'
+require 'json-schema'
+
+file = ARGV[0] or raise "Usage: #{$0} <json-file>"
+JSON.parse(File.read(file)).each do |json|
+	warn "Validating #{json['id']}"
+	JSON::Validator.validate!('http://popoloproject.com/schemas/person.json', json, :cache_schemas => true)
+end
+
