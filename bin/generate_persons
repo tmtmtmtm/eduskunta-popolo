@@ -1,0 +1,54 @@
+#!/usr/bin/ruby
+
+# Transform kansanmuisti MP data to Popolo
+
+require 'json'
+
+file = ARGV[0] or raise "Usage: #{$0} <json-file>"
+mps = JSON.parse(File.read(file))['objects'].map { |kmp|
+  {
+    :id => "popit.eduskunta/person/#{kmp['origin_id']}",
+    :name => kmp['name'],
+    :family_name => kmp['surname'],
+    :given_names => kmp['given_names'],
+    :identifiers => [
+      {
+        # Popolo spec requires that identifiers be strings
+        :identifier => kmp['origin_id'].to_s,
+        :scheme => "eduskunta.fi",
+      },
+      {
+        :identifier => kmp['id'].to_s,
+        :scheme => "kansanmuisti.fi",
+      },
+    ],
+    :email => kmp['email'],
+    :birth_date => kmp['birth_date'],
+    :image => "http://dev.kansanmuisti.fi#{kmp['photo']}",
+    :contact_details => [
+      {
+        :type => "phone",
+        :value => kmp['phone'],
+      }
+    ].reject { |c| c[:value].nil? },
+    :links => [
+      {
+        :url => kmp['info_link'],
+        :note => "Eduskunta.fi (fi)"
+      }
+    ],
+    :memberships => kmp['party_associations'].map { |p|
+      {
+        :organization_id => "popit.eduskunta/party/#{p['party']}",
+        :role => "MP",
+        :start_date => p['begin'],
+        :end_date => p['end'],
+      }.reject { |k, v| v.nil? }
+    },
+  }
+}.sort_by { |mpj| mpj[:identifiers][0][:identifier].to_i }
+
+puts JSON.pretty_generate(mps)
+
+
+
