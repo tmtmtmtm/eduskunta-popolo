@@ -45,7 +45,7 @@ mps = JSON.parse(File.read(file))['objects'].map { |kmp|
         :end_date => p['end'],
       }.reject { |k, v| v.nil? }
     },
-  }
+  }.reject { |k, v| v.nil? }
 }.sort_by { |mpj| mpj[:identifiers][0][:identifier].to_i }
 
 puts JSON.pretty_generate(mps)
