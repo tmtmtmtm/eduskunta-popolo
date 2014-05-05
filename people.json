@@ -103,7 +103,7 @@
     ],
     "memberships": [
       {
-        "organization_id": "popit.eduskunta/party/Suomen maaseudun puolueen eduskuntaryhmä",
+        "organization_id": "popit.eduskunta/party/ps",
         "role": "MP",
         "start_date": "1987-03-21",
         "end_date": "1994-03-23"
@@ -115,7 +115,7 @@
         "end_date": "1999-04-20"
       },
       {
-        "organization_id": "popit.eduskunta/party/Alkiolainen keskustaryhmä",
+        "organization_id": "popit.eduskunta/party/alk",
         "role": "MP",
         "start_date": "1999-04-21",
         "end_date": "2003-03-18"
@@ -2017,7 +2017,7 @@
         "end_date": "1986-06-04"
       },
       {
-        "organization_id": "popit.eduskunta/party/Demokraattinen vaihtoehto",
+        "organization_id": "popit.eduskunta/party/deva",
         "role": "MP",
         "start_date": "1986-06-05",
         "end_date": "1990-06-18"
@@ -2070,7 +2070,7 @@
         "end_date": "1986-06-04"
       },
       {
-        "organization_id": "popit.eduskunta/party/Demokraattinen vaihtoehto",
+        "organization_id": "popit.eduskunta/party/deva",
         "role": "MP",
         "start_date": "1986-06-05",
         "end_date": "1990-09-10"
@@ -2082,7 +2082,7 @@
         "end_date": "1995-08-24"
       },
       {
-        "organization_id": "popit.eduskunta/party/Vasemmistoryhmä",
+        "organization_id": "popit.eduskunta/party/vas",
         "role": "MP",
         "start_date": "1995-08-25",
         "end_date": "1999-03-23"
@@ -3293,7 +3293,7 @@
     ],
     "memberships": [
       {
-        "organization_id": "popit.eduskunta/party/Liberaalisen kansanpuolueen eduskuntaryhmä",
+        "organization_id": "popit.eduskunta/party/lkp",
         "role": "MP",
         "start_date": "1991-03-22",
         "end_date": "1995-03-23"
@@ -4123,7 +4123,7 @@
         "end_date": "1986-06-04"
       },
       {
-        "organization_id": "popit.eduskunta/party/Demokraattinen vaihtoehto",
+        "organization_id": "popit.eduskunta/party/deva",
         "role": "MP",
         "start_date": "1986-06-05",
         "end_date": "1987-03-20"
@@ -4135,7 +4135,7 @@
         "end_date": "1995-08-24"
       },
       {
-        "organization_id": "popit.eduskunta/party/Vasemmistoryhmä",
+        "organization_id": "popit.eduskunta/party/vas",
         "role": "MP",
         "start_date": "1995-08-25",
         "end_date": "1999-03-23"
@@ -5043,13 +5043,13 @@
         "end_date": "1997-04-21"
       },
       {
-        "organization_id": "popit.eduskunta/party/Eduskuntaryhmä Nuorsuomalaiset ja Risto Kuisma",
+        "organization_id": "popit.eduskunta/party/nuorsom",
         "role": "MP",
         "start_date": "1997-04-22",
         "end_date": "1998-03-09"
       },
       {
-        "organization_id": "popit.eduskunta/party/Remonttiryhmä",
+        "organization_id": "popit.eduskunta/party/rem",
         "role": "MP",
         "start_date": "1998-03-10",
         "end_date": "2001-12-31"
@@ -5639,13 +5639,13 @@
         "end_date": "1995-11-29"
       },
       {
-        "organization_id": "popit.eduskunta/party/Eduskuntaryhmä Puhjo",
+        "organization_id": "popit.eduskunta/party/epu",
         "role": "MP",
         "start_date": "1995-11-30",
         "end_date": "1996-02-28"
       },
       {
-        "organization_id": "popit.eduskunta/party/Vasemmistoryhmä",
+        "organization_id": "popit.eduskunta/party/vas",
         "role": "MP",
         "start_date": "1996-02-29",
         "end_date": "1999-03-23"
@@ -6099,7 +6099,7 @@
     ],
     "memberships": [
       {
-        "organization_id": "popit.eduskunta/party/Eduskuntaryhmä Virtanen",
+        "organization_id": "popit.eduskunta/party/evir",
         "role": "MP",
         "start_date": "1995-03-24",
         "end_date": "1999-03-23"
@@ -6344,7 +6344,7 @@
         "end_date": "2003-01-13"
       },
       {
-        "organization_id": "popit.eduskunta/party/Liberaalien eduskuntaryhmä",
+        "organization_id": "popit.eduskunta/party/lkp",
         "role": "MP",
         "start_date": "2003-01-14",
         "end_date": "2003-03-18"
@@ -6633,7 +6633,7 @@
         "end_date": "1999-08-09"
       },
       {
-        "organization_id": "popit.eduskunta/party/Ryhmä Erlund",
+        "organization_id": "popit.eduskunta/party/erl",
         "role": "MP",
         "start_date": "1999-08-10",
         "end_date": "2000-04-16"
@@ -10253,13 +10253,13 @@
         "end_date": "2011-06-30"
       },
       {
-        "organization_id": "popit.eduskunta/party/Eduskuntaryhmä Mustajärvi",
+        "organization_id": "popit.eduskunta/party/emus",
         "role": "MP",
         "start_date": "2011-07-01",
         "end_date": "2011-09-07"
       },
       {
-        "organization_id": "popit.eduskunta/party/Vasenryhmän eduskuntaryhmä",
+        "organization_id": "popit.eduskunta/party/vr",
         "role": "MP",
         "start_date": "2011-09-08"
       }
@@ -12132,13 +12132,13 @@
         "end_date": "2011-06-30"
       },
       {
-        "organization_id": "popit.eduskunta/party/Eduskuntaryhmä Yrttiaho",
+        "organization_id": "popit.eduskunta/party/eyrt",
         "role": "MP",
         "start_date": "2011-07-01",
         "end_date": "2011-09-07"
       },
       {
-        "organization_id": "popit.eduskunta/party/Vasenryhmän eduskuntaryhmä",
+        "organization_id": "popit.eduskunta/party/vr",
         "role": "MP",
         "start_date": "2011-09-08"
       }

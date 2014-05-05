@@ -4,7 +4,22 @@
 
 require 'json'
 
+
 file = ARGV[0] or raise "Usage: #{$0} <json-file>"
+
+@parties = JSON.parse(File.read('parties.json'))
+# .each_with_object({}) { |p,h| h[p['id'].reverse.chomp('popit.eduskunta/party/'.reverse).reverse] = p }
+
+def party_lookup(str)
+  party = @parties.find { |p| 
+    p['id'] == "popit.eduskunta/party/#{str}" ||
+    p['other_names'].find { |n| n['name'] == str } 
+  }
+  raise "No such party: #{str}" unless party
+  return party['id']
+end
+
+
 mps = JSON.parse(File.read(file))['objects'].map { |kmp|
   {
     :id => "popit.eduskunta/person/#{kmp['origin_id']}",
@@ -39,7 +54,7 @@ mps = JSON.parse(File.read(file))['objects'].map { |kmp|
     ],
     :memberships => kmp['party_associations'].map { |p|
       {
-        :organization_id => "popit.eduskunta/party/#{p['party']}",
+        :organization_id => party_lookup(p['party']),
         :role => "MP",
         :start_date => p['begin'],
         :end_date => p['end'],
