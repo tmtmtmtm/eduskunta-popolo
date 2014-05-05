@@ -19,6 +19,8 @@ info = {
   'Parliamentary group Mustajärvi' => 'emus',
   'Parliamentary group Yrttiaho' => 'eyrt',
   'Parliamentary group Virtanen' => 'evir',
+  'Parliamentary group Erlund' => 'erl',
+  'Parliamentary group Puhjo' => 'epu',
 
   # Manually added based on Finnish versions
   "Patriotic People's Movement" => 'ikl',
@@ -28,6 +30,8 @@ info = {
   "Finnish Socialist Workers' Party" => 'sstp',
   "Socialist Workers and Small Farmers Group" => 'stpv',
   "Social Democratic Union of Workers and Smallholders" => 'tpsl',
+  "Alk" => 'alk', # Can't find an English name for this!
+  "Reform Group" => 'rem',
 }
 
 parties = info.each_with_object({}) { |(name, abbrev), h| 
@@ -66,6 +70,7 @@ fi = {
   'Sosialidemokraattinen eduskuntaryhmä' => 'sd',
   'Vihreä eduskuntaryhmä' => 'vihr',
   'Nuorsuomalainen puolue' => 'nuorsom',
+  'Eduskuntaryhmä Nuorsuomalaiset ja Risto Kuisma' => 'nuorsom', # !
 
   # Keskustan eduskuntaryhmä (Maalaisliiton eduskuntaryhmä - 31.01.1965)
   'Keskustan eduskuntaryhmä' => 'kesk',
@@ -80,6 +85,7 @@ fi = {
   'Kansallinen edistyspuolue' => 'lkp',
   'Suomen kansanpuolue' => 'lkp',
   'Liberaalisen kansanpuolueen eduskuntaryhmä' => 'lkp',
+  'Liberaalien eduskuntaryhmä' => 'lkp',
   # Perussuomalaisten eduskuntaryhmä (Suomen maaseudun puolueen eduskuntaryhmä - 25.10.1995)
   'Perussuomalaisten eduskuntaryhmä' => 'ps',
   'Suomen maaseudun puolueen eduskuntaryhmä' => 'ps',
@@ -96,6 +102,17 @@ fi = {
   'Demokraattinen vaihtoehto' => 'deva',
   'Suomen sosialistinen työväenpuolue' => 'sstp',
   'Isänmaallinen kansanliike' => 'ikl',
+
+  'Alkiolainen keskustaryhmä' => 'alk',
+  'Vasemmistoryhmä' => 'vas',
+  'Remonttiryhmä' => 'rem',
+  'Vasenryhmän eduskuntaryhmä' => 'vr',
+
+  'Ryhmä Erlund' => 'erl',
+  'Eduskuntaryhmä Mustajärvi' => 'emus',
+  'Eduskuntaryhmä Puhjo' => 'epu',
+  'Eduskuntaryhmä Yrttiaho' => 'eyrt',
+  'Eduskuntaryhmä Virtanen' => 'evir',
 }
 
 fi.each { |name, abbrev|

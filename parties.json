@@ -147,6 +147,10 @@
       {
         "name": "Suomen kansan demokraattisen liiton eduskuntaryhmä",
         "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Vasemmistoryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -173,6 +177,10 @@
       {
         "name": "Left Faction Parliamentary Group",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Vasenryhmän eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -184,6 +192,10 @@
       {
         "name": "Parliamentary group Mustajärvi",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Eduskuntaryhmä Mustajärvi",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -195,6 +207,10 @@
       {
         "name": "Parliamentary group Yrttiaho",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Eduskuntaryhmä Yrttiaho",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -206,6 +222,40 @@
       {
         "name": "Parliamentary group Virtanen",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Eduskuntaryhmä Virtanen",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/erl",
+    "name": "Parliamentary group Erlund",
+    "other_names": [
+      {
+        "name": "Parliamentary group Erlund",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Ryhmä Erlund",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/epu",
+    "name": "Parliamentary group Puhjo",
+    "other_names": [
+      {
+        "name": "Parliamentary group Puhjo",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Eduskuntaryhmä Puhjo",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -236,6 +286,10 @@
       {
         "name": "Nuorsuomalainen puolue",
         "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Eduskuntaryhmä Nuorsuomalaiset ja Risto Kuisma",
+        "label": "fi.eduskunta.fi"
       }
     ]
   },
@@ -258,6 +312,10 @@
       },
       {
         "name": "Liberaalisen kansanpuolueen eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
+      },
+      {
+        "name": "Liberaalien eduskuntaryhmä",
         "label": "fi.eduskunta.fi"
       }
     ]
@@ -326,6 +384,36 @@
       },
       {
         "name": "Työväen ja pienviljelijäin sosialidemokraattinen liitto",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/alk",
+    "name": "Alk",
+    "other_names": [
+      {
+        "name": "Alk",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Alkiolainen keskustaryhmä",
+        "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/rem",
+    "name": "Reform Group",
+    "other_names": [
+      {
+        "name": "Reform Group",
+        "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Remonttiryhmä",
         "label": "fi.eduskunta.fi"
       }
     ]
