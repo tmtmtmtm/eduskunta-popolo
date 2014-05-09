@@ -10,36 +10,42 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/sd"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vas"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kd"
@@ -59,24 +65,28 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
@@ -97,24 +107,28 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
@@ -135,24 +149,28 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
@@ -173,24 +191,28 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
@@ -211,30 +233,35 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/sd"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vas"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
@@ -255,30 +282,35 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/sd"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vas"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/vihr"
@@ -299,24 +331,28 @@
     "classification": "coalition",
     "memberships": [
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kesk"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kok"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/r"
         }
       },
       {
+        "role": "government",
         "member": {
           "@type": "Organization",
           "id": "popit.eduskunta/party/kd"
@@ -325,5 +361,47 @@
     ],
     "founding_date": "1991-04-26",
     "dissolution_date": "1995-04-13"
+  },
+  {
+    "id": "popit.eduskunta/government/64",
+    "name": "Government 64",
+    "other_names": [
+      {
+        "name": "Holkeri I"
+      }
+    ],
+    "classification": "coalition",
+    "memberships": [
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/kok"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/sd"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/r"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/ps"
+        }
+      }
+    ],
+    "founding_date": "1987-04-30",
+    "dissolution_date": "1991-04-26"
   }
 ]
