@@ -8,7 +8,7 @@ api = PopIt.new :instance_name => 'eduskunta', :user => 'tony@micropiphany.com',
 
 cs = JSON.parse(File.read('coalitions.json'))
 
-cs.first(1).each { |c| 
+cs.each { |c| 
   ms = c.delete('memberships')
   puts "Putting #{c}"
   api.organizations.post(c); 
