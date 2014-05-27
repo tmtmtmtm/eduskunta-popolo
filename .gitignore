@@ -1,2 +1,3 @@
 *.swp
 data/skip/
+voteit-transform/node_modules

@@ -8,20 +8,13 @@ var VOTE_CHOICES = {
   'N': 'no',
   'A': 'abstain',
   'E': 'E',
-  'N': 'N',
   'S': 'S'
 };
 
 var readData = function(file_name) {
-  fs.readFile(file_name, 'utf8', function (err, data) {
-    if (err) {
-      console.log('Error: ' + err);
-      return;
-    }
-    sessionData = JSON.parse(data);
-    var motions = transformSession(sessionData);
-    //console.log(util.inspect(motions, {'depth': null}));
-  });
+  var data = fs.readFileSync(file_name, 'utf8');
+  sessionData = JSON.parse(data);
+  return transformSession(sessionData);
 };
 
 var transformSession = function(session) {
@@ -37,11 +30,17 @@ var transformSession = function(session) {
 var transformMotion = function(plenary_vote, session, motion_idx) {
   var motion_id = 'motion-' + session.id + '-' + motion_idx;
   var motion = {
+    '@type': 'Motion',
     'organization-id': 'finnish-parliament',
+    'organization': {
+      'name': 'Finnish Parliament'
+    },
     'context': {
       'sitting': session.origin_id
     },
-    'creator_id': 'john-doe',
+    'sources': {
+      'url': session.info_link
+    },
     'text': plenary_vote.subject,
     'object_id': motion_id,
     'date': session.date,
@@ -51,6 +50,7 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
   };
 
   var vote_event = {
+    '@type': 'VoteEvent',
     'identifier': motion_id.replace('motion', 'vote-event'),
     'motion': { 'text': motion.text },
     'start_date': motion.date,
@@ -61,6 +61,7 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
 
   _.each(plenary_vote.vote_counts, function(c, k) {
     vote_event.counts.push({
+      '@type': 'Count',
       'option': VOTE_CHOICES[k],
       'value': c
     });
@@ -68,6 +69,7 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
 
   plenary_vote.roll_call.forEach(function(r) {
     vote_event.votes.push({
+      '@type': 'Vote',
       'option': VOTE_CHOICES[r.vote],
       'party_id': r.party,
       'voter_id': r.member,
@@ -81,9 +83,12 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
 
 
 var args = parseArgs(process.argv.slice(2));
+var motions = [];
 args._.forEach(function(file_name) {
-  readData(file_name);
+  motions = motions.concat(readData(file_name));
 });
+console.log(motions.length);
+fs.writeFileSync('motions.json', JSON.stringify({'motions': motions}));
 
 
 
