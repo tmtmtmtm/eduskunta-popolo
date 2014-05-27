@@ -6,8 +6,8 @@ var fs = require('fs'),
 var VOTE_CHOICES = {
   'Y': 'yes',
   'N': 'no',
-  'A': 'abstain',
-  'E': 'E',
+  'A': 'absent',
+  'E': 'abstain',
   'S': 'S'
 };
 
@@ -42,7 +42,7 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
       'url': session.info_link
     },
     'text': plenary_vote.subject,
-    'object_id': motion_id,
+    'motion_id': motion_id,
     'date': session.date,
     'requirement': plenary_vote.setting,
     'result': 'unknown',
@@ -72,7 +72,7 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
       '@type': 'Vote',
       'option': VOTE_CHOICES[r.vote],
       'party_id': r.party,
-      'voter_id': r.member,
+      'voter_id': parseInt(r.member.replace('/api/v1/member/', '').replace('/', ''), 10),
       'vote_event_id': vote_event.identifier
     });
   });
@@ -88,7 +88,15 @@ args._.forEach(function(file_name) {
   motions = motions.concat(readData(file_name));
 });
 console.log(motions.length);
-fs.writeFileSync('motions.json', JSON.stringify({'motions': motions}));
+var parties = fs.readFileSync('../parties.json', 'utf-8');
+var people = fs.readFileSync('../data/kansanmuisti/member.json', 'utf-8');
+//console.dir(JSON.parse(people))
+var data = {
+  'motions': motions,
+  'parties': JSON.parse(parties),
+  'people': JSON.parse(people).objects
+  };
+fs.writeFileSync('motions.json', JSON.stringify(data));
 
 
 
