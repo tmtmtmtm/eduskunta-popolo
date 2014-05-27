@@ -1,0 +1,1034 @@
+{
+  "date": "2014-03-26",
+  "info_link": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+31/2014+vp",
+  "name": "31/2014",
+  "origin_id": "31/2014",
+  "origin_version": "2.0",
+  "plenary_votes": [
+    {
+      "info_link": null,
+      "number": 1,
+      "session_item": {
+        "description": "Valtioneuvoston selonteko Suomen osallistumisesta EU:n sotilaallisen kriisinhallintaoperaatioon Keski-Afrikan tasavallassa",
+        "documents": [
+
+        ],
+        "nr_statements": 0,
+        "nr_votes": 1,
+        "number": 1,
+        "processing_stage": "onlyread",
+        "sub_description": null,
+        "sub_number": null,
+        "type": "agenda"
+      },
+      "setting": "Kannanotto, mietintö/ Jyrki Yrttiaho",
+      "subject": "Valtioneuvoston selonteko Suomen osallistumisesta EU:n sotilaallisen kriisinhallintaoperaatioon Keski-Afrikan tasavallassa",
+      "time": "2014-03-26T14:01:00",
+      "vote_counts": {
+        "A": 55,
+        "E": 0,
+        "N": 2,
+        "S": 0,
+        "Y": 142
+      },
+      "roll_call": [
+        {
+          "member": "/api/v1/member/5/",
+          "party": "kd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/232/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/9/",
+          "party": "vihr",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/233/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/10/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/237/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/14/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/239/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/17/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/240/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/22/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/241/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/23/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/242/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/25/",
+          "party": "r",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/243/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/26/",
+          "party": "vihr",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/244/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/30/",
+          "party": "r",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/245/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/32/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/248/",
+          "party": "r",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/33/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/251/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/35/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/252/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/36/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/254/",
+          "party": "vihr",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/40/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/258/",
+          "party": "r",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/41/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/259/",
+          "party": "r",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/43/",
+          "party": "r",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/261/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/44/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/262/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/46/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/268/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/47/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/270/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/48/",
+          "party": "r",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/271/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/49/",
+          "party": "vihr",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/272/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/52/",
+          "party": "vihr",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/274/",
+          "party": "kd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/53/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/275/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/55/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/276/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/58/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/277/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/61/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/278/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/62/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/281/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/65/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/289/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/69/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/290/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/71/",
+          "party": "r",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/297/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/73/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/300/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/74/",
+          "party": "m11",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/303/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/75/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/305/",
+          "party": "kd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/76/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/306/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/79/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/307/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/86/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/308/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/89/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/309/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/93/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/312/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/96/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/313/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/97/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/314/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/98/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/316/",
+          "party": "kd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/100/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/319/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/101/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/321/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/104/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/322/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/106/",
+          "party": "kd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/325/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/107/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/326/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/109/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/328/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/110/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/329/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/113/",
+          "party": "vas",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/330/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/115/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/331/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/118/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/332/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/123/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/339/",
+          "party": "vihr",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/124/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/340/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/126/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/343/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/127/",
+          "party": "vihr",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/345/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/136/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/346/",
+          "party": "vihr",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/137/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/347/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/138/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/349/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/139/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/351/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/145/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/357/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/147/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/358/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/149/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/365/",
+          "party": "vas",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/151/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/366/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/152/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/370/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/153/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/371/",
+          "party": "vihr",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/154/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/372/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/155/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/373/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/156/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/374/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/158/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/375/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/159/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/377/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/160/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/378/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/161/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/380/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/163/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/381/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/167/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/383/",
+          "party": "vihr",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/171/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/384/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/176/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/387/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/179/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/388/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/180/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/389/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/181/",
+          "party": "vas",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/392/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/182/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/422/",
+          "party": "r",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/185/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/423/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/186/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/395/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/194/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/397/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/197/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/398/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/200/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/424/",
+          "party": "r",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/202/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/401/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/203/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/402/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/207/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/403/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/208/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/408/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/209/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/409/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/212/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/410/",
+          "party": "vas",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/213/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/411/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/214/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/415/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/215/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/419/",
+          "party": "ps",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/219/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/420/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/223/",
+          "party": "kok",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/426/",
+          "party": "vr",
+          "vote": "N"
+        },
+        {
+          "member": "/api/v1/member/224/",
+          "party": "ps",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/427/",
+          "party": "kok",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/229/",
+          "party": "vas",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/428/",
+          "party": "kd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/231/",
+          "party": "vr",
+          "vote": "N"
+        }
+      ]
+    }
+  ],
+  "url_name": "31-2014"
+}
