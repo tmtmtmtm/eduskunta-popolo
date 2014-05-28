@@ -11,23 +11,20 @@ var VOTE_CHOICES = {
   'S': 'S'
 };
 
-var readData = function(file_name) {
-  var data = fs.readFileSync(file_name, 'utf8');
-  sessionData = JSON.parse(data);
-  return transformSession(sessionData);
-};
 
-var transformSession = function(session) {
+var transformMotions = function(file_name, voterToPeople) {
+  var data = fs.readFileSync(file_name, 'utf8');
+  session = JSON.parse(data);
   var motions = [];
   session.id = session.origin_id.replace('/', '-');
   session.plenary_votes.forEach(function(plenary_vote, i) {
-    var motion = transformMotion(plenary_vote, session, i+1);
+    var motion = transformMotion(plenary_vote, session, i+1, voterToPeople);
     motions.push(motion);
   });
   return motions;
 };
 
-var transformMotion = function(plenary_vote, session, motion_idx) {
+var transformMotion = function(plenary_vote, session, motion_idx, voterToPeoples) {
   var motion_id = 'motion-' + session.id + '-' + motion_idx;
   var motion = {
     '@type': 'Motion',
@@ -68,11 +65,12 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
   });
 
   plenary_vote.roll_call.forEach(function(r) {
+    var voter_id = r.member.replace('/api/v1/member/', '').replace('/', '');
     vote_event.votes.push({
       '@type': 'Vote',
       'option': VOTE_CHOICES[r.vote],
-      'party_id': r.party,
-      'voter_id': parseInt(r.member.replace('/api/v1/member/', '').replace('/', ''), 10),
+      'party_id': 'popit.eduskunta/party/' + r.party,
+      'voter_id': voterToPeople[voter_id],
       'vote_event_id': vote_event.identifier
     });
   });
@@ -82,21 +80,34 @@ var transformMotion = function(plenary_vote, session, motion_idx) {
 };
 
 
+var partiesData = JSON.parse(fs.readFileSync('../parties.json', 'utf-8'));
+var peopleData = JSON.parse(fs.readFileSync('../people.json', 'utf-8'));
+
+var parties = {};
+partiesData.forEach(function(e) {
+  parties[e.id] = e;
+});
+
+var people = {}, voterToPeople = {};
+peopleData.forEach(function(p) {
+  people[p.id] = p;
+  p.identifiers.forEach(function(id) {
+    if (id.scheme == 'kansanmuisti.fi') {
+      voterToPeople[id.identifier] = p.id;
+    }
+  });
+});
+
 var args = parseArgs(process.argv.slice(2));
 var motions = [];
 args._.forEach(function(file_name) {
-  motions = motions.concat(readData(file_name));
+  motions = motions.concat(transformMotions(file_name, voterToPeople));
 });
 console.log(motions.length);
-var parties = fs.readFileSync('../parties.json', 'utf-8');
-var people = fs.readFileSync('../data/kansanmuisti/member.json', 'utf-8');
-//console.dir(JSON.parse(people))
+
 var data = {
   'motions': motions,
-  'parties': JSON.parse(parties),
-  'people': JSON.parse(people).objects
+  'parties': parties,
+  'people': people
   };
-fs.writeFileSync('motions.json', JSON.stringify(data));
-
-
-
+fs.writeFileSync('motions.json', JSON.stringify(data, null, 2));
