@@ -110,4 +110,4 @@ var data = {
   'parties': parties,
   'people': people
   };
-fs.writeFileSync('motions.json', JSON.stringify(data, null, 2));
+fs.writeFileSync('motions.json', JSON.stringify(data));
