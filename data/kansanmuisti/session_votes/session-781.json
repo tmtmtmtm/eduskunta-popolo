@@ -1,0 +1,104 @@
+{
+  "date": "2007-02-16",
+  "info_link": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+161/2006+vp",
+  "name": "161/2006",
+  "origin_id": "161/2006",
+  "origin_version": "2.0",
+  "plenary_votes": [
+    {
+      "info_link": null,
+      "number": 1,
+      "session_item": {
+        "description": "Hallituksen toimenpidekertomus vuodelta 2005",
+        "documents": [
+
+        ],
+        "nr_statements": 0,
+        "nr_votes": 1,
+        "number": 1,
+        "processing_stage": "onlyread",
+        "sub_description": null,
+        "sub_number": null,
+        "type": "agenda"
+      },
+      "setting": "Lausumaehdotus, miet./Akaan-Penttilä",
+      "subject": "Hallituksen toimenpidekertomus vuodelta 2005",
+      "time": "2007-02-16T13:07:00",
+      "vote_counts": {
+        "A": 3,
+        "E": 0,
+        "N": 4,
+        "S": 0,
+        "Y": 6
+      },
+      "roll_call": [
+        {
+          "member": "/api/v1/member/1/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/216/",
+          "party": "sd",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/4/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/217/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/7/",
+          "party": "kok",
+          "vote": "N"
+        },
+        {
+          "member": "/api/v1/member/218/",
+          "party": "r",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/10/",
+          "party": "kesk",
+          "vote": "Y"
+        },
+        {
+          "member": "/api/v1/member/220/",
+          "party": "kesk",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/11/",
+          "party": "sd",
+          "vote": "A"
+        },
+        {
+          "member": "/api/v1/member/223/",
+          "party": "kok",
+          "vote": "N"
+        },
+        {
+          "member": "/api/v1/member/13/",
+          "party": "vihr",
+          "vote": "N"
+        },
+        {
+          "member": "/api/v1/member/225/",
+          "party": "vihr",
+          "vote": "N"
+        },
+        {
+          "member": "/api/v1/member/14/",
+          "party": "kesk",
+          "vote": "A"
+        }
+      ]
+    }
+  ],
+  "url_name": "161-2006"
+}
