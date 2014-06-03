@@ -5,33 +5,34 @@
 require 'json'
 
 info = {
-  'Christian Democratic Parliamentary Group' => 'kd',
+  'Christian Democrats' => 'kd',
   'Finnish Centre Party' => 'kesk',
   'National Coalition Party' => 'kok',
-  'Parliamentary group Change 2011' => 'm11',
+  'Change 2011' => 'm11',
   'Swedish Parliamentary Group' => 'r',
-  'The Finns Party Parliamentary Group' => 'ps',
-  'The Social Democratic Parliamentary Group' => 'sd',
+  'The Finns Party' => 'ps',
+  'Social Democrats' => 'sd',
   'Left Alliance' => 'vas',
-  'Green Parliamentary Group' => 'vihr',
-  'Left Faction Parliamentary Group' => 'vr',
+  'Green Party' => 'vihr',
+  'Left Faction' => 'vr',
 
-  'Parliamentary group Mustajärvi' => 'emus',
-  'Parliamentary group Yrttiaho' => 'eyrt',
-  'Parliamentary group Virtanen' => 'evir',
-  'Parliamentary group Erlund' => 'erl',
-  'Parliamentary group Puhjo' => 'epu',
+  'Mustajärvi' => 'emus',
+  'Yrttiaho' => 'eyrt',
+  'Virtanen' => 'evir',
+  'Erlund' => 'erl',
+  'Puhjo' => 'epu',
 
   # Manually added based on Finnish versions
   "Patriotic People's Movement" => 'ikl',
   "Young Finnish Party" => 'nuorsom',
-  "Liberals" => 'lkp',
+  "Liberal People's Party" => 'lkp',
   "Democratic Alternative" => 'deva',
   "Finnish Socialist Workers' Party" => 'sstp',
   "Socialist Workers and Small Farmers Group" => 'stpv',
   "Social Democratic Union of Workers and Smallholders" => 'tpsl',
-  "Alk" => 'alk', # Can't find an English name for this!
+  "Alkiolainen keskustaryhmä" => 'alk', # Can't find an English name for this!
   "Reform Group" => 'rem',
+  'Liberals' => 'lib',
 }
 
 parties = info.each_with_object({}) { |(name, abbrev), h| 
@@ -60,7 +61,7 @@ parties['ps'][:other_names].push({
   
 parties['kd'][:other_names][0][:start_date] = '2001-06-01'
 parties['kd'][:other_names].push({
-  :name => 'Finnish Christian Union Parliamentary Group',
+  :name => 'Finnish Christian Union Parliamentary Group', # as skl
   :end_date => '2001-05-30',
 })
 
@@ -85,7 +86,6 @@ fi = {
   'Kansallinen edistyspuolue' => 'lkp',
   'Suomen kansanpuolue' => 'lkp',
   'Liberaalisen kansanpuolueen eduskuntaryhmä' => 'lkp',
-  'Liberaalien eduskuntaryhmä' => 'lkp',
   # Perussuomalaisten eduskuntaryhmä (Suomen maaseudun puolueen eduskuntaryhmä - 25.10.1995)
   'Perussuomalaisten eduskuntaryhmä' => 'ps',
   'Suomen maaseudun puolueen eduskuntaryhmä' => 'ps',

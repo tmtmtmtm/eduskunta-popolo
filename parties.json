@@ -2,10 +2,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/kd",
-    "name": "Christian Democratic Parliamentary Group",
+    "name": "Christian Democrats",
     "other_names": [
       {
-        "name": "Christian Democratic Parliamentary Group",
+        "name": "Christian Democrats",
         "label": "en.eduskunta.fi",
         "start_date": "2001-06-01"
       },
@@ -64,10 +64,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/m11",
-    "name": "Parliamentary group Change 2011",
+    "name": "Change 2011",
     "other_names": [
       {
-        "name": "Parliamentary group Change 2011",
+        "name": "Change 2011",
         "label": "en.eduskunta.fi"
       }
     ]
@@ -90,10 +90,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/ps",
-    "name": "The Finns Party Parliamentary Group",
+    "name": "The Finns Party",
     "other_names": [
       {
-        "name": "The Finns Party Parliamentary Group",
+        "name": "The Finns Party",
         "label": "en.eduskunta.fi",
         "start_date": "2011-08-21"
       },
@@ -119,10 +119,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/sd",
-    "name": "The Social Democratic Parliamentary Group",
+    "name": "Social Democrats",
     "other_names": [
       {
-        "name": "The Social Democratic Parliamentary Group",
+        "name": "Social Democrats",
         "label": "en.eduskunta.fi"
       },
       {
@@ -157,10 +157,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/vihr",
-    "name": "Green Parliamentary Group",
+    "name": "Green Party",
     "other_names": [
       {
-        "name": "Green Parliamentary Group",
+        "name": "Green Party",
         "label": "en.eduskunta.fi"
       },
       {
@@ -172,10 +172,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/vr",
-    "name": "Left Faction Parliamentary Group",
+    "name": "Left Faction",
     "other_names": [
       {
-        "name": "Left Faction Parliamentary Group",
+        "name": "Left Faction",
         "label": "en.eduskunta.fi"
       },
       {
@@ -187,10 +187,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/emus",
-    "name": "Parliamentary group Mustajärvi",
+    "name": "Mustajärvi",
     "other_names": [
       {
-        "name": "Parliamentary group Mustajärvi",
+        "name": "Mustajärvi",
         "label": "en.eduskunta.fi"
       },
       {
@@ -202,10 +202,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/eyrt",
-    "name": "Parliamentary group Yrttiaho",
+    "name": "Yrttiaho",
     "other_names": [
       {
-        "name": "Parliamentary group Yrttiaho",
+        "name": "Yrttiaho",
         "label": "en.eduskunta.fi"
       },
       {
@@ -217,10 +217,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/evir",
-    "name": "Parliamentary group Virtanen",
+    "name": "Virtanen",
     "other_names": [
       {
-        "name": "Parliamentary group Virtanen",
+        "name": "Virtanen",
         "label": "en.eduskunta.fi"
       },
       {
@@ -232,10 +232,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/erl",
-    "name": "Parliamentary group Erlund",
+    "name": "Erlund",
     "other_names": [
       {
-        "name": "Parliamentary group Erlund",
+        "name": "Erlund",
         "label": "en.eduskunta.fi"
       },
       {
@@ -247,10 +247,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/epu",
-    "name": "Parliamentary group Puhjo",
+    "name": "Puhjo",
     "other_names": [
       {
-        "name": "Parliamentary group Puhjo",
+        "name": "Puhjo",
         "label": "en.eduskunta.fi"
       },
       {
@@ -296,10 +296,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/lkp",
-    "name": "Liberals",
+    "name": "Liberal People's Party",
     "other_names": [
       {
-        "name": "Liberals",
+        "name": "Liberal People's Party",
         "label": "en.eduskunta.fi"
       },
       {
@@ -312,10 +312,6 @@
       },
       {
         "name": "Liberaalisen kansanpuolueen eduskuntaryhmä",
-        "label": "fi.eduskunta.fi"
-      },
-      {
-        "name": "Liberaalien eduskuntaryhmä",
         "label": "fi.eduskunta.fi"
       }
     ]
@@ -391,10 +387,10 @@
   {
     "classification": "party",
     "id": "popit.eduskunta/party/alk",
-    "name": "Alk",
+    "name": "Alkiolainen keskustaryhmä",
     "other_names": [
       {
-        "name": "Alk",
+        "name": "Alkiolainen keskustaryhmä",
         "label": "en.eduskunta.fi"
       },
       {
@@ -415,6 +411,17 @@
       {
         "name": "Remonttiryhmä",
         "label": "fi.eduskunta.fi"
+      }
+    ]
+  },
+  {
+    "classification": "party",
+    "id": "popit.eduskunta/party/lib",
+    "name": "Liberals",
+    "other_names": [
+      {
+        "name": "Liberals",
+        "label": "en.eduskunta.fi"
       }
     ]
   }
