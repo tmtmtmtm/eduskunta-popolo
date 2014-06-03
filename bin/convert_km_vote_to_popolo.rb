@@ -64,7 +64,7 @@ motions = json['plenary_votes'].map { |pv|
   motion_id = "PTK-#{session.gsub('/','-')}-#{ pv.delete('number') }"
 
   motion = {
-    motion_id: motion_id,
+    id: motion_id,
     organization_id: 'popit.eduskunta/organization/eduskunta',
     context: { 
       sitting: session,
