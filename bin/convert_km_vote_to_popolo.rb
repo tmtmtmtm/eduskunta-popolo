@@ -40,6 +40,7 @@ def member_id_for (kmperson)
 end
 
 def party_id_for (kmparty)
+  kmparty = 'kd' if kmparty == 'skl'  # http://fi.wikipedia.org/wiki/Eduskuntaryhm%C3%A4
   party = @jparties.find { |p| p['id'].end_with? "/#{kmparty}" }
   raise "No such party: #{kmparty}" if party.nil?
   return party['id']
