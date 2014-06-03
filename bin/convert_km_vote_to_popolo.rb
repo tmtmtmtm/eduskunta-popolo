@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
 
 # Convert a KM session JSON file (e.g. in /data) into Popolo JSON 
+# of a list of motions (with embedded vote_events) from that session.
 # Requires a people.json and parties.json in the current directory
 
 require 'json'
@@ -59,39 +60,42 @@ session = json.delete('origin_id')
 session_date = json.delete('date')
 session_src  = json.delete('info_link')
 
-vote_events = json['plenary_votes'].map { |pv|
-  ve = {
-    motion: {
-      motion_id: 0,
-      organization_id: 'popit.eduskunta/organization/eduskunta',
-      context: { 
-        sitting: session,
-        date: session_date,
-        sources: [{ url: session_src }],
-      },
-      object: {
-        bill:  pv['session_item'].delete('description'),
-        subject:  pv.delete('subject'),
-        stage: pv['session_item'].delete('processing_stage'),
-        type:  pv['session_item'].delete('type'),
-        sub_description:  pv['session_item'].delete('sub_description'),
-        type:  pv['session_item'].delete('sub_number'),
-      }.select { |k, v| !v.nil? },
-      text: pv.delete('setting'),
-      pv_number: pv.delete('number'),
+motions = json['plenary_votes'].map { |pv|
+  motion_id = "PTK-#{session.gsub('/','-')}-#{ pv.delete('number') }"
+
+  motion = {
+    motion_id: motion_id,
+    organization_id: 'popit.eduskunta/organization/eduskunta',
+    context: { 
+      sitting: session,
+      date: session_date,
+      sources: [{ url: session_src }],
     },
-    start_date: pv.delete('time'),
-    counts: convert_vote_counts( pv.delete('vote_counts') ),
-    votes: convert_roll_call( pv.delete('roll_call') ),
+    object: {
+      bill:  pv['session_item'].delete('description'),
+      subject:  pv.delete('subject'),
+      stage: pv['session_item'].delete('processing_stage'),
+      type:  pv['session_item'].delete('type'),
+      sub_description:  pv['session_item'].delete('sub_description'),
+      type:  pv['session_item'].delete('sub_number'),
+    }.select { |k, v| !v.nil? },
+    text: pv.delete('setting'),
+    vote_events: [{
+      motion_id: motion_id,
+      start_date: pv.delete('time'),
+      counts: convert_vote_counts( pv.delete('vote_counts') ),
+      votes: convert_roll_call( pv.delete('roll_call') ),
+    }],
   }
+
   %w( documents nr_statements nr_votes number  ).each { |skip| pv['session_item'].delete(skip) }
   raise "Unhandled #{pv['session_item']}" unless pv['session_item'].empty?
   %w( session_item info_link ).each { |skip| pv.delete(skip) }
   raise "Unhandled #{pv}" unless pv.empty?
-  ve
+  motion
 }
 
 %w( plenary_votes origin_version name url_name  ).each { |skip| json.delete(skip) }
 raise "Unhandled #{json}" unless json.empty?
 
-puts JSON.pretty_generate ( vote_events )
+puts JSON.pretty_generate ( motions )
