@@ -1,0 +1,4162 @@
+[
+  {
+    "id": "PTK-119-2010-1",
+    "organization_id": "popit.eduskunta/organization/eduskunta",
+    "context": {
+      "sitting": "119/2010",
+      "date": "2010-11-24",
+      "sources": [
+        {
+          "url": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+119/2010+vp"
+        }
+      ]
+    },
+    "object": {
+      "bill": "HE: laeiksi avopuolisoiden yhteistalouden purkamisesta ja eräiden siihen liittyvien lakien muuttamisesta",
+      "subject": "Hallituksen esitys laeiksi avopuolisoiden yhteistalouden purkamisesta ja eräiden siihen liittyvien lakien muuttamisesta",
+      "stage": "2ndread"
+    },
+    "text": "Hyväksyminen/hylkääminen",
+    "vote_events": [
+      {
+        "motion_id": "PTK-119-2010-1",
+        "start_date": "2010-11-24T14:09:00",
+        "counts": [
+          {
+            "option": "yes",
+            "value": 131
+          },
+          {
+            "option": "no",
+            "value": 44
+          },
+          {
+            "option": "abstain",
+            "value": 1
+          },
+          {
+            "option": "absent",
+            "value": 23
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": "popit.eduskunta/person/103",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/775",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/804",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/944",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/558",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/802",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/914",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/940",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/786",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/817",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/446",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/973",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/127",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/585",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/917",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/956",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/970",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/224",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/764",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/486",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/966",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/769",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/923",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/943",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/448",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/587",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/931",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/936",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/451",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/971",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/560",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/588",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/623",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/204",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/116",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/947",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/926",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/789",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/118",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/589",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/916",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/887",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/562",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/925",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/805",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/922",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/938",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/811",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/967",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/212",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/768",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/955",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/563",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/785",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/777",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/919",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/941",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/951",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/564",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1051",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/630",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/495",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/797",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/240",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/565",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/946",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/136",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/801",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/566",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/228",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/799",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/592",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/972",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/593",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1056",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/594",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1053",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/541",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/930",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/796",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1052",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/809",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/772",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/375",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/402",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/920",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/459",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/499",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/166",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/595",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/417",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/253",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/953",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/515",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/964",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/596",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/170",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/259",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/614",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/762",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/175",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/612",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/954",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/261",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/568",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/784",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/918",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/965",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/921",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/949",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/462",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/600",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/569",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/788",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/969",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/267",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/771",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/894",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/939",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/773",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/571",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/311",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/958",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/952",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/950",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/782",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/781",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/933",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/613",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/278",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/791",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/770",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/464",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/790",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/960",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/602",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/465",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/505",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/779",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/932",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/574",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/357",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/386",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/846",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/959",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/800",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/403",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/389",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/469",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/507",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/358",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/808",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/471",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/942",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/473",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "abstain"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/605",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/807",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/910",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/444",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/604",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/927",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/766",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/963",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/962",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/577",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/508",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/578",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/475",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/202",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/928",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/407",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/511",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/478",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/968",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/370",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/607",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/479",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/608",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/924",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/957",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/376",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/948",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/934",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/793",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/847",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/512",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/935",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/295",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/581",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/961",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/582",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/300",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/480",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/794",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/583",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/945",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/915",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/301",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/483",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PTK-119-2010-2",
+    "organization_id": "popit.eduskunta/organization/eduskunta",
+    "context": {
+      "sitting": "119/2010",
+      "date": "2010-11-24",
+      "sources": [
+        {
+          "url": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+119/2010+vp"
+        }
+      ]
+    },
+    "object": {
+      "bill": "HE: laiksi Euroopan unionin sotilaallisen kriisinhallintaoperaation EUNAVFOR Atalantan yhteydessä merirosvoudesta tai aseellisesta ryöstöstä epäiltyä koskevan rikosasian käsittelystä",
+      "subject": "Hallituksen esitys laiksi Euroopan unionin sotilaallisen kriisinhallintaoperaation EUNAVFOR Atalantan yhteydessä merirosvoudesta tai aseellisesta ryöstöstä epäiltyä koskevan rikosasian käsittelystä",
+      "stage": "2ndread"
+    },
+    "text": "Hyväksyminen/hylkääminen",
+    "vote_events": [
+      {
+        "motion_id": "PTK-119-2010-2",
+        "start_date": "2010-11-24T14:11:00",
+        "counts": [
+          {
+            "option": "yes",
+            "value": 162
+          },
+          {
+            "option": "no",
+            "value": 12
+          },
+          {
+            "option": "abstain",
+            "value": 2
+          },
+          {
+            "option": "absent",
+            "value": 23
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": "popit.eduskunta/person/103",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/775",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/804",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/944",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/558",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/802",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/914",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/940",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/786",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/817",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/446",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/973",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/127",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/585",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/917",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/956",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/970",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/224",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/764",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/486",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/966",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/769",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/923",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/943",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/448",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/587",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/931",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/936",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/451",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/971",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/560",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/588",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/623",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/204",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/116",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/947",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/926",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/789",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/118",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/589",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/916",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/887",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/562",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/925",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/805",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/922",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/938",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/811",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/967",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/212",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/768",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/955",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/563",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/785",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/777",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/919",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/941",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/951",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/564",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1051",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "abstain"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/630",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/495",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/797",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/240",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/565",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/946",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/136",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/801",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/566",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/228",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "abstain"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/799",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/592",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/972",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/593",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1056",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/594",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1053",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/541",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/930",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/796",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1052",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/809",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/772",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/375",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/402",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/920",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/459",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/499",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/166",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/595",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/417",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/253",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/953",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/515",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/964",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/596",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/170",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/259",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/614",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/762",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/175",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/612",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/954",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/261",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/568",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/784",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/918",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/965",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/921",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/949",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/462",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/600",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/569",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/788",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/969",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/267",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/771",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/894",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/939",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/773",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/571",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/311",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/958",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/952",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/950",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/782",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/781",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/933",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/613",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/278",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/791",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/770",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/464",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/790",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/960",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/602",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/465",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/505",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/779",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/932",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/574",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/357",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/386",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/846",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/959",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/800",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/403",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/389",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/469",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/507",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/358",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/808",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/471",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/942",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/473",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/605",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/807",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/910",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/444",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/604",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/927",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/766",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/963",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/962",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/577",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/508",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/578",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/475",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/202",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/928",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/407",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/511",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/478",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/968",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/370",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/607",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/479",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/608",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/924",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/957",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/376",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/948",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/934",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/793",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/847",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/512",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/935",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/295",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/581",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/961",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/582",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/300",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/480",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/794",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/583",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/945",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/915",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/301",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/483",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PTK-119-2010-3",
+    "organization_id": "popit.eduskunta/organization/eduskunta",
+    "context": {
+      "sitting": "119/2010",
+      "date": "2010-11-24",
+      "sources": [
+        {
+          "url": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+119/2010+vp"
+        }
+      ]
+    },
+    "object": {
+      "bill": "HE: Luotsausliikelaitoksen muuttamisesta osakeyhtiöksi",
+      "subject": "Hallituksen esitys Luotsausliikelaitoksen muuttamisesta osakeyhtiöksi",
+      "stage": "2ndread"
+    },
+    "text": "Hyväksyminen/hylkääminen",
+    "vote_events": [
+      {
+        "motion_id": "PTK-119-2010-3",
+        "start_date": "2010-11-24T14:12:00",
+        "counts": [
+          {
+            "option": "yes",
+            "value": 106
+          },
+          {
+            "option": "no",
+            "value": 67
+          },
+          {
+            "option": "abstain",
+            "value": 0
+          },
+          {
+            "option": "absent",
+            "value": 26
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": "popit.eduskunta/person/103",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/775",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/804",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/944",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/558",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/802",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/914",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/940",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/786",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/817",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/446",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/973",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/127",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/585",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/917",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/956",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/970",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/224",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/764",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/486",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/966",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/769",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/923",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/943",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/448",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/587",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/931",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/936",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/451",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/971",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/560",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/588",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/623",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/204",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/116",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/947",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/926",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/789",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/118",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/589",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/916",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/887",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/562",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/925",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/805",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/922",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/938",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/811",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/967",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/212",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/768",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/955",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/563",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/785",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/777",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/919",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/941",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/951",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/564",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1051",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/630",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/495",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/797",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/240",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/565",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/946",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/136",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/801",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/566",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/228",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/799",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/592",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/972",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/593",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1056",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/594",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1053",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/541",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/930",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/796",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1052",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/809",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/772",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/375",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/402",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/920",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/459",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/499",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/166",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/595",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/417",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/253",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/953",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/515",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/964",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/596",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/170",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/259",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/614",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/762",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/175",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/612",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/954",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/261",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/568",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/784",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/918",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/965",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/921",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/949",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/462",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/600",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/569",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/788",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/969",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/267",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/771",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/894",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/939",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/773",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/571",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/311",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/958",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/952",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/950",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/782",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/781",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/933",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/613",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/278",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/791",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/770",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/464",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/790",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/960",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/602",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/465",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/505",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/779",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/932",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/574",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/357",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/386",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/846",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/959",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/800",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/403",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/389",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/469",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/507",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/358",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/808",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/471",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/942",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/473",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/605",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/807",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/910",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/444",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/604",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/927",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/766",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/963",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/962",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/577",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/508",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/578",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/475",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/202",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/928",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/407",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/511",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/478",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/968",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/370",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/607",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/479",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/608",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/924",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/957",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/376",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/948",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/934",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/793",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/847",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/512",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/935",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/295",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/581",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/961",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/582",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/300",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/480",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/794",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/583",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/945",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/915",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/301",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/483",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PTK-119-2010-4",
+    "organization_id": "popit.eduskunta/organization/eduskunta",
+    "context": {
+      "sitting": "119/2010",
+      "date": "2010-11-24",
+      "sources": [
+        {
+          "url": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+119/2010+vp"
+        }
+      ]
+    },
+    "object": {
+      "bill": "HE: laeiksi luotsauslain muuttamisesta ja vahingonkorvauslain 3 luvun 7 §:n kumoamisesta",
+      "subject": "Hallituksen esitys laeiksi luotsauslain muuttamisesta ja vahingonkorvauslain 3 luvun 7 §:n kumoamisesta",
+      "stage": "2ndread"
+    },
+    "text": "Hyväksyminen/hylkääminen",
+    "vote_events": [
+      {
+        "motion_id": "PTK-119-2010-4",
+        "start_date": "2010-11-24T14:13:00",
+        "counts": [
+          {
+            "option": "yes",
+            "value": 109
+          },
+          {
+            "option": "no",
+            "value": 67
+          },
+          {
+            "option": "abstain",
+            "value": 0
+          },
+          {
+            "option": "absent",
+            "value": 23
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": "popit.eduskunta/person/103",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/775",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/804",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/944",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/558",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/802",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/914",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/940",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/786",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/817",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/446",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/973",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/127",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/585",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/917",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/956",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/970",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/224",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/764",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/486",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/966",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/769",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/923",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/943",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/448",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/587",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/931",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/936",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/451",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/971",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/560",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/588",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/623",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/204",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/116",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/947",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/926",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/789",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/118",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/589",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/916",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/887",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/562",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/925",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/805",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/922",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/938",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/811",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/967",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/212",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/768",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/955",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/563",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/785",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/777",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/919",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/941",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/951",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/564",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1051",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/630",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/495",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/797",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/240",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/565",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/946",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/136",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/801",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/566",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/228",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/799",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/592",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/972",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/593",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1056",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/594",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1053",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/541",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/930",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/796",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/1052",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/809",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/772",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/375",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/402",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/920",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/459",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/499",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/166",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/595",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/417",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/253",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/953",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/515",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/964",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/596",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/170",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/259",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/614",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/762",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/175",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/612",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/954",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/261",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/568",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/784",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/918",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/965",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/921",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/949",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/462",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/600",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/569",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/788",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/969",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/267",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/771",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/894",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/939",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/773",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/571",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/311",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/958",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/952",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/950",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/782",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/781",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/933",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/613",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/278",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/791",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/770",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/464",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/790",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/960",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/602",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/465",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/505",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/779",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/932",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/574",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/357",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/386",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/846",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/959",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/800",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/403",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/389",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/469",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/507",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/358",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/808",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/471",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/942",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/473",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/605",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/807",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/910",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/444",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/604",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/927",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/766",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/963",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/962",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/577",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/508",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/578",
+            "party_id": "popit.eduskunta/party/kd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/475",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/202",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/928",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/407",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/511",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/478",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/968",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/370",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/607",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/479",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/608",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/924",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/957",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/376",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/948",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/934",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/793",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/847",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/512",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/935",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/295",
+            "party_id": "popit.eduskunta/party/ps",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/581",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/961",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/582",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/300",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/480",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/794",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/583",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/945",
+            "party_id": "popit.eduskunta/party/vas",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/915",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/301",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/483",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          }
+        ]
+      }
+    ]
+  }
+]

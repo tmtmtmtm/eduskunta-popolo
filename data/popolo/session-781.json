@@ -1,0 +1,112 @@
+[
+  {
+    "id": "PTK-161-2006-1",
+    "organization_id": "popit.eduskunta/organization/eduskunta",
+    "context": {
+      "sitting": "161/2006",
+      "date": "2007-02-16",
+      "sources": [
+        {
+          "url": "http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+161/2006+vp"
+        }
+      ]
+    },
+    "object": {
+      "bill": "Hallituksen toimenpidekertomus vuodelta 2005",
+      "subject": "Hallituksen toimenpidekertomus vuodelta 2005",
+      "stage": "onlyread"
+    },
+    "text": "Lausumaehdotus, miet./Akaan-Penttilä",
+    "vote_events": [
+      {
+        "motion_id": "PTK-161-2006-1",
+        "start_date": "2007-02-16T13:07:00",
+        "counts": [
+          {
+            "option": "yes",
+            "value": 6
+          },
+          {
+            "option": "no",
+            "value": 4
+          },
+          {
+            "option": "abstain",
+            "value": 0
+          },
+          {
+            "option": "absent",
+            "value": 3
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": "popit.eduskunta/person/103",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/409",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/804",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/481",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/558",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/482",
+            "party_id": "popit.eduskunta/party/r",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/786",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "yes"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/483",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/111",
+            "party_id": "popit.eduskunta/party/sd",
+            "option": "absent"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/775",
+            "party_id": "popit.eduskunta/party/kok",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/446",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/787",
+            "party_id": "popit.eduskunta/party/vihr",
+            "option": "no"
+          },
+          {
+            "voter_id": "popit.eduskunta/person/127",
+            "party_id": "popit.eduskunta/party/kesk",
+            "option": "absent"
+          }
+        ]
+      }
+    ]
+  }
+]
