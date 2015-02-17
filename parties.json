@@ -422,6 +422,10 @@
       {
         "name": "Liberals",
         "label": "en.eduskunta.fi"
+      },
+      {
+        "name": "Liberaalien eduskuntaryhmä",
+        "label": "fi.eduskunta.fi"
       }
     ]
   }

@@ -4811,14 +4811,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "mari.kiviniemi@eduskunta.fi",
     "birth_date": "1968-09-27",
     "image": "http://dev.kansanmuisti.fi/media/images/members/kiviniemi-mari.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3189"
-      }
+
     ],
     "links": [
       {
@@ -4830,7 +4826,8 @@
       {
         "organization_id": "popit.eduskunta/party/kesk",
         "role": "MP",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "end_date": "2014-09-02"
       }
     ]
   },
@@ -6344,7 +6341,7 @@
         "end_date": "2003-01-13"
       },
       {
-        "organization_id": "popit.eduskunta/party/lkp",
+        "organization_id": "popit.eduskunta/party/lib",
         "role": "MP",
         "start_date": "2003-01-14",
         "end_date": "2003-03-18"
@@ -7061,14 +7058,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "jyrki.katainen@eduskunta.fi",
     "birth_date": "1971-10-14",
     "image": "http://dev.kansanmuisti.fi/media/images/members/katainen-jyrki.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3094"
-      }
+
     ],
     "links": [
       {
@@ -7080,7 +7073,8 @@
       {
         "organization_id": "popit.eduskunta/party/kok",
         "role": "MP",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "end_date": "2014-06-30"
       }
     ]
   },
@@ -8089,14 +8083,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "anni.sinnemaki@eduskunta.fi",
     "birth_date": "1973-07-20",
     "image": "http://dev.kansanmuisti.fi/media/images/members/sinnemaki-anni.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3166"
-      }
+
     ],
     "links": [
       {
@@ -8108,7 +8098,8 @@
       {
         "organization_id": "popit.eduskunta/party/vihr",
         "role": "MP",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "end_date": "2015-01-13"
       }
     ]
   },
@@ -8419,7 +8410,10 @@
     "birth_date": "1953-05-23",
     "image": "http://dev.kansanmuisti.fi/media/images/members/wallin-harry.jpg",
     "contact_details": [
-
+      {
+        "type": "phone",
+        "value": "(09) 432 3057"
+      }
     ],
     "links": [
       {
@@ -8433,6 +8427,11 @@
         "role": "MP",
         "start_date": "1999-03-24",
         "end_date": "2007-03-20"
+      },
+      {
+        "organization_id": "popit.eduskunta/party/sd",
+        "role": "MP",
+        "start_date": "2014-07-04"
       }
     ]
   },
@@ -10438,14 +10437,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "miapetra.kumpula-natri@eduskunta.fi",
     "birth_date": "1972-05-19",
     "image": "http://dev.kansanmuisti.fi/media/images/members/kumpula-natri-miapetra.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3004"
-      }
+
     ],
     "links": [
       {
@@ -10457,7 +10452,8 @@
       {
         "organization_id": "popit.eduskunta/party/sd",
         "role": "MP",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "end_date": "2014-06-30"
       }
     ]
   },
@@ -10742,10 +10738,14 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
+    "email": "terhi.peltokorpi@eduskunta.fi",
     "birth_date": "1975-06-25",
     "image": "http://dev.kansanmuisti.fi/media/images/members/peltokorpi-terhi.jpg",
     "contact_details": [
-
+      {
+        "type": "phone",
+        "value": "(09) 432 3189"
+      }
     ],
     "links": [
       {
@@ -10759,6 +10759,11 @@
         "role": "MP",
         "start_date": "2004-07-21",
         "end_date": "2007-03-20"
+      },
+      {
+        "organization_id": "popit.eduskunta/party/kesk",
+        "role": "MP",
+        "start_date": "2014-09-03"
       }
     ]
   },
@@ -10891,7 +10896,10 @@
     "birth_date": "1976-11-08",
     "image": "http://dev.kansanmuisti.fi/media/images/members/sumuvuori-johanna.jpg",
     "contact_details": [
-
+      {
+        "type": "phone",
+        "value": "(09) 4321"
+      }
     ],
     "links": [
       {
@@ -10905,6 +10913,11 @@
         "role": "MP",
         "start_date": "2006-08-01",
         "end_date": "2011-04-19"
+      },
+      {
+        "organization_id": "popit.eduskunta/party/vihr",
+        "role": "MP",
+        "start_date": "2015-01-14"
       }
     ]
   },
@@ -11389,8 +11402,8 @@
   },
   {
     "id": "popit.eduskunta/person/926",
-    "name": "Guzenina-Richardson Maria",
-    "family_name": "Guzenina-Richardson",
+    "name": "Guzenina Maria",
+    "family_name": "Guzenina",
     "given_names": "Maria",
     "identifiers": [
       {
@@ -11402,9 +11415,9 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "maria.guzenina-richardson@eduskunta.fi",
+    "email": "maria.guzenina@eduskunta.fi",
     "birth_date": "1969-01-12",
-    "image": "http://dev.kansanmuisti.fi/media/images/members/guzenina-richardson-maria.jpg",
+    "image": "http://dev.kansanmuisti.fi/media/images/members/guzenina-maria.jpg",
     "contact_details": [
       {
         "type": "phone",
@@ -12568,14 +12581,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "henna.virkkunen@eduskunta.fi",
     "birth_date": "1972-06-04",
     "image": "http://dev.kansanmuisti.fi/media/images/members/virkkunen-henna.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3057"
-      }
+
     ],
     "links": [
       {
@@ -12587,7 +12596,8 @@
       {
         "organization_id": "popit.eduskunta/party/kok",
         "role": "MP",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "end_date": "2014-06-30"
       }
     ]
   },
@@ -12793,14 +12803,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "merja.kyllonen@eduskunta.fi",
     "birth_date": "1977-01-25",
     "image": "http://dev.kansanmuisti.fi/media/images/members/kyllonen-merja.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3132"
-      }
+
     ],
     "links": [
       {
@@ -12812,7 +12818,8 @@
       {
         "organization_id": "popit.eduskunta/party/vas",
         "role": "MP",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "end_date": "2014-06-30"
       }
     ]
   },
@@ -14292,14 +14299,10 @@
         "scheme": "kansanmuisti.fi"
       }
     ],
-    "email": "jussi.halla-aho@eduskunta.fi",
     "birth_date": "1971-04-27",
     "image": "http://dev.kansanmuisti.fi/media/images/members/halla-aho-jussi.jpg",
     "contact_details": [
-      {
-        "type": "phone",
-        "value": "(09) 432 3042"
-      }
+
     ],
     "links": [
       {
@@ -14311,7 +14314,8 @@
       {
         "organization_id": "popit.eduskunta/party/ps",
         "role": "MP",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "end_date": "2014-06-30"
       }
     ]
   },
@@ -15609,7 +15613,13 @@
       {
         "organization_id": "popit.eduskunta/party/ps",
         "role": "MP",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "end_date": "2014-11-04"
+      },
+      {
+        "organization_id": "popit.eduskunta/party/kesk",
+        "role": "MP",
+        "start_date": "2014-11-05"
       }
     ]
   },
@@ -16180,6 +16190,158 @@
         "organization_id": "popit.eduskunta/party/kok",
         "role": "MP",
         "start_date": "2012-11-21"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/person/1275",
+    "name": "Raatikainen Mika",
+    "family_name": "Raatikainen",
+    "given_names": "Mika Pekka",
+    "identifiers": [
+      {
+        "identifier": "1275",
+        "scheme": "eduskunta.fi"
+      },
+      {
+        "identifier": "433",
+        "scheme": "kansanmuisti.fi"
+      }
+    ],
+    "email": "mika.raatikainen@eduskunta.fi",
+    "birth_date": "1961-11-07",
+    "image": "http://dev.kansanmuisti.fi/media/images/members/raatikainen-mika.jpg",
+    "contact_details": [
+      {
+        "type": "phone",
+        "value": "(09) 432 3042"
+      }
+    ],
+    "links": [
+      {
+        "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1275&kieli=su",
+        "note": "Eduskunta.fi (fi)"
+      }
+    ],
+    "memberships": [
+      {
+        "organization_id": "popit.eduskunta/party/ps",
+        "role": "MP",
+        "start_date": "2014-07-04"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/person/1276",
+    "name": "Hänninen Katja",
+    "family_name": "Hänninen",
+    "given_names": "Katja Maria",
+    "identifiers": [
+      {
+        "identifier": "1276",
+        "scheme": "eduskunta.fi"
+      },
+      {
+        "identifier": "431",
+        "scheme": "kansanmuisti.fi"
+      }
+    ],
+    "email": "katja.hanninen@eduskunta.fi",
+    "birth_date": "1980-01-26",
+    "image": "http://dev.kansanmuisti.fi/media/images/members/hanninen-katja.jpg",
+    "contact_details": [
+      {
+        "type": "phone",
+        "value": "(09) 432 3132"
+      }
+    ],
+    "links": [
+      {
+        "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1276&kieli=su",
+        "note": "Eduskunta.fi (fi)"
+      }
+    ],
+    "memberships": [
+      {
+        "organization_id": "popit.eduskunta/party/vas",
+        "role": "MP",
+        "start_date": "2014-07-04"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/person/1277",
+    "name": "Palola Mikael",
+    "family_name": "Palola",
+    "given_names": "Ari Juhana Mikael",
+    "identifiers": [
+      {
+        "identifier": "1277",
+        "scheme": "eduskunta.fi"
+      },
+      {
+        "identifier": "432",
+        "scheme": "kansanmuisti.fi"
+      }
+    ],
+    "email": "mikael.palola@eduskunta.fi",
+    "birth_date": "1976-01-13",
+    "image": "http://dev.kansanmuisti.fi/media/images/members/palola-mikael.jpg",
+    "contact_details": [
+      {
+        "type": "phone",
+        "value": "050 512 0891"
+      }
+    ],
+    "links": [
+      {
+        "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1277&kieli=su",
+        "note": "Eduskunta.fi (fi)"
+      }
+    ],
+    "memberships": [
+      {
+        "organization_id": "popit.eduskunta/party/kok",
+        "role": "MP",
+        "start_date": "2014-07-04"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/person/1279",
+    "name": "Lepomäki Elina",
+    "family_name": "Lepomäki",
+    "given_names": "Elina Maria",
+    "identifiers": [
+      {
+        "identifier": "1279",
+        "scheme": "eduskunta.fi"
+      },
+      {
+        "identifier": "430",
+        "scheme": "kansanmuisti.fi"
+      }
+    ],
+    "email": "elina.lepomaki@eduskunta.fi",
+    "birth_date": "1981-10-23",
+    "image": "http://dev.kansanmuisti.fi/media/images/members/lepomaki-elina.jpg",
+    "contact_details": [
+      {
+        "type": "phone",
+        "value": "(09) 432 3094"
+      }
+    ],
+    "links": [
+      {
+        "url": "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=1279&kieli=su",
+        "note": "Eduskunta.fi (fi)"
+      }
+    ],
+    "memberships": [
+      {
+        "organization_id": "popit.eduskunta/party/kok",
+        "role": "MP",
+        "start_date": "2014-07-04"
       }
     ]
   },
