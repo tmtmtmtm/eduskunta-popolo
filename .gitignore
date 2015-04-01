@@ -2,3 +2,5 @@
 *.gz
 data/skip/
 voteit-transform/node_modules
+
+_site/*
