@@ -49,6 +49,19 @@ parties = info.each_with_object({}) { |(name, abbrev), h|
   }
 }
 
+terms = JSON.parse(File.read('data/kansanmuisti/terms.json'))['objects']
+  .sort_by { |t| t['begin'] }.each_with_index.map { |t, i| 
+  {
+    id: "term/#{i+1}",
+    name: "Eduskunta #{i+1} (#{t['display_name'].strip})",
+    start_date: t['begin'],
+    end_date: t['end'],
+    identifiers: [{
+      identifier: t['id'].to_s,
+      scheme: "kansanmuisti.fi",
+    }],
+  }.reject { |_,v| v.nil? }
+}
 parties['legislature'] = {
   :classification => "legislature",
   :id       => "legislature",
@@ -59,7 +72,12 @@ parties['legislature'] = {
       :label => 'en.eduskunta.fi',
     },
   ],
+  :terms => terms,
 }
+  
+
+
+
 
 parties['ps'][:other_names][0][:start_date] = '2011-08-21'
 parties['ps'][:other_names].push({
