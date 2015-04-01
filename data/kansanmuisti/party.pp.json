@@ -2,17 +2,22 @@
   "objects": [
     {
       "vis_color": "#cccccc",
+      "stats": null,
       "resource_uri": "/api/v1/party/kd/",
       "name": "Kristillisdemokraatit",
       "minister_count": 1,
       "member_count": 6,
-      "logo_128x128": "/media/cache/2e/80/2e800914af9e77dfff8fb8723290ded3.png",
+      "logo_128x128": "/media/cache/3c/6f/3c6fa6d2003c6ea482fb5d6b9d94b977_n1kQgh4.png",
       "abbreviation": "kd",
       "governing_now": true,
       "governing_terms": [
         {
-          "end": null,
+          "end": "2014-06-24",
           "begin": "2011-06-22"
+        },
+        {
+          "end": null,
+          "begin": "2014-06-24"
         }
       ],
       "homepage_link": "",
@@ -23,11 +28,12 @@
     },
     {
       "vis_color": "#9fd18b",
+      "stats": null,
       "resource_uri": "/api/v1/party/kesk/",
       "name": "Keskusta",
       "minister_count": 0,
-      "member_count": 35,
-      "logo_128x128": "/media/cache/df/e3/dfe3fbca29422c9fd6c0b7b1340222cb.png",
+      "member_count": 36,
+      "logo_128x128": "/media/cache/1f/6d/1f6d982a0742622537a2d616feb83210_JHPfYGc.png",
       "abbreviation": "kesk",
       "governing_now": false,
       "governing_terms": [
@@ -52,11 +58,12 @@
     },
     {
       "vis_color": "#c7ddf3",
+      "stats": null,
       "resource_uri": "/api/v1/party/kok/",
       "name": "Kokoomus",
       "minister_count": 6,
       "member_count": 44,
-      "logo_128x128": "/media/cache/a9/68/a968c9359c3d599a021fde966938c12f.png",
+      "logo_128x128": "/media/cache/22/1e/221e42347362e5bcf31169e8f20c4f0d_Hg0eGrQ.png",
       "abbreviation": "kok",
       "governing_now": true,
       "governing_terms": [
@@ -73,8 +80,12 @@
           "begin": "2010-06-22"
         },
         {
-          "end": null,
+          "end": "2014-06-24",
           "begin": "2011-06-22"
+        },
+        {
+          "end": null,
+          "begin": "2014-06-24"
         }
       ],
       "homepage_link": "",
@@ -85,11 +96,12 @@
     },
     {
       "vis_color": "#69b3e3",
+      "stats": null,
       "resource_uri": "/api/v1/party/ps/",
       "name": "Perussuomalaiset",
       "minister_count": 0,
-      "member_count": 38,
-      "logo_128x128": "/media/cache/ff/a6/ffa6c3b0d8112a64ec684996c8fab0c7.png",
+      "member_count": 37,
+      "logo_128x128": "/media/cache/a1/d9/a1d975b0c7b5c708b54ac44dd9e6ec45_4MwyfRX.png",
       "abbreviation": "ps",
       "governing_now": false,
       "governing_terms": [],
@@ -101,11 +113,12 @@
     },
     {
       "vis_color": "#ffd87d",
+      "stats": null,
       "resource_uri": "/api/v1/party/r/",
       "name": "RKP",
       "minister_count": 2,
       "member_count": 10,
-      "logo_128x128": "/media/cache/aa/08/aa08785c4b62422ca26c203b177d65bd.png",
+      "logo_128x128": "/media/cache/7f/9b/7f9b6834a8c98d9b7ca17e57257ce26b_VMF3wsX.png",
       "abbreviation": "r",
       "governing_now": true,
       "governing_terms": [
@@ -126,8 +139,12 @@
           "begin": "2010-06-22"
         },
         {
-          "end": null,
+          "end": "2014-06-24",
           "begin": "2011-06-22"
+        },
+        {
+          "end": null,
+          "begin": "2014-06-24"
         }
       ],
       "homepage_link": "",
@@ -138,11 +155,12 @@
     },
     {
       "vis_color": "#f9c0c7",
+      "stats": null,
       "resource_uri": "/api/v1/party/sd/",
       "name": "Sosialidemokraatit",
       "minister_count": 6,
       "member_count": 42,
-      "logo_128x128": "/media/cache/57/64/5764c0bc886473ec7f9e9fc61a1383bd.png",
+      "logo_128x128": "/media/cache/27/2c/272ceb7c62eb28bc214a8305c473dba8_5ngWMjh.png",
       "abbreviation": "sd",
       "governing_now": true,
       "governing_terms": [
@@ -155,8 +173,12 @@
           "begin": "2003-06-24"
         },
         {
-          "end": null,
+          "end": "2014-06-24",
           "begin": "2011-06-22"
+        },
+        {
+          "end": null,
+          "begin": "2014-06-24"
         }
       ],
       "homepage_link": "",
@@ -167,11 +189,12 @@
     },
     {
       "vis_color": "#ec008c",
+      "stats": null,
       "resource_uri": "/api/v1/party/vas/",
       "name": "Vasemmistoliitto",
       "minister_count": 0,
       "member_count": 14,
-      "logo_128x128": "/media/cache/5c/f5/5cf5a69e11b0ba729603911851583f55.png",
+      "logo_128x128": "/media/cache/22/e4/22e49176df977ae826d138e7dccf46b0_hkNJMIv.png",
       "abbreviation": "vas",
       "governing_now": false,
       "governing_terms": [
@@ -192,13 +215,14 @@
     },
     {
       "vis_color": "#dde89a",
+      "stats": null,
       "resource_uri": "/api/v1/party/vihr/",
       "name": "Vihreä liitto",
-      "minister_count": 2,
+      "minister_count": 0,
       "member_count": 10,
-      "logo_128x128": "/media/cache/49/a3/49a32098ca89728e21899d292c3834d4.png",
+      "logo_128x128": "/media/cache/07/4a/074ab2f87b9486a922ec39806b3a672e_TAveY9d.png",
       "abbreviation": "vihr",
-      "governing_now": true,
+      "governing_now": false,
       "governing_terms": [
         {
           "end": "2002-05-31",
@@ -213,8 +237,12 @@
           "begin": "2010-06-22"
         },
         {
-          "end": null,
+          "end": "2014-06-24",
           "begin": "2011-06-22"
+        },
+        {
+          "end": "2014-09-18",
+          "begin": "2014-06-24"
         }
       ],
       "homepage_link": "",
@@ -225,11 +253,12 @@
     },
     {
       "vis_color": "#a2c7f2",
+      "stats": null,
       "resource_uri": "/api/v1/party/m11/",
       "name": "Muutos 2011",
       "minister_count": 0,
       "member_count": 1,
-      "logo_128x128": "/media/cache/7c/9b/7c9b6942b3421106e11e101a3a19e543.png",
+      "logo_128x128": "/media/cache/32/8d/328dd15a676f4d829dbf7406997f1ebf_BU2HbP0.png",
       "abbreviation": "m11",
       "governing_now": false,
       "governing_terms": [],

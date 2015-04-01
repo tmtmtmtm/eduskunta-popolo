@@ -84,6 +84,7 @@ fi = {
   'Vihreä eduskuntaryhmä' => 'vihr',
   'Nuorsuomalainen puolue' => 'nuorsom',
   'Eduskuntaryhmä Nuorsuomalaiset ja Risto Kuisma' => 'nuorsom', # !
+  'Liberaalien eduskuntaryhmä' => 'lib',
 
   # Keskustan eduskuntaryhmä (Maalaisliiton eduskuntaryhmä - 31.01.1965)
   'Keskustan eduskuntaryhmä' => 'kesk',
