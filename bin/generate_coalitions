@@ -7,7 +7,8 @@
 require 'json'
 
 info = [
-  [72, 'Katainen I',     ['2011-06-22'],               %w(kok sd vas vihr r kd)],
+  [73, 'Stubb',          ['2014-06-24', ],             %w(kok sd vihr r kd)],
+  [72, 'Katainen',       ['2011-06-22', '2014-06-24'], %w(kok sd vas vihr r kd)], # TODO vas left on 
   [71, 'Kiviniemi I',    ['2010-06-22', '2011-06-22'], %w(kesk kok vihr r)], 
   [70, 'Vanhanen II',    ['2007-04-19', '2010-06-22'], %w(kesk kok vihr r)],
   [69, 'Vanhanen I',     ['2003-07-26', '2007-04-19'], %w(kesk kok vihr r)],

@@ -1,10 +1,58 @@
 [
   {
+    "id": "popit.eduskunta/government/73",
+    "name": "Government 73",
+    "other_names": [
+      {
+        "name": "Stubb"
+      }
+    ],
+    "classification": "coalition",
+    "memberships": [
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/kok"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/sd"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/vihr"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/r"
+        }
+      },
+      {
+        "role": "government",
+        "member": {
+          "@type": "Organization",
+          "id": "popit.eduskunta/party/kd"
+        }
+      }
+    ],
+    "founding_date": "2014-06-24"
+  },
+  {
     "id": "popit.eduskunta/government/72",
     "name": "Government 72",
     "other_names": [
       {
-        "name": "Katainen I"
+        "name": "Katainen"
       }
     ],
     "classification": "coalition",
@@ -52,7 +100,8 @@
         }
       }
     ],
-    "founding_date": "2011-06-22"
+    "founding_date": "2011-06-22",
+    "dissolution_date": "2014-06-24"
   },
   {
     "id": "popit.eduskunta/government/71",
