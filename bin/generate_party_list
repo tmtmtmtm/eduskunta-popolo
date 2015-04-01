@@ -49,6 +49,18 @@ parties = info.each_with_object({}) { |(name, abbrev), h|
   }
 }
 
+parties['legislature'] = {
+  :classification => "legislature",
+  :id       => "legislature",
+  :name       => "Eduskunta",
+  :other_names  => [
+    {
+      :name  => "Parliament of Finland",
+      :label => 'en.eduskunta.fi',
+    },
+  ],
+}
+
 parties['ps'][:other_names][0][:start_date] = '2011-08-21'
 parties['ps'][:other_names].push({
   :name => 'True Finns Party',

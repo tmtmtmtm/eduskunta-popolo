@@ -422,10 +422,17 @@
       {
         "name": "Liberals",
         "label": "en.eduskunta.fi"
-      },
+      }
+    ]
+  },
+  {
+    "classification": "legislature",
+    "id": "legislature",
+    "name": "Eduskunta",
+    "other_names": [
       {
-        "name": "Liberaalien eduskuntaryhmä",
-        "label": "fi.eduskunta.fi"
+        "name": "Parliament of Finland",
+        "label": "en.eduskunta.fi"
       }
     ]
   }

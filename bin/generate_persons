@@ -54,8 +54,9 @@ mps = JSON.parse(File.read(file))['objects'].map { |kmp|
     ],
     :memberships => kmp['party_associations'].map { |p|
       {
-        :organization_id => party_lookup(p['party']),
-        :role => "MP",
+        :organization_id => 'legislature',
+        :on_behalf_of_id => party_lookup(p['party']),
+        :role => "member",
         :start_date => p['begin'],
         :end_date => p['end'],
       }.reject { |k, v| v.nil? }
