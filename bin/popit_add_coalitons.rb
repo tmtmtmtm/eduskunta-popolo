@@ -2,9 +2,9 @@
 
 require 'popit'
 
-password = ARGV[0] or abort "Usage: #{$0} <password>"
+apikey = ARGV[0] or abort "Usage: #{$0} <apikey>"
 
-api = PopIt.new :instance_name => 'eduskunta', :user => 'tony@micropiphany.com', :password => password
+api = PopIt.new instance_name: 'eduskunta', apikey: apikey
 
 cs = JSON.parse(File.read('coalitions.json'))
 

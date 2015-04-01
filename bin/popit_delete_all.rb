@@ -2,12 +2,12 @@
 
 require 'popit'
 
-password = ARGV[0] or abort "Usage: #{$0} <password>"
+key = ARGV[0] or abort "Usage: #{$0} <apikey>"
 
-api = PopIt.new :instance_name => 'eduskunta', :user => 'tony@micropiphany.com', :password => password
+api = PopIt.new instance_name: 'eduskunta', apikey: key
 
 %w(memberships organizations persons).each do |type|
-  records = api.public_send(type).get
+  records = api.public_send(type).get(per_page: 100)
   puts "#{records.count} #{type} to delete"
   records.each do |record| 
     puts "  Removing #{type} #{record['id']} <#{record.class}>"
