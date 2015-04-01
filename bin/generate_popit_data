@@ -1,0 +1,22 @@
+#!/usr/bin/ruby 
+# Generate the complete Popolo for a PopIt
+
+require 'json'
+
+people     = JSON.parse(File.read('people.json'))
+parties    = JSON.parse(File.read('parties.json'))
+coalitions = JSON.parse(File.read('coalitions.json'))
+
+memberships = people.map { |p| 
+  p.delete('memberships').each { |m| m['person_id'] = p['id'] } 
+}
+
+memberships << coalitions.map { |c|
+  c.delete('memberships').each { |g| g['organization_id'] = c['id'] }
+}
+
+puts JSON.pretty_generate({
+  persons: people,
+  organizations: parties,
+  memberships: memberships.flatten,
+})

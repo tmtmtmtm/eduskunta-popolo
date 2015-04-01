@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# populate an empty PopIt instance
+
+if [ "$1" == "" ]; then
+  echo "Need an API key"
+else
+  echo "Deleting existing data"
+  curl -X DELETE -H "Apikey: $1" https://eduskunta.popit.mysociety.org/api/v0.1
+  echo "Repopulating"
+  curl -X POST -d @eduskunta.json  https://eduskunta.popit.mysociety.org/api/v0.1/imports -H "Apikey: $1" -H "Content-Type: application/json"
+fi
+
+
+
