@@ -31,14 +31,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1970-03-23",
-        "end_date": "1990-06-30"
+        "end_date": "1990-06-30",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -74,7 +80,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -110,21 +119,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1994-03-23"
+        "end_date": "1994-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1994-03-24",
-        "end_date": "1999-04-20"
+        "end_date": "1999-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/alk",
         "role": "member",
         "start_date": "1999-04-21",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -164,20 +182,29 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "2007-01-05",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2013-09-05"
+        "start_date": "2013-09-05",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -213,7 +240,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -249,14 +279,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -292,14 +328,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "1991-03-21"
+        "end_date": "1991-03-21",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -338,7 +380,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1987-03-21"
+        "start_date": "1987-03-21",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -378,13 +423,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -420,14 +471,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2008-09-09"
+        "end_date": "2008-09-09",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -463,7 +520,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "2000-02-29"
+        "end_date": "2000-02-29",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -499,7 +559,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -539,13 +602,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1996-11-18"
+        "end_date": "1996-11-18",
+        "area": {
+          "name": "Hämeen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -581,14 +650,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1996-10-02",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -628,13 +703,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -670,14 +751,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Kymen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -713,7 +800,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2000-09-30"
+        "end_date": "2000-09-30",
+        "area": {
+          "name": "Kuopion"
+        }
       }
     ]
   },
@@ -749,7 +839,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -785,7 +878,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "2009-07-13"
+        "end_date": "2009-07-13",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -821,7 +917,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Ahvenanmaan maakunnan"
+        }
       }
     ]
   },
@@ -857,21 +956,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "1993-12-03"
+        "end_date": "1993-12-03",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -907,14 +1015,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -950,7 +1064,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2004-07-20"
+        "end_date": "2004-07-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -986,7 +1103,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -1025,7 +1145,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1975-09-27"
+        "start_date": "1975-09-27",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -1061,7 +1184,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -1097,7 +1223,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -1133,7 +1262,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2004-07-20"
+        "end_date": "2004-07-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -1172,7 +1304,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1987-03-21"
+        "start_date": "1987-03-21",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -1212,13 +1347,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -1254,14 +1395,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -1300,7 +1447,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1979-03-24"
+        "start_date": "1979-03-24",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -1340,13 +1490,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -1382,14 +1538,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1991-03-21"
+        "end_date": "1991-03-21",
+        "area": {
+          "name": "Kymen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2006-01-31"
+        "end_date": "2006-01-31",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -1425,14 +1587,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -1468,21 +1636,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Vaasan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Vaasan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -1518,7 +1695,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -1557,7 +1737,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1983-03-26"
+        "start_date": "1983-03-26",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -1593,14 +1776,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Kymen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -1636,7 +1825,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -1672,7 +1864,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -1708,14 +1903,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -1751,21 +1952,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1995-03-24"
+        "end_date": "1995-03-24",
+        "area": {
+          "name": "Kuopion"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "1999-03-30"
+        "end_date": "1999-03-30",
+        "area": {
+          "name": "Kuopion"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-07-21",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kuopion"
+        }
       }
     ]
   },
@@ -1801,7 +2011,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -1841,13 +2054,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1991-03-21"
+        "end_date": "1991-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -1883,7 +2102,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -1923,13 +2145,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1970-03-23",
-        "end_date": "1996-10-01"
+        "end_date": "1996-10-01",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -1968,7 +2196,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1983-03-26"
+        "start_date": "1983-03-26",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -2008,20 +2239,29 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "1991-03-21"
+        "end_date": "1991-03-21",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2060,7 +2300,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1980-09-26"
+        "start_date": "1980-09-26",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -2096,28 +2339,40 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1975-09-27",
-        "end_date": "1986-06-04"
+        "end_date": "1986-06-04",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/deva",
         "role": "member",
         "start_date": "1986-06-05",
-        "end_date": "1990-06-18"
+        "end_date": "1990-06-18",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1990-06-19",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -2153,35 +2408,50 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1975-09-27",
-        "end_date": "1986-06-04"
+        "end_date": "1986-06-04",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/deva",
         "role": "member",
         "start_date": "1986-06-05",
-        "end_date": "1990-09-10"
+        "end_date": "1990-09-10",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1990-09-11",
-        "end_date": "1995-08-24"
+        "end_date": "1995-08-24",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-08-25",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -2217,7 +2487,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -2253,7 +2526,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kuopion"
+        }
       }
     ]
   },
@@ -2289,7 +2565,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -2325,7 +2604,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -2361,7 +2643,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -2397,14 +2682,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-02-11",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Vaasan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -2440,7 +2731,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1987-03-21",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -2476,21 +2770,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1970-03-23",
-        "end_date": "1995-04-03"
+        "end_date": "1995-04-03",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "1999-03-30"
+        "end_date": "1999-03-30",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -2529,7 +2832,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1979-03-24"
+        "start_date": "1979-03-24",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2569,20 +2875,29 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1987-03-20"
+        "end_date": "1987-03-20",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "1989-05-16",
-        "end_date": "1991-03-21"
+        "end_date": "1991-03-21",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -2618,7 +2933,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1989-05-03",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -2654,14 +2972,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1972-04-04",
-        "end_date": "1982-06-30"
+        "end_date": "1982-06-30",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2007-09-12",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2697,7 +3021,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2006-12-31"
+        "end_date": "2006-12-31",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2733,14 +3060,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2009-07-13"
+        "end_date": "2009-07-13",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -2776,14 +3109,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1987-03-20"
+        "end_date": "1987-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2819,14 +3158,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1996-11-18"
+        "end_date": "1996-11-18",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2866,13 +3211,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1970-03-23",
-        "end_date": "1979-03-23"
+        "end_date": "1979-03-23",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1991-03-22"
+        "start_date": "1991-03-22",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -2911,7 +3262,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1991-03-22"
+        "start_date": "1991-03-22",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -2947,14 +3301,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Hämeen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -2990,7 +3350,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2004-07-20"
+        "end_date": "2004-07-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -3026,7 +3389,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -3062,7 +3428,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -3098,14 +3467,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2001-02-02",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -3145,20 +3520,29 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-31",
-        "end_date": "1999-07-20"
+        "end_date": "1999-07-20",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2000-10-01"
+        "start_date": "2000-10-01",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -3194,14 +3578,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Kymen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -3237,7 +3627,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -3273,14 +3666,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2001-09-05",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -3316,7 +3715,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -3355,7 +3757,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "1991-03-22"
+        "start_date": "1991-03-22",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -3391,14 +3796,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -3434,14 +3845,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/lkp",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -3477,7 +3894,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2006-02-28"
+        "end_date": "2006-02-28",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -3513,7 +3933,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -3549,7 +3972,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -3585,14 +4011,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -3628,14 +4060,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -3674,7 +4112,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1991-03-22"
+        "start_date": "1991-03-22",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -3710,7 +4151,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -3746,7 +4190,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -3786,13 +4233,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -3828,7 +4281,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -3864,7 +4320,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -3900,7 +4359,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -3936,21 +4398,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "1995-03-23"
+        "end_date": "1995-03-23",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-04-04",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-31",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -3986,7 +4457,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -4022,7 +4496,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2010-09-19"
+        "end_date": "2010-09-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -4058,7 +4535,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -4094,7 +4574,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1991-03-22",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -4130,7 +4613,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-23",
-        "end_date": "2002-01-31"
+        "end_date": "2002-01-31",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -4166,14 +4652,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "1983-03-25"
+        "end_date": "1983-03-25",
+        "area": {
+          "name": "Mikkelin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1993-05-04",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Mikkelin"
+        }
       }
     ]
   },
@@ -4209,14 +4701,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1994-05-01",
-        "end_date": "1996-11-18"
+        "end_date": "1996-11-18",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -4252,7 +4750,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1994-05-01",
-        "end_date": "2001-09-04"
+        "end_date": "2001-09-04",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -4288,35 +4789,50 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "1986-06-04"
+        "end_date": "1986-06-04",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/deva",
         "role": "member",
         "start_date": "1986-06-05",
-        "end_date": "1987-03-20"
+        "end_date": "1987-03-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1995-08-24"
+        "end_date": "1995-08-24",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-08-25",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -4352,14 +4868,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1983-03-26",
-        "end_date": "1987-03-20"
+        "end_date": "1987-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -4395,7 +4917,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -4434,7 +4959,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -4470,7 +4998,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -4506,14 +5037,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -4552,7 +5089,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -4588,7 +5128,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -4624,7 +5167,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -4660,7 +5206,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2010-07-31"
+        "end_date": "2010-07-31",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -4696,7 +5245,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -4732,7 +5284,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2004-07-20"
+        "end_date": "2004-07-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -4768,7 +5323,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -4804,7 +5362,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -4840,7 +5401,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -4876,7 +5440,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -4912,7 +5479,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -4948,7 +5518,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -4984,7 +5557,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -5020,7 +5596,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2014-09-02"
+        "end_date": "2014-09-02",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -5056,7 +5635,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -5092,7 +5674,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kuopion"
+        }
       }
     ]
   },
@@ -5128,7 +5713,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -5164,7 +5752,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -5200,7 +5791,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2006-07-31"
+        "end_date": "2006-07-31",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -5236,35 +5830,50 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1997-04-21"
+        "end_date": "1997-04-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/nuorsom",
         "role": "member",
         "start_date": "1997-04-22",
-        "end_date": "1998-03-09"
+        "end_date": "1998-03-09",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/rem",
         "role": "member",
         "start_date": "1998-03-10",
-        "end_date": "2001-12-31"
+        "end_date": "2001-12-31",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2002-01-01",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2010-07-13",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -5303,7 +5912,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -5339,7 +5951,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -5375,7 +5990,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -5414,7 +6032,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -5450,7 +6071,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -5486,7 +6110,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -5522,7 +6149,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -5558,7 +6188,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -5594,7 +6227,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -5630,7 +6266,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Mikkelin"
+        }
       }
     ]
   },
@@ -5666,7 +6305,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -5702,14 +6344,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -5745,7 +6393,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -5781,7 +6432,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -5817,7 +6471,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -5853,28 +6510,40 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1995-11-29"
+        "end_date": "1995-11-29",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/epu",
         "role": "member",
         "start_date": "1995-11-30",
-        "end_date": "1996-02-28"
+        "end_date": "1996-02-28",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1996-02-29",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -5910,7 +6579,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -5946,7 +6618,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -5985,7 +6660,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -6021,7 +6699,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -6057,7 +6738,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -6093,7 +6777,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2004-07-20"
+        "end_date": "2004-07-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -6129,7 +6816,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -6165,7 +6855,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -6205,13 +6898,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2008-09-10"
+        "start_date": "2008-09-10",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6251,13 +6950,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -6296,7 +7001,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1995-03-24"
+        "start_date": "1995-03-24",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -6336,13 +7044,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/evir",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "1999-03-23"
+        "end_date": "1999-03-23",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -6378,7 +7092,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2001-01-27"
+        "end_date": "2001-01-27",
+        "area": {
+          "name": "Kuopion"
+        }
       }
     ]
   },
@@ -6414,28 +7131,40 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-04-04",
-        "end_date": "1996-11-11"
+        "end_date": "1996-11-11",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2006-03-01",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2010-08-02",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -6471,7 +7200,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1995-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -6507,7 +7239,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1996-03-01",
-        "end_date": "2009-09-08"
+        "end_date": "2009-09-08",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -6543,7 +7278,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1996-11-19",
-        "end_date": "2007-09-11"
+        "end_date": "2007-09-11",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -6579,21 +7317,30 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1996-11-19",
-        "end_date": "2002-12-12"
+        "end_date": "2002-12-12",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2002-12-13",
-        "end_date": "2003-01-13"
+        "end_date": "2003-01-13",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/lib",
         "role": "member",
         "start_date": "2003-01-14",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -6632,7 +7379,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1996-11-19"
+        "start_date": "1996-11-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -6668,7 +7418,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1997-04-04",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6704,7 +7457,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1998-03-17",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6740,7 +7496,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1998-06-01",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -6776,7 +7535,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6812,7 +7574,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -6848,7 +7613,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6884,14 +7652,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "1999-08-09"
+        "end_date": "1999-08-09",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/erl",
         "role": "member",
         "start_date": "1999-08-10",
-        "end_date": "2000-04-16"
+        "end_date": "2000-04-16",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6927,14 +7701,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2008-02-14"
+        "end_date": "2008-02-14",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2008-02-15",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -6970,7 +7750,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -7009,7 +7792,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -7048,7 +7834,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -7087,7 +7876,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -7126,7 +7918,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -7162,7 +7957,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2012-11-16"
+        "end_date": "2012-11-16",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -7198,7 +7996,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -7237,7 +8038,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -7273,7 +8077,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -7309,7 +8116,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -7345,7 +8155,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2014-06-30"
+        "end_date": "2014-06-30",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -7381,7 +8194,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -7417,7 +8233,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -7456,7 +8275,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -7492,7 +8314,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -7532,13 +8357,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -7574,7 +8405,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -7610,7 +8444,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -7646,14 +8483,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2006-10-25"
+        "end_date": "2006-10-25",
+        "area": {
+          "name": "Kymen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2006-10-26",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -7689,7 +8532,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -7728,7 +8574,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -7767,7 +8616,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -7806,7 +8658,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -7842,7 +8697,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -7878,7 +8736,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -7914,7 +8775,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -7950,7 +8814,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -7986,7 +8853,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -8025,7 +8895,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -8061,7 +8934,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -8097,7 +8973,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -8136,7 +9015,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -8175,7 +9057,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -8215,13 +9100,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -8257,7 +9148,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -8293,7 +9187,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -8329,7 +9226,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -8365,7 +9265,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -8401,7 +9304,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2015-01-13"
+        "end_date": "2015-01-13",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -8437,7 +9343,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -8473,7 +9382,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -8509,7 +9421,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -8545,7 +9460,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -8584,7 +9502,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -8620,7 +9541,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -8656,7 +9580,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -8692,14 +9619,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2010-10-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -8738,13 +9671,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Vaasan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2014-07-04"
+        "start_date": "2014-07-04",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -8780,7 +9719,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -8816,7 +9758,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -8855,7 +9800,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -8894,7 +9842,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "1999-03-24"
+        "start_date": "1999-03-24",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -8930,7 +9881,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "1999-03-24",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -8966,14 +9920,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "1971-10-01",
-        "end_date": "1975-09-26"
+        "end_date": "1975-09-26",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2000-03-01",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9013,13 +9973,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "2000-04-26",
-        "end_date": "2003-03-18"
+        "end_date": "2003-03-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2003-03-28"
+        "start_date": "2003-03-28",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9058,7 +10024,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2002-02-04"
+        "start_date": "2002-02-04",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -9094,7 +10063,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -9130,7 +10102,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9166,7 +10141,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9202,7 +10180,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9241,7 +10222,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9281,13 +10265,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2009-07-13"
+        "end_date": "2009-07-13",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9326,7 +10316,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9365,7 +10358,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9401,14 +10397,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2003-03-27"
+        "end_date": "2003-03-27",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "2004-07-21",
-        "end_date": "2013-09-04"
+        "end_date": "2013-09-04",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -9444,7 +10446,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9483,7 +10488,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9519,14 +10527,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2010-09-20",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9562,7 +10576,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9602,13 +10619,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2003-03-27"
+        "end_date": "2003-03-27",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2004-07-21"
+        "start_date": "2004-07-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9644,7 +10667,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9680,7 +10706,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -9716,7 +10745,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -9755,7 +10787,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -9791,7 +10826,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Ahvenanmaan maakunnan"
+        }
       }
     ]
   },
@@ -9827,7 +10865,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -9863,7 +10904,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -9899,7 +10943,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -9938,7 +10985,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -9974,7 +11024,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -10013,7 +11066,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -10049,7 +11105,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -10085,7 +11144,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -10121,7 +11183,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -10160,7 +11225,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -10199,7 +11267,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -10235,7 +11306,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -10274,7 +11348,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -10313,7 +11390,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -10349,7 +11429,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -10388,7 +11471,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -10424,7 +11510,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -10460,7 +11549,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -10496,7 +11588,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -10535,7 +11630,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -10571,14 +11669,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2003-11-30"
+        "end_date": "2003-11-30",
+        "area": {
+          "name": "Oulun"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-12-01",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -10618,20 +11722,29 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-06-30"
+        "end_date": "2011-06-30",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/emus",
         "role": "member",
         "start_date": "2011-07-01",
-        "end_date": "2011-09-07"
+        "end_date": "2011-09-07",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vr",
         "role": "member",
-        "start_date": "2011-09-08"
+        "start_date": "2011-09-08",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -10671,13 +11784,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Lapin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -10713,7 +11832,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -10753,13 +11875,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Vaasan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2009-06-09"
+        "start_date": "2009-06-09",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -10795,7 +11923,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2009-05-30"
+        "end_date": "2009-05-30",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -10831,7 +11962,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2014-06-30"
+        "end_date": "2014-06-30",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -10870,7 +12004,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -10909,7 +12046,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -10945,7 +12085,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-19",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -10984,7 +12127,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2003-03-19"
+        "start_date": "2003-03-19",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -11024,13 +12170,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2003-03-28",
-        "end_date": "2004-07-20"
+        "end_date": "2004-07-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11069,7 +12221,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2004-07-21"
+        "start_date": "2004-07-21",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -11105,7 +12260,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2004-07-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -11145,13 +12303,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2004-07-21",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2014-09-03"
+        "start_date": "2014-09-03",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11187,7 +12351,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2004-07-21",
-        "end_date": "2007-03-20"
+        "end_date": "2007-03-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -11226,7 +12393,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11265,7 +12435,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2006-02-01"
+        "start_date": "2006-02-01",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -11304,13 +12477,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2006-08-01",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Helsingin"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2015-01-14"
+        "start_date": "2015-01-14",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11349,7 +12528,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -11388,7 +12570,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11427,7 +12612,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11463,7 +12651,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11502,7 +12693,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11538,7 +12732,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11574,7 +12771,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -11613,7 +12813,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11652,7 +12855,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11691,7 +12897,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -11730,7 +12939,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11766,7 +12978,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -11802,7 +13017,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -11841,7 +13059,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11880,7 +13101,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11919,7 +13143,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -11955,7 +13182,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2010-07-01"
+        "end_date": "2010-07-01",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -11991,7 +13221,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -12030,7 +13263,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12069,7 +13305,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -12105,7 +13344,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12144,7 +13386,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12183,7 +13428,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12222,7 +13470,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -12258,7 +13509,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2010-10-18"
+        "end_date": "2010-10-18",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12294,7 +13548,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -12333,7 +13590,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -12372,7 +13632,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12411,7 +13674,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -12447,14 +13713,20 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2010-11-11"
+        "end_date": "2010-11-11",
+        "area": {
+          "name": "Uudenmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "2010-11-12",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -12493,7 +13765,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -12529,7 +13804,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -12569,20 +13847,29 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-06-30"
+        "end_date": "2011-06-30",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/eyrt",
         "role": "member",
         "start_date": "2011-07-01",
-        "end_date": "2011-09-07"
+        "end_date": "2011-09-07",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vr",
         "role": "member",
-        "start_date": "2011-09-08"
+        "start_date": "2011-09-08",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -12621,7 +13908,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -12660,7 +13950,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -12699,7 +13992,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -12735,7 +14031,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -12771,7 +14070,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -12807,7 +14109,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -12846,7 +14151,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -12885,7 +14193,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -12924,7 +14235,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -12963,7 +14277,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -13002,7 +14319,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -13038,7 +14358,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2014-06-30"
+        "end_date": "2014-06-30",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -13077,7 +14400,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -13116,7 +14442,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -13155,7 +14484,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -13191,7 +14523,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -13230,7 +14565,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -13266,7 +14604,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2014-06-30"
+        "end_date": "2014-06-30",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -13302,7 +14643,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -13338,7 +14682,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -13374,7 +14721,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -13413,7 +14763,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -13449,7 +14802,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -13485,7 +14841,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -13521,7 +14880,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
         "start_date": "2007-03-21",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -13560,7 +14922,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -13599,7 +14964,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -13638,7 +15006,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2007-03-21"
+        "start_date": "2007-03-21",
+        "area": {
+          "name": "Ahvenanmaan maakunnan"
+        }
       }
     ]
   },
@@ -13677,7 +15048,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -13716,7 +15090,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -13755,7 +15132,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2009-07-20"
+        "start_date": "2009-07-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -13794,7 +15174,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2009-07-20"
+        "start_date": "2009-07-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -13830,7 +15213,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
         "start_date": "2009-07-20",
-        "end_date": "2011-04-19"
+        "end_date": "2011-04-19",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -13869,7 +15255,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2009-09-09"
+        "start_date": "2009-09-09",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -13908,7 +15297,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -13947,7 +15339,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -13986,7 +15381,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -14025,7 +15423,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -14064,7 +15465,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -14103,7 +15507,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -14142,7 +15549,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -14181,7 +15591,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -14220,7 +15633,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -14259,7 +15675,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -14298,7 +15717,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -14337,7 +15759,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -14376,7 +15801,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -14415,7 +15843,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -14454,7 +15885,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -14493,7 +15927,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -14532,7 +15969,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -14571,7 +16011,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/r",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -14610,7 +16053,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -14649,7 +16095,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -14688,7 +16137,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -14727,7 +16179,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -14766,7 +16221,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -14802,7 +16260,10 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "2011-04-20",
-        "end_date": "2014-06-30"
+        "end_date": "2014-06-30",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -14841,7 +16302,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -14880,7 +16344,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -14919,7 +16386,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -14958,7 +16428,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -14997,7 +16470,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vihr",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15036,7 +16512,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -15075,7 +16554,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -15115,13 +16597,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "2011-04-20",
-        "end_date": "2013-10-08"
+        "end_date": "2013-10-08",
+        "area": {
+          "name": "Hämeen"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/m11",
         "role": "member",
-        "start_date": "2013-10-09"
+        "start_date": "2013-10-09",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -15160,7 +16648,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15199,7 +16690,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -15238,7 +16732,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -15277,7 +16774,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15316,7 +16816,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -15355,7 +16858,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -15394,7 +16900,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -15433,7 +16942,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15472,7 +16984,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -15511,7 +17026,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15550,7 +17068,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Etelä-Savon"
+        }
       }
     ]
   },
@@ -15589,7 +17110,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15628,7 +17152,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -15667,7 +17194,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -15706,7 +17236,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -15745,7 +17278,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -15784,7 +17320,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -15823,7 +17362,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -15862,7 +17404,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -15901,7 +17446,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -15940,7 +17488,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pohjois-Savon"
+        }
       }
     ]
   },
@@ -15979,7 +17530,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -16018,7 +17572,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pohjois-Karjalan"
+        }
       }
     ]
   },
@@ -16057,7 +17614,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Vaasan"
+        }
       }
     ]
   },
@@ -16096,7 +17656,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -16136,13 +17699,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "2011-04-20",
-        "end_date": "2014-11-04"
+        "end_date": "2014-11-04",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2014-11-05"
+        "start_date": "2014-11-05",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -16181,7 +17750,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -16220,7 +17792,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -16259,7 +17834,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -16298,7 +17876,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/sd",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -16337,7 +17918,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -16376,7 +17960,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -16415,7 +18002,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Hämeen"
+        }
       }
     ]
   },
@@ -16454,7 +18044,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Lapin"
+        }
       }
     ]
   },
@@ -16493,7 +18086,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -16532,7 +18128,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -16571,7 +18170,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   },
@@ -16610,7 +18212,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Pirkanmaan"
+        }
       }
     ]
   },
@@ -16649,7 +18254,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -16688,7 +18296,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kesk",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Varsinais-Suomen"
+        }
       }
     ]
   },
@@ -16727,7 +18338,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2012-11-21"
+        "start_date": "2012-11-21",
+        "area": {
+          "name": "Kymen"
+        }
       }
     ]
   },
@@ -16766,7 +18380,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2014-07-04"
+        "start_date": "2014-07-04",
+        "area": {
+          "name": "Helsingin"
+        }
       }
     ]
   },
@@ -16805,7 +18422,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/vas",
         "role": "member",
-        "start_date": "2014-07-04"
+        "start_date": "2014-07-04",
+        "area": {
+          "name": "Oulun"
+        }
       }
     ]
   },
@@ -16844,7 +18464,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2014-07-04"
+        "start_date": "2014-07-04",
+        "area": {
+          "name": "Keski-Suomen"
+        }
       }
     ]
   },
@@ -16883,7 +18506,10 @@
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/kok",
         "role": "member",
-        "start_date": "2014-07-04"
+        "start_date": "2014-07-04",
+        "area": {
+          "name": "Uudenmaan"
+        }
       }
     ]
   },
@@ -16923,13 +18549,19 @@
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
         "start_date": "1979-03-24",
-        "end_date": "1987-03-20"
+        "end_date": "1987-03-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       },
       {
         "organization_id": "legislature",
         "on_behalf_of_id": "popit.eduskunta/party/ps",
         "role": "member",
-        "start_date": "2011-04-20"
+        "start_date": "2011-04-20",
+        "area": {
+          "name": "Satakunnan"
+        }
       }
     ]
   }

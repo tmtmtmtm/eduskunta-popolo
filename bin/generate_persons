@@ -59,6 +59,8 @@ mps = JSON.parse(File.read(file))['objects'].map { |kmp|
         :role => "member",
         :start_date => p['begin'],
         :end_date => p['end'],
+        # Currently seems to only be set on the MP
+        :area => { name: kmp['district_name'] },
       }.reject { |k, v| v.nil? }
     },
   }.reject { |k, v| v.nil? }
