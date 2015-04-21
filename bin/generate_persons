@@ -3,12 +3,25 @@
 # Transform kansanmuisti MP data to Popolo
 
 require 'json'
+require 'date'
 
+class Range
+  def overlaps?(other)
+    include?(other.first) || other.include?(first)
+  end
+end
 
 file = ARGV[0] or raise "Usage: #{$0} <json-file>"
-
 @parties = JSON.parse(File.read('parties.json'))
-# .each_with_object({}) { |p,h| h[p['id'].reverse.chomp('popit.eduskunta/party/'.reverse).reverse] = p }
+
+
+def inflate_dates_in(o)
+  o['range'] = Range.new( 
+    Date.parse(o['start_date'] || o['begin'] || '1000-01-01'),
+    Date.parse(o['end_date']   || o['end']   || '2100-01-01')
+  )
+  return o
+end
 
 def party_lookup(str)
   party = @parties.find { |p| 
@@ -19,8 +32,42 @@ def party_lookup(str)
   return party['id']
 end
 
+# Leaving mid-term: Claes Andersson
+# Switching mid-term: Mustajärvi Markus 802
+
+@leg_terms = @parties.find { |p| p['id'] == 'legislature' }['terms'].sort_by { |t| t['start_date'] }.map { |t| inflate_dates_in(t) }
+def terms_for(kmp) 
+
+  terms = kmp['party_associations'].map { |m| inflate_dates_in(m) }.map do |m|
+    terms = @leg_terms.find_all { |t| t['range'].overlaps? m['range'] }.map do |t|
+      {
+        organization_id: 'legislature',
+        on_behalf_of_id: party_lookup(m['party']),
+        role: "member",
+        # Currently seems to only be set on the MP
+        area: { name: kmp['district_name'] },
+        legislative_period_id: t['id'], 
+        term: t,
+      }    
+    end
+
+    if terms.first[:term]['range'].first != m['range'].first
+      terms.first[:start_date] = m['range'].first
+    end
+
+    if terms.last[:term]['range'].last != m['range'].last
+      terms.last[:end_date] = m['range'].last
+    end
+
+    terms.map { |t| t.tap { |hs| hs.delete(:term) } }
+  end
+
+  return terms.flatten
+end
+
 
 mps = JSON.parse(File.read(file))['objects'].map { |kmp|
+  STDERR.puts "Processing with #{kmp['origin_id']}"
   {
     :id => "popit.eduskunta/person/#{kmp['origin_id']}",
     :name => kmp['name'],
@@ -52,17 +99,7 @@ mps = JSON.parse(File.read(file))['objects'].map { |kmp|
         :note => "Eduskunta.fi (fi)"
       }
     ],
-    :memberships => kmp['party_associations'].map { |p|
-      {
-        :organization_id => 'legislature',
-        :on_behalf_of_id => party_lookup(p['party']),
-        :role => "member",
-        :start_date => p['begin'],
-        :end_date => p['end'],
-        # Currently seems to only be set on the MP
-        :area => { name: kmp['district_name'] },
-      }.reject { |k, v| v.nil? }
-    },
+    :memberships => terms_for(kmp),
   }.reject { |k, v| v.nil? }
 }.sort_by { |mpj| mpj[:identifiers][0][:identifier].to_i }
 
