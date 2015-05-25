@@ -12904,7 +12904,7 @@
           "label": "en.eduskunta.fi"
         }
       ],
-      "terms": [
+      "legislative_periods": [
         {
           "id": "term/1",
           "name": "Eduskunta 1 (1907)",

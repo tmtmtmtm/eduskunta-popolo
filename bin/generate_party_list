@@ -72,7 +72,7 @@ parties['legislature'] = {
       :label => 'en.eduskunta.fi',
     },
   ],
-  :terms => terms,
+  :legislative_periods => terms,
 }
   
 
