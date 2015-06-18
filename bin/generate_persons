@@ -35,7 +35,7 @@ end
 # Leaving mid-term: Claes Andersson
 # Switching mid-term: Mustajärvi Markus 802
 
-@leg_terms = @parties.find { |p| p['id'] == 'legislature' }['terms'].sort_by { |t| t['start_date'] }.map { |t| inflate_dates_in(t) }
+@leg_terms = @parties.find { |p| p['id'] == 'legislature' }['legislative_periods'].sort_by { |t| t['start_date'] }.map { |t| inflate_dates_in(t) }
 def terms_for(kmp) 
 
   terms = kmp['party_associations'].map { |m| inflate_dates_in(m) }.map do |m|
