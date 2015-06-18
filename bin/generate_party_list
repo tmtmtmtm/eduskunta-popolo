@@ -53,6 +53,7 @@ terms = JSON.parse(File.read('data/kansanmuisti/terms.json'))['objects']
   .sort_by { |t| t['begin'] }.each_with_index.map { |t, i| 
   {
     id: "term/#{i+1}",
+    classification: 'legislative period',
     name: "Eduskunta #{i+1} (#{t['display_name'].strip})",
     start_date: t['begin'],
     end_date: t['end'],

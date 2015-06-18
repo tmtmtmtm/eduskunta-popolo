@@ -442,6 +442,7 @@
     "legislative_periods": [
       {
         "id": "term/1",
+        "classification": "legislative period",
         "name": "Eduskunta 1 (1907)",
         "start_date": "1907-05-22",
         "end_date": "1908-07-31",
@@ -454,6 +455,7 @@
       },
       {
         "id": "term/2",
+        "classification": "legislative period",
         "name": "Eduskunta 2 (1908 II)",
         "start_date": "1908-08-01",
         "end_date": "1909-05-31",
@@ -466,6 +468,7 @@
       },
       {
         "id": "term/3",
+        "classification": "legislative period",
         "name": "Eduskunta 3 (1909 II)",
         "start_date": "1909-06-01",
         "end_date": "1910-02-28",
@@ -478,6 +481,7 @@
       },
       {
         "id": "term/4",
+        "classification": "legislative period",
         "name": "Eduskunta 4 (1910)",
         "start_date": "1910-03-01",
         "end_date": "1911-01-31",
@@ -490,6 +494,7 @@
       },
       {
         "id": "term/5",
+        "classification": "legislative period",
         "name": "Eduskunta 5 (1911)",
         "start_date": "1911-02-01",
         "end_date": "1914-02-01",
@@ -502,6 +507,7 @@
       },
       {
         "id": "term/6",
+        "classification": "legislative period",
         "name": "Eduskunta 6 (1914)",
         "start_date": "1914-02-02",
         "end_date": "1917-04-03",
@@ -514,6 +520,7 @@
       },
       {
         "id": "term/7",
+        "classification": "legislative period",
         "name": "Eduskunta 7 (1917 I)",
         "start_date": "1917-04-04",
         "end_date": "1917-10-31",
@@ -526,6 +533,7 @@
       },
       {
         "id": "term/8",
+        "classification": "legislative period",
         "name": "Eduskunta 8 (1917 II)",
         "start_date": "1917-11-01",
         "end_date": "1919-03-31",
@@ -538,6 +546,7 @@
       },
       {
         "id": "term/9",
+        "classification": "legislative period",
         "name": "Eduskunta 9 (1919)",
         "start_date": "1919-04-01",
         "end_date": "1922-09-04",
@@ -550,6 +559,7 @@
       },
       {
         "id": "term/10",
+        "classification": "legislative period",
         "name": "Eduskunta 10 (1922)",
         "start_date": "1922-09-05",
         "end_date": "1924-04-30",
@@ -562,6 +572,7 @@
       },
       {
         "id": "term/11",
+        "classification": "legislative period",
         "name": "Eduskunta 11 (1924)",
         "start_date": "1924-05-01",
         "end_date": "1927-09-01",
@@ -574,6 +585,7 @@
       },
       {
         "id": "term/12",
+        "classification": "legislative period",
         "name": "Eduskunta 12 (1927)",
         "start_date": "1927-09-02",
         "end_date": "1929-07-31",
@@ -586,6 +598,7 @@
       },
       {
         "id": "term/13",
+        "classification": "legislative period",
         "name": "Eduskunta 13 (1929 II)",
         "start_date": "1929-08-01",
         "end_date": "1930-10-20",
@@ -598,6 +611,7 @@
       },
       {
         "id": "term/14",
+        "classification": "legislative period",
         "name": "Eduskunta 14 (1930 II)",
         "start_date": "1930-10-21",
         "end_date": "1933-08-31",
@@ -610,6 +624,7 @@
       },
       {
         "id": "term/15",
+        "classification": "legislative period",
         "name": "Eduskunta 15 (1933)",
         "start_date": "1933-09-01",
         "end_date": "1936-08-31",
@@ -622,6 +637,7 @@
       },
       {
         "id": "term/16",
+        "classification": "legislative period",
         "name": "Eduskunta 16 (1936)",
         "start_date": "1936-09-01",
         "end_date": "1939-08-31",
@@ -634,6 +650,7 @@
       },
       {
         "id": "term/17",
+        "classification": "legislative period",
         "name": "Eduskunta 17 (1939)",
         "start_date": "1939-09-01",
         "end_date": "1945-04-05",
@@ -646,6 +663,7 @@
       },
       {
         "id": "term/18",
+        "classification": "legislative period",
         "name": "Eduskunta 18 (1945)",
         "start_date": "1945-04-06",
         "end_date": "1948-07-21",
@@ -658,6 +676,7 @@
       },
       {
         "id": "term/19",
+        "classification": "legislative period",
         "name": "Eduskunta 19 (1948)",
         "start_date": "1948-07-22",
         "end_date": "1951-07-20",
@@ -670,6 +689,7 @@
       },
       {
         "id": "term/20",
+        "classification": "legislative period",
         "name": "Eduskunta 20 (1951)",
         "start_date": "1951-07-21",
         "end_date": "1954-03-28",
@@ -682,6 +702,7 @@
       },
       {
         "id": "term/21",
+        "classification": "legislative period",
         "name": "Eduskunta 21 (1954)",
         "start_date": "1954-03-29",
         "end_date": "1958-07-21",
@@ -694,6 +715,7 @@
       },
       {
         "id": "term/22",
+        "classification": "legislative period",
         "name": "Eduskunta 22 (1958)",
         "start_date": "1958-07-22",
         "end_date": "1962-02-19",
@@ -706,6 +728,7 @@
       },
       {
         "id": "term/23",
+        "classification": "legislative period",
         "name": "Eduskunta 23 (1962)",
         "start_date": "1962-02-20",
         "end_date": "1966-04-04",
@@ -718,6 +741,7 @@
       },
       {
         "id": "term/24",
+        "classification": "legislative period",
         "name": "Eduskunta 24 (1966)",
         "start_date": "1966-04-05",
         "end_date": "1970-03-22",
@@ -730,6 +754,7 @@
       },
       {
         "id": "term/25",
+        "classification": "legislative period",
         "name": "Eduskunta 25 (1970)",
         "start_date": "1970-03-23",
         "end_date": "1972-01-21",
@@ -742,6 +767,7 @@
       },
       {
         "id": "term/26",
+        "classification": "legislative period",
         "name": "Eduskunta 26 (1972)",
         "start_date": "1972-01-22",
         "end_date": "1975-09-26",
@@ -754,6 +780,7 @@
       },
       {
         "id": "term/27",
+        "classification": "legislative period",
         "name": "Eduskunta 27 (1975 II)",
         "start_date": "1975-09-27",
         "end_date": "1979-03-23",
@@ -766,6 +793,7 @@
       },
       {
         "id": "term/28",
+        "classification": "legislative period",
         "name": "Eduskunta 28 (1979)",
         "start_date": "1979-03-24",
         "end_date": "1983-03-25",
@@ -778,6 +806,7 @@
       },
       {
         "id": "term/29",
+        "classification": "legislative period",
         "name": "Eduskunta 29 (1983)",
         "start_date": "1983-03-26",
         "end_date": "1987-03-20",
@@ -790,6 +819,7 @@
       },
       {
         "id": "term/30",
+        "classification": "legislative period",
         "name": "Eduskunta 30 (1987)",
         "start_date": "1987-03-21",
         "end_date": "1991-03-21",
@@ -802,6 +832,7 @@
       },
       {
         "id": "term/31",
+        "classification": "legislative period",
         "name": "Eduskunta 31 (1991)",
         "start_date": "1991-03-22",
         "end_date": "1995-03-23",
@@ -814,6 +845,7 @@
       },
       {
         "id": "term/32",
+        "classification": "legislative period",
         "name": "Eduskunta 32 (1995)",
         "start_date": "1995-03-24",
         "end_date": "1999-03-23",
@@ -826,6 +858,7 @@
       },
       {
         "id": "term/33",
+        "classification": "legislative period",
         "name": "Eduskunta 33 (1999)",
         "start_date": "1999-03-24",
         "end_date": "2003-03-18",
@@ -838,6 +871,7 @@
       },
       {
         "id": "term/34",
+        "classification": "legislative period",
         "name": "Eduskunta 34 (2003)",
         "start_date": "2003-03-19",
         "end_date": "2007-03-20",
@@ -850,6 +884,7 @@
       },
       {
         "id": "term/35",
+        "classification": "legislative period",
         "name": "Eduskunta 35 (2007)",
         "start_date": "2007-03-21",
         "end_date": "2011-04-19",
@@ -862,6 +897,7 @@
       },
       {
         "id": "term/36",
+        "classification": "legislative period",
         "name": "Eduskunta 36 (2011)",
         "start_date": "2011-04-20",
         "identifiers": [
